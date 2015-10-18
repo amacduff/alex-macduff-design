@@ -5,8 +5,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Designer person living in beautiful Austin, Texas. Currently a student at The Iron Yard. I love coffee and breakfast tacos.
 baseurl: "/alex-macduff-design" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: amacduff
-github_username:  amacduff
 
 # Build settings
 markdown: kramdown
