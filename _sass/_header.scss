@@ -2,9 +2,6 @@
 
 .top-bar {
 	overflow: hidden;
-	font: {
-		@include fntz(1.15);
-	}
 }
 
 .site-title {
@@ -13,12 +10,12 @@
 		family: $font-heading;
 	}
 	@include grid(6);
-	padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+	padding: 1rem 0.5rem;
 }
 
 #logo {
 	height: 1rem;
-	margin-right: 0.5rem;
+	margin-right: 0.25rem;
 	vertical-align: top;
 	width: 1rem;
 }
@@ -28,14 +25,14 @@
 
 	ul {
 		overflow: hidden;
-		padding: 1.5rem 2rem 1.5rem 0;
+		padding: 1rem 0.5rem;
 		text-align: right;
 
 		li {
 			display: inline-block;
 
 			a {
-				padding: 1.5rem;
+				padding: 1rem 0.5rem;
 			}
 
 		}
@@ -55,7 +52,7 @@
 		@include fntz(3);
 		style: italic;
 	}
-	padding: 10rem 3.5rem;
+	padding: 5rem 1rem;
 	text-shadow: -1px -1px 0 $color-shadow;
 }
 
