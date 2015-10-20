@@ -2,4 +2,18 @@
 
 // Color
 
+$color-text: #222222;
+$color-subhead: #666666;
+$color-background: #E2DDC7;
 $color-accent: #FED700;
+$color-highlight: #FFFFFF;
+$color-shadow: rgba(0, 0, 0, 0.25);
+
+
+// Typography
+
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One|IM+Fell+English:400,400italic);
+
+$font-heading: 'Bowlby One', sans-serif;
+$font-text: 'IM Fell English', serif;
+

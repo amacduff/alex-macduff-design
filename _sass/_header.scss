@@ -1,6 +1,54 @@
-/* Global Styles */
+/* Header */
+
+.top-bar {
+	overflow: hidden;
+	font: {
+		@include fntz(1.15);
+	}
+}
+
+.site-title {
+	box-sizing: border-box;
+	font: {
+		family: $font-heading;
+	}
+	@include grid(6);
+	padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+}
+
+.site-nav {
+	@include grid(6);
+
+	ul {
+		overflow: hidden;
+		padding: 1.5rem 2rem 1.5rem 0;
+		text-align: right;
+
+		li {
+			display: inline-block;
+
+			a {
+				padding: 1.5rem;
+			}
+
+		}
+
+	}
+
+}
+
+.selected {
+	background-color: $color-highlight;
+}
 
 .ui-designer {
 	background-color: $color-accent;
+	color: $color-highlight;
+	font: {
+		@include fntz(3);
+		style: italic;
+	}
+	padding: 10rem 3.5rem;
+	text-shadow: -1px -1px 0 $color-shadow;
 }
 

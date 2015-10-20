@@ -1,0 +1,14 @@
+/* Global Styles */
+
+body {
+	background-color: $color-background;
+	font: {
+		family: $font-text;
+	}
+}
+
+a {
+	color: $color-text;
+	text-decoration: none;
+}
+
