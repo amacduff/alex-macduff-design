@@ -2,12 +2,22 @@
 
 body {
 	background-color: $color-background;
+	color: $color-text;
 	font: {
 		family: $font-text;
 	}
 }
 
+p {
+	font: {
+		@include fntz(1.25);
+	}
+	line-height: 1.5em;
+	margin-bottom: 2rem;
+}
+
 a {
+	border-bottom: 6px solid $color-highlight;
 	color: $color-text;
 	text-decoration: none;
 }

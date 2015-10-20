@@ -1,7 +1,14 @@
 /* Header */
 
 .top-bar {
+	margin: 0 auto;
 	overflow: hidden;
+	width: 90%;
+
+	a {
+		border: 0;
+	}
+
 }
 
 .site-title {
@@ -10,7 +17,7 @@
 		family: $font-heading;
 	}
 	@include grid(6);
-	padding: 1rem 0.5rem;
+	padding: 1rem 0;
 }
 
 #logo {
@@ -25,7 +32,7 @@
 
 	ul {
 		overflow: hidden;
-		padding: 1rem 0.5rem;
+		padding: 1rem 0;
 		text-align: right;
 
 		li {
@@ -47,12 +54,19 @@
 
 .ui-designer {
 	background-color: $color-accent;
-	color: $color-highlight;
-	font: {
-		@include fntz(3);
-		style: italic;
+	padding: 5rem 0;
+
+	p {
+		color: $color-highlight;
+		font: {
+			@include fntz(3);
+			style: italic;
+		}
+		line-height: 1.25em;
+		margin: 0 auto;
+		text-shadow: -1px -1px 0 $color-shadow;
+		width: 90%;
 	}
-	padding: 5rem 1rem;
-	text-shadow: -1px -1px 0 $color-shadow;
+
 }
 

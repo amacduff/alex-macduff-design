@@ -1,0 +1,21 @@
+/* Work */
+
+.work {
+	margin: 2rem 0;
+}
+
+.project {
+	padding: 2rem 0;
+
+	h1,
+	p {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	&:nth-child(even) {
+		background-color: lighten($color-background, 5%);
+	}
+
+}
+

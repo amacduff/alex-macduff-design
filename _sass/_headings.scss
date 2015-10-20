@@ -1,0 +1,11 @@
+/* Headings */
+
+h1 {
+	font: {
+		family: $font-heading;
+		@include fntz(2);
+	}
+	line-height: 1.25em;
+	padding-bottom: 2rem;
+}
+
