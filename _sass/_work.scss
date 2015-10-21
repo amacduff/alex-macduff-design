@@ -1,5 +1,9 @@
 /* Work */
 
+.work {
+	padding: 2rem 0 4rem 0;
+}
+
 .project {
 	padding: 2rem 0;
 
@@ -9,7 +13,7 @@
 		width: 90%;
 	}
 
-	&:nth-child(even) {
+	&:nth-child(odd) {
 		background-color: lighten($color-background, 5%);
 	}
 
