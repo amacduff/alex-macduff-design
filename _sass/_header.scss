@@ -16,18 +16,25 @@
 	font: {
 		family: $font-heading;
 	}
-	@include grid(4);
+	@include grid(6);
 	padding: 0.65rem 0;
 }
 
+.site-name {
+	display: none;
+	vertical-align: middle;
+}
+
 #logo {
+	display: inline;
 	height: 2rem;
 	margin-right: 0.25rem;
+	vertical-align: middle;
 	width: 2rem;
 }
 
 .site-nav {
-	@include grid(8);
+	@include grid(6);
 
 	ul {
 		overflow: hidden;
@@ -54,24 +61,5 @@
 
 .selected {
 	background-color: $color-highlight;
-}
-
-.ui-designer {
-	background-color: $color-background;
-	padding: 5rem 5%;
-
-	p {
-		background-color: darken($color-background, 15%);
-		box-shadow: 0.5rem 0 0 darken($color-background, 15%), -0.5rem 0 0 darken($color-background, 15%);
-		color: $color-highlight;
-		display: inline;
-		font: {
-			@include fntz(3);
-		}
-		line-height: 1.25em;
-		text-shadow: -1px -1px 0 $color-shadow;
-		width: 90%;
-	}
-
 }
 
