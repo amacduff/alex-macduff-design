@@ -1,13 +1,63 @@
 /* Media Queries */
 
-@media screen and (min-width: 480px) {
-	
-}
-
 @media screen and (min-width: 600px) {
+
+	.top-bar {
+		font: {
+			@include fntz(1.25);
+		}
+	}
+
+	.site-title {
+		@include grid(6);
+		padding: 1.05rem 0;
+	}
 
 	.site-name {
 		display: inline;
+	}
+
+	.site-nav {
+		@include grid(6);
+
+		ul {
+			padding: 
+
+			li a {
+				padding: 1.5rem 1.25rem;
+			}
+
+		}
+
+	}
+
+	.ui-designer {
+		@include grid(8);
+		padding: 5rem 15%;
+	}
+
+	.project {
+
+		.samples {
+			text-align: center;
+		}
+
+		h1,
+		p {
+			width: 70%;
+		}
+
+	}
+
+	footer {
+
+		ul,
+		p {
+			font: {
+				@include fntz(1.25);
+			}
+		}
+
 	}
 	
 }

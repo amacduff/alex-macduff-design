@@ -2,7 +2,8 @@
 
 .ui-designer {
 	background-color: $color-background;
-	padding: 5rem 5%;
+	@include grid(11);
+	padding: 5rem 0 5rem 5%;
 
 	p {
 		background-color: darken($color-background, 15%);
@@ -14,17 +15,18 @@
 		}
 		line-height: 1.25em;
 		text-shadow: -1px -1px 0 $color-shadow;
-		width: 90%;
 	}
 
 }
 
 .work {
+	clear: both;
 	padding: 2rem 0 4rem 0;
 }
 
 .project {
-	padding: 2rem 0;
+	overflow: hidden;
+	padding: 4rem 0;
 
 	h1,
 	p {
@@ -34,6 +36,12 @@
 
 	&:nth-child(odd) {
 		background-color: lighten($color-background, 5%);
+	}
+
+	.details,
+	.samples {
+		@include grid(12);
+		
 	}
 
 }

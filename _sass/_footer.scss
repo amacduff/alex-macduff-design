@@ -16,7 +16,7 @@ footer {
 	ul,
 	p {
 		font: {
-			@include fntz(1.25);
+			@include fntz(1);
 		}
 		margin: 0 auto;
 		width: 90%;

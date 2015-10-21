@@ -16,8 +16,8 @@
 	font: {
 		family: $font-heading;
 	}
-	@include grid(6);
-	padding: 0.65rem 0;
+	@include grid(4);
+	padding: 0.9rem 0;
 }
 
 .site-name {
@@ -34,18 +34,18 @@
 }
 
 .site-nav {
-	@include grid(6);
+	@include grid(8);
 
 	ul {
 		overflow: hidden;
-		padding: 1.25rem 0;
+		padding: 1.5rem 0;
 		text-align: right;
 
 		li {
 			display: inline-block;
 
 			a {
-				padding: 1.25rem 0.5rem;
+				padding: 1.5rem 1.25rem;
 
 				&:hover {
 					color: $color-accent-2;
