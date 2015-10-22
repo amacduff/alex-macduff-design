@@ -39,7 +39,7 @@
 	.project {
 
 		.samples {
-			text-align: center;
+			@include grid(6);
 		}
 
 		h1,
