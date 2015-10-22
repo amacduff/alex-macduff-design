@@ -16,7 +16,7 @@
 	font: {
 		family: $font-heading;
 	}
-	@include grid(4);
+	@include grid(2);
 	padding: 0.9rem 0;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .site-nav {
-	@include grid(8);
+	@include grid(10);
 
 	ul {
 		overflow: hidden;

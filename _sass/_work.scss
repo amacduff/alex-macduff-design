@@ -28,8 +28,7 @@
 	overflow: hidden;
 	padding: 4rem 0;
 
-	h1,
-	p {
+	.project-container {
 		margin: 0 auto;
 		width: 90%;
 	}
@@ -39,7 +38,7 @@
 	}
 
 	.details,
-	.samples {
+	.sample {
 		@include grid(12);
 		
 	}

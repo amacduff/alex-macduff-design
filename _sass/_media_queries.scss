@@ -38,13 +38,12 @@
 
 	.project {
 
-		.samples {
-			@include grid(6);
+		.project-container {
+			width: 70%;
 		}
 
-		h1,
-		p {
-			width: 70%;
+		.sample {
+			@include grid(6);
 		}
 
 	}
@@ -62,11 +61,48 @@
 	
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 1024px) {
+
+	.project {
+
+		.project-container {
+			width: 90%;
+		}
+
+		.details {
+			@include grid (6);
+		}
+
+		.sample {
+			@include grid(3);
+		}
+
+	}
 	
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
+
+	.project {
+
+		.project-container {
+			width: 70%;
+		}
+
+		.details {
+			@include grid (4);
+
+			&.even {
+				float: right;
+			}
+
+		}
+
+		.sample {
+			@include grid(4);
+		}
+
+	}
 	
 }
 
