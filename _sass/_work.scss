@@ -3,18 +3,16 @@
 .ui-designer {
 	background-color: $color-background;
 	@include grid(11);
-	padding: 5rem 0 5rem 5%;
+	padding: 5rem 0 2rem 5%;
 
-	p {
-		background-color: darken($color-background, 15%);
-		box-shadow: 0.5rem 0 0 darken($color-background, 15%), -0.5rem 0 0 darken($color-background, 15%);
-		color: $color-highlight;
-		display: inline;
+	h1 {
+		color: $color-text;
 		font: {
+			family: $font-text;
 			@include fntz(3);
 		}
 		line-height: 1.25em;
-		text-shadow: -1px -1px 0 $color-shadow;
+		padding-bottom: 0;
 	}
 
 }

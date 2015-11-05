@@ -6,6 +6,7 @@ body {
 	font: {
 		family: $font-text;
 	}
+	-webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -37,7 +38,9 @@ a {
 
 }
 
-
+em {
+	font-style: italic;
+}
 
 img {
 	max-width: 100%;
