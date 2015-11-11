@@ -1,0 +1,50 @@
+/* Splash */
+
+.splash {
+	clear: both;
+	@include grid(11);
+	padding: 5rem 0 2rem 5%;
+
+	a {
+		box-shadow: inset 0 -8px 0 $color-accent;
+
+		&:hover {
+			background-color: $color-accent;
+		}
+
+	}
+
+	ul,
+	p {
+		font: {
+			@include fntz(1.5);
+		}
+		margin: 1rem 0 3rem 0;
+		max-width: 25em;
+	}
+
+	ul {
+		padding-bottom: 2rem;
+
+		li {
+			display: inline-block;
+			font: {
+				@include fntz(1);
+			}
+			line-height: 2em;
+			padding-right: 0.25rem;
+
+			&:after {
+				content: " /";
+			}
+
+			&:last-child:after {
+				content: none;
+			}
+
+		}
+
+	}
+
+}
+

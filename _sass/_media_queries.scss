@@ -58,6 +58,32 @@
 		}
 
 	}
+
+	// Splash Styling
+
+	.splash {
+		@include grid(8);
+		padding: 5rem 0 2rem 15%;
+
+		ul,
+		p {
+			font: {
+				@include fntz(2);
+			}
+		}
+
+		ul {
+
+			li {
+				font: {
+					@include fntz(1.5);
+				}
+
+			}
+
+		}
+
+	}
 	
 }
 
