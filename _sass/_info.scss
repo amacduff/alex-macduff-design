@@ -1,0 +1,16 @@
+/* Info */
+
+.info {
+	margin: 0 auto;
+	width: 90%;
+
+	section {
+		clear: both;
+	}
+
+	p {
+		@include grid(12);
+	}
+
+}
+

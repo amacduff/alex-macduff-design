@@ -48,6 +48,10 @@
 
 	}
 
+	.info {
+		width: 70%;
+	}
+
 	footer {
 
 		ul,
@@ -104,6 +108,15 @@
 		}
 
 	}
+
+	.info {
+		width: 90%;
+
+		p {
+			@include grid(6);
+		}
+
+	}
 	
 }
 
@@ -128,6 +141,10 @@
 			@include grid(4);
 		}
 
+	}
+
+	.info {
+		width: 70%;
 	}
 	
 }
