@@ -14,7 +14,7 @@ p {
 		@include fntz(1.25);
 	}
 	line-height: 1.5em;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 
 	a {
 		box-shadow: inset 0 -8px 0 $color-accent;
@@ -44,5 +44,9 @@ em {
 
 img {
 	max-width: 100%;
+}
+
+:focus {
+	outline: transparent;
 }
 

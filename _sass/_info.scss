@@ -1,12 +1,43 @@
 /* Info */
 
+.alex {
+	background: url(../img/debut_dark.png) center center fixed;
+	overflow: hidden;
+
+    .title {
+    	@include grid(11);
+    	padding: 5rem 0 3rem 5%;
+
+    	h1 {
+    		color: $color-highlight;
+    		font: {
+    			@include fntz(2.25);
+    			}
+    		line-height: 1.25rem;
+    		padding-bottom: 0;
+    		text-shadow: -1px 1px 0 $color-text;
+    	}
+
+    	p {
+    		color: $color-accent;
+    		font: {
+    			@include fntz(2);
+    		}
+    	}
+
+    }
+
+}
+
 .info {
-	margin: 0 auto;
+	margin: 2rem auto 5rem auto;
 	overflow: hidden;
 	width: 90%;
 
 	section {
 		clear: both;
+		margin-top: 3rem;
+		overflow: hidden;
 	}
 
 	p {

@@ -48,6 +48,18 @@
 
 	}
 
+	.alex {
+		background: 
+			url(../img/alex1.png) no-repeat top center,
+			url(../img/debut_dark.png) center center fixed;
+			height: 25rem;
+
+			.title {
+				padding: 10rem 0 3rem 15%;
+			}
+
+	}
+
 	.info {
 		width: 70%;
 	}
@@ -109,6 +121,10 @@
 
 	}
 
+	.alex .title {
+		padding-left: 5%;
+	}
+
 	.info {
 		width: 90%;
 
@@ -141,6 +157,10 @@
 			@include grid(4);
 		}
 
+	}
+
+	.alex .title {
+		padding-left: 15%;
 	}
 
 	.info {
