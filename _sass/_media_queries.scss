@@ -31,9 +31,8 @@
 
 	}
 
-	.ui-designer {
-		@include grid(8);
-		padding: 5rem 0 2rem 15%;
+	.ui-designer .statement {
+		padding-left: 15%;
 	}
 
 	.project {
@@ -43,7 +42,7 @@
 		}
 
 		.sample {
-			@include grid(6);
+			@include grid(8);
 		}
 
 	}
@@ -105,6 +104,10 @@
 
 @media screen and (min-width: 1024px) {
 
+	.ui-designer .statement {
+		padding-left: 5%;
+	}
+
 	.project {
 
 		.project-container {
@@ -113,10 +116,18 @@
 
 		.details {
 			@include grid (6);
+
+			&.even {
+				box-sizing: border-box;
+				float: right;
+				padding-left: 5%;
+			}
+
 		}
 
 		.sample {
-			@include grid(3);
+			@include grid(6);
+			margin-top: 0;
 		}
 
 	}
@@ -138,23 +149,14 @@
 
 @media screen and (min-width: 1400px) {
 
+	.ui-designer .statement {
+		padding-left: 15%;
+	}
+
 	.project {
 
 		.project-container {
 			width: 70%;
-		}
-
-		.details {
-			@include grid (4);
-
-			&.even {
-				float: right;
-			}
-
-		}
-
-		.sample {
-			@include grid(4);
 		}
 
 	}

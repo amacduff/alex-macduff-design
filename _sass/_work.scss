@@ -1,25 +1,33 @@
 /* Work */
 
 .ui-designer {
-	background-color: $color-background;
-	@include grid(11);
-	padding: 5rem 0 2rem 5%;
+	background: url(../img/debut_dark.png) center center fixed;
+	display: block;
+	overflow: hidden;
 
-	h1 {
-		color: $color-text;
-		font: {
-			family: $font-text;
-			@include fntz(3);
+	.statement {
+		box-sizing: border-box;
+		@include grid(11);
+		padding: 5rem 0 4rem 5%;
+
+		h1 {
+			color: $color-highlight;
+			font: {
+				family: $font-text;
+				@include fntz(3);
+			}
+			line-height: 1.25em;
+			padding-bottom: 0;
+			text-shadow: -1px 1px 0 $color-text;
 		}
-		line-height: 1.25em;
-		padding-bottom: 0;
+
 	}
 
 }
 
 .work {
 	clear: both;
-	padding: 2rem 0 4rem 0;
+	padding-bottom: 4rem;
 }
 
 .project {
@@ -38,7 +46,10 @@
 	.details,
 	.sample {
 		@include grid(12);
-		
+	}
+
+	.sample {
+		margin-top: 3rem;
 	}
 
 }
