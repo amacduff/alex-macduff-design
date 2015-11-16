@@ -2,7 +2,8 @@
 
 footer {
 	background-color: darken($color-background, 5%);
-	padding: 4rem 0;
+	overflow: hidden;
+	padding: 4rem 5%;
 
 	a {
 		box-shadow: inset 0 -8px 0 $color-accent;
@@ -18,6 +19,7 @@ footer {
 		font: {
 			@include fntz(1);
 		}
+		line-height: 2em;
 		margin: 0 auto;
 		width: 90%;
 	}

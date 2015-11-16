@@ -144,6 +144,24 @@
 		}
 
 	}
+
+	footer {
+
+		ul,
+		p {
+			width: 50%;
+		}
+
+		ul {
+			float: left;
+		}
+
+		p {
+			float: right;
+			text-align: right;
+		}
+
+	}
 	
 }
 
