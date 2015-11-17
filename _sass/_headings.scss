@@ -10,3 +10,11 @@ h1 {
 	text-shadow: -1px 1px 0 $color-highlight;
 }
 
+h2 {
+	color: lighten($color-text, 15%);
+	font: {
+		family: $font-subhead;
+		@include fntz(1.5);
+	}
+}
+

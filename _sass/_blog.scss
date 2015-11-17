@@ -1,0 +1,13 @@
+/* Blog */
+
+.blog {
+	margin: 2rem auto 5rem auto;
+	overflow: hidden;
+	width: 90%;
+
+	a {
+		color: lighten($color-text, 15%);
+	}
+
+}
+
