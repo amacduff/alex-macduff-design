@@ -29,7 +29,7 @@ layout: default
         <h1>Recent Posts</h1>
 
         <ul class="post-list">
-            {% for post in site.posts offset:1 %}
+            {% for post in site.posts offset:0 %}
             <li>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </li>

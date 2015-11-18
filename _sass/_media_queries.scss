@@ -154,7 +154,8 @@
 
 	.blog {
 
-		.featured-post {
+		.featured-post,
+		.post-content {
 			border-bottom: 0;
 			@include grid(8);
 			padding-bottom: 0;

@@ -3,7 +3,7 @@ layout: post
 title:  "Prototyping"
 date:   2015-09-29 08:54:56
 categories: the-iron-yard
-excerpt: Blah blah blah Yadda yadda yadda
+excerpt: Plan. Build. Test. Iterate.
 ---
 *[UI]: User Interface
 
