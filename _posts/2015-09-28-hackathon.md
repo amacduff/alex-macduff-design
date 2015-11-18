@@ -3,8 +3,9 @@ layout: post
 title:  "Hackathon"
 date:   2015-09-28 12:54:56
 categories: the-iron-yard
-excerpt: Foo
+excerpt: Working closely with others under tight deadlines and amid chaos is challenging, but rewarding.
 ---
+
 ## Background
 This past weekend I participated in a hackathon (as the title of the post suggests). It's something I knew would be challenging, but had no idea what to expect, having never done anything like this before. All I knew was that I'd be working together with students from the Front End and Ruby cohorts to create a web app over the course of a weekend. As if that wasn't intimidating enough, I had heard a fair amount of horror stories from Iron Yard alums, suggesting there would be an overwhelming workload, little to no sleep, technical problems aplenty, and a very real possibility of nervous breakdown. Needless to say, I wasn't feeling overly enthused.
 

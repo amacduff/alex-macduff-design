@@ -36,6 +36,7 @@ a {
 blockquote {
 	background-color: lighten($color-background, 5%);
 	color: lighten($color-text, 15%);
+	display: inline-block;
 	font: {
 		@include fntz(1.75);
 		style: italic;
@@ -43,6 +44,24 @@ blockquote {
 	line-height: 1.4em;
 	margin-top: 3rem;
 	padding: 1rem;
+
+	a {
+		box-shadow: inset 0 -8px 0 $color-accent;
+
+		&:hover {
+			background-color: $color-accent;
+		}
+
+	}
+	
+}
+
+code {
+	background-color: lighten($color-background, 5%);
+	font: {
+		family: monospace;
+	}
+	padding: 0.25rem 0.5rem;
 }
 
 em {
