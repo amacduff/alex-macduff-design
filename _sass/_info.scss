@@ -35,9 +35,17 @@
 	width: 90%;
 
 	section {
+        border-bottom: 2px solid $color-highlight;
 		clear: both;
 		margin-top: 3rem;
 		overflow: hidden;
+        padding-bottom: 2rem;
+
+        &:last-child {
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+
 	}
 
 	p {

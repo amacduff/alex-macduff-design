@@ -16,5 +16,7 @@ h2 {
 		family: $font-subhead;
 		@include fntz(1.5);
 	}
+	margin-bottom: 1rem;
+	text-transform: uppercase;
 }
 

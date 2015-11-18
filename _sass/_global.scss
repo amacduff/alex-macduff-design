@@ -33,6 +33,18 @@ a {
 	transition: all 0.15s ease-in-out;
 }
 
+blockquote {
+	background-color: lighten($color-background, 5%);
+	color: lighten($color-text, 15%);
+	font: {
+		@include fntz(1.75);
+		style: italic;
+	}
+	line-height: 1.4em;
+	margin-top: 3rem;
+	padding: 1rem;
+}
+
 em {
 	font-style: italic;
 }

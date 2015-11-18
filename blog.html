@@ -1,23 +1,42 @@
 ---
-layout: post
+layout: default
 ---
+
+{% for post in site.posts offset:0 limit:1  %}
+
+<div class="blog-title">
+    <div class="post-title">
+        <h1 id="fittext1">{{ post.title }}</h1>
+    </div>
+</div>
 
 <main class="blog">
 
-  <h1 class="page-heading">Blog</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+    <article class="featured-post">
 
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
+        <blockquote>
+            {{ post.excerpt }}
+        </blockquote>
+        {{ post.content }}
+    
+    </article>
 
-  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {% endfor %}
+
+    <section class="recent-posts">
+
+        <h1>Recent Posts</h1>
+
+        <ul class="post-list">
+            {% for post in site.posts offset:1 %}
+            <li>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </section>
 
 </main>
+
