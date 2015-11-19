@@ -52,5 +52,17 @@
 		@include grid(12);
 	}
 
+    #condensed {
+        font: {
+            family: $font-subhead;
+        }
+    }
+
+    #medium {
+        font: {
+            family: $font-text;
+        }
+    }
+
 }
 

@@ -20,7 +20,7 @@ It didn't take long for my partner and I to identify an interaction that was les
 ## Our Approach
 We jotted down a handful of small fixes that could be implemented to organize the information better and make the "path of least resistance" a bit clearer. We only made one test model, though, so we limited implementation to two of our ideas.
 
-![Paper Prototype]({{ base.url }}/img/paper_prototype.jpg)
+![Paper Prototype]({{ post.url | prepend: site.baseurl }}/img/paper_prototype.jpg)
 
 ## Test Changes
 - We made the progress bar at the top of the screen larger and included indicators for outbound and returning flights.
