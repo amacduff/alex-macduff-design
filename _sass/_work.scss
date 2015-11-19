@@ -52,5 +52,20 @@
 		margin-top: 3rem;
 	}
 
+	.more-link {
+		margin-top: 2rem;
+
+		a {
+			border: 2px solid $color-text;
+			box-shadow: none;
+			font: {
+				family: $font-subhead;
+			}
+			padding: 0.5rem 1rem;
+			text-transform: uppercase;
+		}
+
+	}
+
 }
 

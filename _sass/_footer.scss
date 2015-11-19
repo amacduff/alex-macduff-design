@@ -27,8 +27,14 @@ footer {
 
 		li {
 			display: inline-block;
+			font: {
+				family: $font-subhead;
+				weight: 300;
+			}
+			letter-spacing: 0.05rem;
 			line-height: 2em;
 			padding-right: 0.25rem;
+			text-transform: uppercase;
 
 			&:after {
 				content: " /";

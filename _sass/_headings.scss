@@ -13,8 +13,10 @@ h2 {
 	color: lighten($color-text, 15%);
 	font: {
 		family: $font-subhead;
-		@include fntz(1.5);
+		@include fntz(1.75);
+		weight: 700;
 	}
+	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 }
 
