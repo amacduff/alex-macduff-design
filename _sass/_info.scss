@@ -1,29 +1,43 @@
 /* Info */
 
 .alex {
-	background: url(../img/debut_dark.png) center center fixed;
 	overflow: hidden;
+    margin: 5rem auto 3rem auto;
+    width: 90%;
+
+    .title,
+    .headshot {
+        @include grid(12);
+    }
 
     .title {
-    	@include grid(11);
-    	padding: 5rem 0 3rem 5%;
 
     	h1 {
-    		color: $color-highlight;
     		font: {
     			@include fntz(2.25);
     			}
     		line-height: 1.25rem;
     		padding-bottom: 0;
-    		text-shadow: -1px 1px 0 $color-text;
+            padding-left: 0.1rem;
+    		text-shadow: -1px 1px 0 $color-highlight;
     	}
 
     	p {
-    		color: $color-accent;
+    		color: lighten($color-text, 15%);
     		font: {
     			@include fntz(2);
     		}
     	}
+
+    }
+
+    .headshot {
+        box-sizing: border-box;
+        padding: 0 15% 3rem 15%;
+
+        img {
+            border-radius: 50%;
+        }
 
     }
 
@@ -55,7 +69,6 @@
     #condensed {
         font: {
             family: $font-subhead;
-            weight: 700;
         }
     }
 
