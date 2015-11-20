@@ -1,0 +1,31 @@
+/* Project Styles */
+
+.project-title,
+.process {
+	width: 90%;
+}
+
+.project-title {
+	margin: 5rem auto;
+}
+
+.process {
+	margin: 0 auto 5rem auto;
+
+	section {
+		clear: both;
+		overflow: hidden;
+		margin-top: 5rem;
+	}
+
+	.summary,
+	.image {
+		@include grid(12);
+	}
+
+	.summary {
+		margin-bottom: 2rem;
+	}
+
+}
+

@@ -50,6 +50,16 @@
 
 	.sample {
 		margin-top: 3rem;
+
+		&.mobile {
+			text-align: center;
+
+			img {
+				max-height: 20rem;
+			}
+
+		}
+
 	}
 
 	.more-link {
