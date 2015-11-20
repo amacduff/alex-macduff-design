@@ -3,7 +3,7 @@
 .alex {
     background: url(../img/alex_bw.jpg) no-repeat center center;
     background-size: cover;
-    height: 15rem;
+    height: 13rem;
 	overflow: hidden;
 
     .title,
@@ -25,22 +25,12 @@
     	}
 
     	p {
-    		color: $color-accent;
+    		color: $color-highlight;
     		font: {
     			@include fntz(2);
     		}
             text-shadow: -1px 1px 0 $color-shadow;
     	}
-
-    }
-
-    .headshot {
-        box-sizing: border-box;
-        padding: 0 15% 3rem 15%;
-
-        img {
-            border-radius: 50%;
-        }
 
     }
 
