@@ -58,8 +58,7 @@
 	}
 
 	.alex {
-		margin: 5rem auto 3rem auto;
-	    width: 70%;
+		height: 25rem;
 	}
 
 	.project-title,
@@ -158,21 +157,16 @@
 
 	}
 
-	.alex {
-	    width: 90%;
+	.title-small {
+		display: none;
+	}
 
-	    .title,
-	    .headshot {
-	    	@include grid(6);
-	    }
+	.alex {
+		height: 30rem;
 
 	    .title {
-	    	padding-top: 10%;
-	    }
-
-	    .headshot {
-	    	float: right;
-	    	padding: 0 15% 0 5%;
+	    	display: block;
+	    	padding: 15rem 0 0 5%;
 	    }
 
 	}
@@ -244,14 +238,10 @@
 	}
 
 	.alex {
-	    width: 70%;
+		height: 35rem;
 
 	    .title {
-	    	padding-top: 15%;
-	    }
-
-	    .headshot {
-	    	padding: 0 5%;
+	    	padding: 15rem 0 0 15%;
 	    }
 
 	}

@@ -1,9 +1,10 @@
 /* Info */
 
 .alex {
+    background: url(../img/alex_bw.jpg) no-repeat center center;
+    background-size: cover;
+    height: 15rem;
 	overflow: hidden;
-    margin: 5rem auto 3rem auto;
-    width: 90%;
 
     .title,
     .headshot {
@@ -11,6 +12,7 @@
     }
 
     .title {
+        display: none;
 
     	h1 {
     		font: {
@@ -23,10 +25,11 @@
     	}
 
     	p {
-    		color: lighten($color-text, 15%);
+    		color: $color-accent;
     		font: {
     			@include fntz(2);
     		}
+            text-shadow: -1px 1px 0 $color-shadow;
     	}
 
     }
@@ -47,6 +50,15 @@
 	margin: 2rem auto 5rem auto;
 	overflow: hidden;
 	width: 90%;
+
+    .title-small {
+        margin-top: 0;
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+    }
 
 	section {
         border-bottom: 2px solid $color-highlight;
