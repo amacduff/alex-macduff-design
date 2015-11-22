@@ -27,5 +27,54 @@
 		margin-bottom: 2rem;
 	}
 
+	ul,
+	dl {
+		font: {
+			@include fntz(1.25);
+		}
+		line-height: 1.5em;
+	}
+
+	ul {
+		margin-left: 0;
+		padding-left: 2rem;
+		text-indent: -2rem;
+
+		li {
+			margin-bottom: 1.5rem;
+		}
+
+		li:before {
+			color: lighten($color-text, 50%);
+			content: "▶";
+			padding-right: 1rem;
+		}
+
+ 	}
+
+ 	dl {
+
+ 		dt {
+ 			font: {
+ 				@include fntz(1.5);
+ 				style: italic;
+ 			}
+ 			margin: 1.5rem 0 0.5rem 0;
+ 		}
+
+ 	}
+
+ 	.persona-photo {
+ 		border-radius: 50%;
+ 		margin-right: 1rem;
+ 		vertical-align: middle;
+ 		width: 3rem;
+ 	}
+
+ 	.outline {
+ 		border: 8px solid $color-highlight;
+ 		box-sizing: border-box;
+ 	}
+
 }
 
