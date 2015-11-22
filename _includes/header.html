@@ -6,7 +6,7 @@
 
             <div class="site-title">
 
-                <a href="{{ site.baseurl }}/">
+                <a href="{{ site.baseurl }}">
 
                     <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -24,11 +24,13 @@
             </div>
 
             <nav class="site-nav">
+
+            {% assign current = page.url | downcase | split: '/' %}
                 
                 <ul>
-                    <li><a href="{{ site.baseurl }}" {% if page.url == 'index.html' %} class="selected"{% endif %}>Work</a></li>
-                    <li><a href="{{ site.baseurl }}info" {% if page.url == 'info.html' %} class="selected"{% endif %}>Info</a></li>
-                    <li><a href="{{ site.baseurl }}blog" {% if page.url == 'blog.html' %} class="selected"{% endif %}>Blog</a></li>
+                    <li><a href="{{ site.baseurl }}" {% if page.category == 'work' %} class="current"{% endif %}>Work</a></li>
+                    <li><a href="{{ site.baseurl }}info" {% if page.category == 'info' %} class="current"{% endif %}>Info</a></li>
+                    <li><a href="{{ site.baseurl }}blog" {% if page.category == 'blog' %} class="current"{% endif %}>Blog</a></li>
                 </ul>
 
             </nav>
