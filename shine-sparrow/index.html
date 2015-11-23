@@ -17,58 +17,45 @@ category: work
             <p>A freelance project of mine prior to entering The Iron Yard, Shine Sparrow is an example of what I was able to accomplish with the HTML, CSS, and Sass I learned on my own.</p>
         </div>
         <div class="image">
-            <img src="{{ post.url | prepend: site.baseurl }}/img/et_home_small.png">
+            <img src="{{ post.url | prepend: site.baseurl }}/img/ss_home.jpg">
         </div>
     </section>
 
-    <section class="problem">
+    <section class="design-persona">
         <div class="summary even">
-            <h2>The Problem</h2>
-            <p>The problem I see with Easy Tiger's current website is mainly that there's not much there. The site is very dark - small white text on a black background - and doesn't really relay a sense of what the place is like. The homepage is a giant image map with no selectable text, except for the address and phone number at the very bottom of the page, in tiny text that almost blends into the background. And the menu is a PDF.</p>
-            <p>None of this is really that bad. It's minimal, which is fine, and was probably made to be easy to update. If there are changes to the menu, all they have to do is upload a new PDF, not mess around with editing files in a content management system. Additionally, it could be that the site was made to look homemade. It kind of gives you the sense that this is a small place whose focus is their craft, not their marketing. Still, I thought the site could benefit from a redesign, to make it easier to find and use, and more representative of the atmosphere of the location, which I think is one of its best attributes.</p>
+            <h2>Design Persona</h2>
+            <p>To begin the design process I worked with Maritza to create a design persona, using Aaron Walter's MailChimp template. This gave me insights into the voice, tone, and aesthetic of the site.</p>
+            <p>“<em>If my brand were a person:</em> She would be calm, but very present, quiet and knowledgeable. She would be tidy and efficient, caring and when you talked to her you would learn more about yourself from the silence she left than from the words she said. She would think of things, the details of what you need, before you realized you needed them.”</p>
         </div>
         <div class="image">
-            <img src="{{ post.url | prepend: site.baseurl }}/img/et_home_big.jpg">
+            <img src="{{ post.url | prepend: site.baseurl }}/img/ss_rates.png">
         </div>
     </section>
 
-    <section class="research">
+    <section class="brand-traits">
         <div class="summary">
-            <h2>Research</h2>
-            <p>One of the first things I did was go to the restaurant. I had been there before as a customer, but had never really stopped to take in the atmosphere of the place. I observed and had some brief conversations with customers and employees, and tried to get a sense of their clientele as well as the restaurant's values.</p>
-            <p>Then, using some of the methods I learned in class, I continued my research by conducting competitive and SWOT analysis. I also made a word list in an attempt to push past some of the more obvious lines of thought.</p>
+            <h2>Brand Traits</h2>
+            <ul>
+                <li>CALM <em>not boring</em></li>
+                <li>PROFESSIONAL <em>not stuffy</em></li>
+                <li>WELCOMING <em>not enticing</em></li>
+                <li>IMPRESSIVE <em>not intimidating</em></li>
+                <li>PRESENT <em>not overbearing</em></li>
+            </ul>
         </div>
         <div class="image">
-            <img src="{{ post.url | prepend: site.baseurl }}/img/et_swot.jpg">
-        </div>
-    </section>
-
-    <section class="solution">
-        <div class="summary even">
-            <h2>The Solution</h2>
-            <p>The goal of my redesign was to make something light and friendly to reflect the relaxed atmosphere of the place. For the homepage I focused on presenting the information people want most when they visit any restaurant's website: hours, location, and access to the menu. The header of each page features a different photo of the space to convey a sense of what the place is like.</p>
-            <p>For headings on the site I used a serif typeface with a friendly, pub type feel. I then paired that with a sans serif font for body text that is clean and readable. I chose a warm color palette using colors from around the location: brown, tan, and yellow to represent baked goods and beer, accented with green for the ivy that covers the outside walls. All of these elements, combined, create an experience that is more representative of the friendly, local shop that Easy Tiger is.</p>
-            <p>If you're interested, I wrote <a href="{{ site.baseurl }}/type-study">a blog post</a> about my process for choosing the typography for the site.</p>
-        </div>
-        <div class="image">
-            <img src="{{ post.url | prepend: site.baseurl }}/img/et_menu_small.png">
+            <img src="{{ post.url | prepend: site.baseurl }}/img/ss_scheduling.png">
         </div>
     </section>
 
     <section class="challenges">
-        <div class="summary">
+        <div class="summary even">
             <h2>Challenges</h2>
-            <p>The biggest challenge I faced with this project was one of ethics. I'm generally not a fan of unsolicited redesigns of other people's work. It's easy to say you could design something better than someone else when you're not working with a client or having to sell your design or defend your decisions. Additionally, unsolicited redesigns feel like a sort of one-upmanship and reflect poorly on the design community as a whole.</p>
-            <p>I was able to overcome this thinking by reminding myself of a few things:
-            <ul>
-                <li>This was a project for school, so in a way it wasn't completely unsolicited.</li>
-                <li>I was working under the supervision of an instructor, who for the purposes of the assignment, was the client.</li>
-                <li>I was only going to be posting this on GitHub and my portfolio, and expressly stating that it was schoolwork.</li>
-            </ul>
-            <p>Similar to copying other people's work, I think redesigns are acceptable in the context of learning. It's when you start posting them on the web, announcing you've done a better job than the original creator, that you get yourself into trouble.</p>
+            <p>One big challenge I faced with this project was working with iFrames. I used an online booking plugin that used an iFrame, and it was difficult to style. iFrames come with their own stylesheets and it seemed to be impossible to override them. In actuality it probably is impossible, because they want you to pay to be able to select your own colors and typefaces.</p>
+            <p>Beyond that, I wasn't able to figure out a way to make the iFrame responsive. The plugin forced you to specify a size for the iFrame and there didn't seem to be a way to put a percentage on the width. I tried everything I could think of, every trick I found on the web, and nothing worked. In the end I just tried to design around it. I'm sure there's a way to do it, I just wasn't able to figure it out in the timeframe alotted for the project. It's the one part of the site that's not responsive, and it still bothers me. But I guess that's how it goes sometimes.</p>
         </div>
         <div class="image">
-            <img src="{{ post.url | prepend: site.baseurl }}/img/et_menu_big.jpg">
+            <img src="{{ post.url | prepend: site.baseurl }}/img/ss_faq.png">
         </div>
     </section>
 
