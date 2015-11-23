@@ -28,6 +28,8 @@ I was assigned op art as the theme for my work. I had never even heard of it! Af
 ## Execution
 At first I had some pretty big plans for the design. I made some sketches that included 3D text and images, and it looked pretty cool on paper. I was also pretty stubbornly set on not using background images to achieve this effect. I knew that with CSS it is possible to create perspective, and I had a couple strategies in mind.
 
+![Paper Prototype]({{ post.url | prepend: site.baseurl }}/img/css_zen_sketch.jpg)
+
 Unfortunately, those things didn't work quite the way I thought they did. After a time of scouring the web for an answer to my problem, I came up with no real solution to my problem, so I decided to go another route. I ended up going with a pretty minimal design, trying to balance simple, readable type and a good amount of white space with a few big images of op art. Once finished, I was fairly pleased with what I had created. I think with a few tweaks, I could submit my work with some degree of confidence that it wouldn't end up on the wall of shame.
 
 ## In Summary
