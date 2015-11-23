@@ -2,6 +2,7 @@
 layout: post
 title:  "Type Study"
 date:   2015-09-09 12:54:56
+permalink: type-study/
 categories: the-iron-yard
 excerpt: The majority of the information of the web is written language. So for a UI designer, understanding the fundamentals of typography is pretty important.
 ---
