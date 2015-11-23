@@ -2,6 +2,7 @@
 layout: post
 title:  "A New Adventure"
 date:   2015-09-04 12:54:56
+permalink: a-new-adventure/
 categories: the-iron-yard
 excerpt: I may have come to this program with some prior knowledge of the topics we’re studying, but it’s amazing how quickly I’m burning through what I know. Every day I learn something I didn’t know before.
 ---

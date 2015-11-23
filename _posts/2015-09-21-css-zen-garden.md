@@ -2,6 +2,7 @@
 layout: post
 title:  "CSS Zen Garden"
 date:   2015-09-21 12:54:56
+permalink: css-zen-garden/
 categories: the-iron-yard
 excerpt: In the world of web design, the CSS Zen Garden is kind of a big deal.
 ---

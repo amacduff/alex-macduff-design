@@ -2,6 +2,7 @@
 layout: post
 title:  "Accessibility"
 date:   2015-09-17 12:54:56
+permalink: accessibility/
 categories: the-iron-yard
 excerpt: Making your site accessible can be burdensome. But then, so can trying to use a website on a screen reader.
 ---

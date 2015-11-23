@@ -2,6 +2,7 @@
 layout: post
 title:  "Hackathon"
 date:   2015-09-28 12:54:56
+permalink: hackathon/
 categories: the-iron-yard
 excerpt: Working closely with others under tight deadlines and amid chaos is challenging, but rewarding.
 ---

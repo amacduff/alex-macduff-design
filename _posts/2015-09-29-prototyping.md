@@ -2,6 +2,7 @@
 layout: post
 title:  "Prototyping"
 date:   2015-09-29 08:54:56
+permalink: prototyping/
 categories: the-iron-yard
 excerpt: Plan. Build. Test. Iterate.
 ---

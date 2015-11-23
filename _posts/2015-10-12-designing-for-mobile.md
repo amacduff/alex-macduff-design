@@ -2,6 +2,7 @@
 layout: post
 title:  "Designing for Mobile"
 date:   2015-10-12 09:31:00
+permalink: designing-for-mobile/
 categories: the-iron-yard
 excerpt: As it turns out, the process for designing a native mobile app is decidedly different than designing a web app for small screens. Who woulda thought?
 ---
