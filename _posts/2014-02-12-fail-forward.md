@@ -12,6 +12,8 @@ In life, some of us just have to learn things the hard way. I don’t really kno
 
 “Failure is not an option.” We’re all familiar with the phrase. Most of us have been trained to believe that failure is a shameful thing to be avoided at all cost. But I would argue that it is an important part of life. And if you want to be successful, failure is not an option; it’s a necessity. (I think <a href="http://dribbble.com/shots/1093828-Gotta-fail-to-succeed" target="_blank">this dribbble shot by Jake Fleming</a> illustrates that nicely.) Because some of the most important lessons are learned by getting your hands dirty, making mistakes, and learning from them. So, to be clear: It’s okay to fail. I’ll spare you the overly used, tired examples of Thomas Edison and Michael Jordan’s success rates. Suffice it to say, nobody bats a thousand. (That’s a sports reference.)
 
+![Fail Forward]({{ post.url | prepend: site.baseurl }}/img/blog/fail_fwd.png)
+
 ## Just Do It
 Sometimes the only way to learn is to do. It’s true. There is only so much you can learn from the experiences of others. Sure, it’s good to soak up as much knowledge as you can to avoid as many pitfalls as possible. But no matter how well equipped you are, at some point you are going to find yourself in a situation that no book or blog or piece of advice could have prepared you for. At some point you’re going to screw up, all by yourself. That’s life. And if you handle it well, you’ll be better for it. Maybe you can share your experience with someone as advice. Or at the very least, you’ll have a new anecdote to share at cocktail parties.
 
