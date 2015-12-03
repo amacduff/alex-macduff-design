@@ -21,7 +21,7 @@
 		@include grid(6);
 
 		ul {
-			padding: 
+			padding:
 
 			li a {
 				padding: 1.5rem 1.25rem;
@@ -76,32 +76,6 @@
 			font: {
 				@include fntz(1.25);
 			}
-		}
-
-	}
-
-	// Splash Styling
-
-	.splash {
-		@include grid(8);
-		padding: 5rem 0 2rem 15%;
-
-		ul,
-		p {
-			font: {
-				@include fntz(2);
-			}
-		}
-
-		ul {
-
-			li {
-				font: {
-					@include fntz(1.5);
-				}
-
-			}
-
 		}
 
 	}
@@ -220,7 +194,7 @@
 		}
 
 	}
-	
+
 }
 
 @media screen and (min-width: 1400px) {
@@ -253,6 +227,5 @@
 	.blog {
 		width: 70%;
 	}
-	
-}
 
+}
