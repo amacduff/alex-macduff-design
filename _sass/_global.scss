@@ -53,7 +53,22 @@ blockquote {
 		}
 
 	}
-	
+
+}
+
+pre {
+	font: {
+		@include fntz(1.25);
+	}
+	margin: 3rem 0;
+
+	code {
+		display: block;
+		line-height: 1.5em;
+		overflow: auto;
+		padding: 1rem;
+	}
+
 }
 
 code {
@@ -75,4 +90,3 @@ img {
 :focus {
 	outline: transparent;
 }
-
