@@ -22,7 +22,7 @@ In the past, I simply hardcoded the navigation menu into every page, so I was ab
       </ul>
     </nav>
 
-This method is simple, but requires that it be specified on each page which menu link is "current." That's hardly universal. If you move this navigation menu in a header included on every page of the site, you run into problems, because you can no longer declare which is the "current" page.
+This method is simple, but requires that it be specified on each page which menu link is "current." That's hardly universal. If you move this navigation menu into a header included on every page of the site, you run into problems, because you can no longer declare which is the "current" page.
 
 ## The page.url Method
 One solution I found (which unfortunately I can't find now, otherwise I'd give credit) was to add an if statement to each link, telling it to check the current page's url against the link's, and if the two match, to add a class of "current".
