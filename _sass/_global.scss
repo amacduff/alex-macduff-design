@@ -87,6 +87,14 @@ img {
 	max-width: 100%;
 }
 
+::-moz-selection {
+  background-color: $color-highlight;
+}
+
+::selection {
+  background-color: $color-highlight;
+}
+
 :focus {
 	outline: transparent;
 }
