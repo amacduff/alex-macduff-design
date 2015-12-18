@@ -16,7 +16,8 @@ footer {
 	}
 
 	ul,
-	p {
+	p,
+	.back-to-top {
 		font: {
 			@include fntz(1);
 		}

@@ -72,14 +72,15 @@
 	footer {
 
 		ul,
-		p {
+		p,
+		.back-to-top {
 			font: {
 				@include fntz(1.25);
 			}
 		}
 
 	}
-	
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -188,8 +189,10 @@
 			float: left;
 		}
 
-		p {
+		p,
+		.back-to-top {
 			float: right;
+			padding-bottom: 0;
 			text-align: right;
 		}
 
@@ -226,6 +229,20 @@
 	.blog-title,
 	.blog {
 		width: 70%;
+	}
+
+	footer {
+
+		ul,
+		p,
+		.back-to-top {
+			width: 33.3333%;
+		}
+
+		.back-to-top {
+			text-align: center;
+		}
+
 	}
 
 }
