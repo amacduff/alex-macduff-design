@@ -21,10 +21,10 @@ footer {
 			@include fntz(1);
 		}
 		line-height: 2em;
+		padding-bottom: 2rem;
 	}
 
 	ul {
-		padding-bottom: 2rem;
 
 		li {
 			display: inline-block;
@@ -49,6 +49,10 @@ footer {
 
 	}
 
+	p {
+		margin-bottom: 0;
+	}
+
 	#tx-icon {
 		height: 1.5rem;
 		padding-bottom: 0.25rem;
@@ -57,4 +61,3 @@ footer {
 	}
 
 }
-
