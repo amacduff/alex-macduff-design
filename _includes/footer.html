@@ -7,8 +7,8 @@
             <li><a href="http://twitter.com/amacduff">Twitter</a></li>
             <li><a href="mailto:hello@alexmacduff.com?subject=I%20just%20went%20to%20your%20site%20and%20now%20I%20am%20emailing%20you">Email</a></li>
         </ul>
-        
-        <p>&copy; Alex MacDuff 2015  
+
+        <p>&copy; Alex MacDuff 2015
             <svg version="1.1" id="tx-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
             <path fill="#222222" d="M250,2C113.034,2,2,113.033,2,250s111.034,248,248,248c136.967,0,248-111.033,248-248S386.967,2,250,2z
@@ -24,7 +24,7 @@
                 c0.06,8.959-5.203,41.171,3.941,45.167c7.688,3.359,15.183,7.179,23.354,9.623c6.365,1.905,12.165-0.706,18.842,3.202
                 c14.495,8.494,36.023-7.273,49.837-0.224c12.179-0.264,26.342,2.702,38.765,2.732c8.9,0.028,8.815,29.944,9.166,37.021
                 c0.668,13.518,13.126,20.7,13.28,32.715C406.266,248.768,410.014,257.064,404.493,265.473z"/>
-            </svg> 
+            </svg>
         Made in ATX</p>
 
 </footer>
@@ -34,4 +34,10 @@
 <script type="text/javascript">
 	$("#fittext1").fitText(1.4);
 	$("#fittext2").fitText();
+
+    $("a[href='#top']").click(function() {
+      $('html, body').animate({ scrollTop: 0 }, 'slow');
+      return false;
+    });
+
 </script>
