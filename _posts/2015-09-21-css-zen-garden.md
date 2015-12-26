@@ -12,6 +12,8 @@ This past weekend I had an assignment, for my course at The Iron Yard, to create
 
 The CSS Zen Garden has been around for more than a decade, and has become a rite of passage for web designers. Anyone can submit a design, and those that are deemed worthy get the honor of being featured in the CSS Zen Garden archives alongside hosts of notable designers, and of course all the fame and recognition that entails (mainly high fives at dribbble meetups). All that to say, in the world of web design, the CSS Zen Garden is kind of a big deal.
 
+![]({{ post.url | prepend: site.baseurl }}/img/blog/css_zen_garden.svg)
+
 ## Project Requirements
 We were given three days to create a stylesheet, and each student was assigned an art movement to use as a basis for their work. Additionally, we were given a few basic requirements. Our design was to include:
 
