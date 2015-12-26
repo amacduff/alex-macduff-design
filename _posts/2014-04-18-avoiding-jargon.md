@@ -24,7 +24,7 @@ When you talk over people's heads, you run the risk of misinterpretation. This c
 
 When you speak in jargon, you not only do a disservice to your audience, but also to yourself. When you limit your vocabulary, you limit your understanding. By using common terminology to explain the concepts you are trying to convey, it further solidifies those ideas and information in your mind.
 
-![Avoid jargon at all cost]({{ post.url | prepend: site.baseurl }}/img/blog/avoid_jargon.png)
+![Avoid jargon at all cost]({{ post.url | prepend: site.baseurl }}/img/blog/avoid_jargon.svg)
 
 ## Tips for communicating effectively
 
