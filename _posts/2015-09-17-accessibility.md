@@ -14,7 +14,7 @@ At first, I felt really convicted about my previous lack of attention to this st
 
 Now, don't get me wrong; I care about accessibility. The trouble for me is just knowing how much to do, and where to start. So I've made a list of ten things to implement in my next project, to strive towards making interfaces that are easy for *anyone* to use.
 
-![Accessibility]({{ post.url | prepend: site.baseurl }}/img/blog/accessibility.png)
+![Accessibility]({{ post.url | prepend: site.baseurl }}/img/blog/accessibility.svg)
 
 
 ## 10 Tips for Designing More Accessible Websites
