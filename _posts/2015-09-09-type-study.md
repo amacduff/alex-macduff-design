@@ -13,6 +13,8 @@ I'm still hanging in there at [The Iron Yard](http://theironyard.com), and I'm c
 ## Research
 I started by taking a page out of Jason Santa Maria's book, *On Web Typography*, and used a word list. Luckily I had already created one as part of the assignment. Some of the words that stood out to me were *traditional*, *vintage*, *heritage*, and *hand-crafted*. At Easy Tiger all of their baked goods and the majority of their provisions are made by hand, in-house. They make things the old way, the traditional way. Even their space has a sort of weathered and worn appeal, as if it has been there for ages (it hasn't). So it only makes sense for any visuals representing the restaurant to have a sort of rustic, distressed (but not grungy) feel.
 
+![]({{ post.url | prepend: site.baseurl }}/img/blog/type_study.svg)
+
 ## Headings
 I spent a lot of time looking at humanist typefaces, because I wanted to convey a sort of down-to-earth feeling. I'm drawn to humanist typefaces because of their simplicity. But I ended up with a bunch of pretty bland, safe choices. After some encouragement I decided to try something different. So I did some research and chose Alegreya, a serif typeface originally intended for literature. It's a decided nod to calligraphic lettering, but has a very contemporary feel. One of the best things about it is that it has a true italic, and comes in several weights. I chose a bold weight for the headings and was surprised at how well they give the impression of a pub type atmosphere.
 
