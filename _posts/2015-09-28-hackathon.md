@@ -12,6 +12,8 @@ This past weekend I participated in a hackathon (as the title of the post sugges
 
 Fortunately, I was put on a team with some really great people who really knew their stuff. I designed as best I could, tried to pull my own weight, and for the most part kept myself out of trouble. In the end, I was pretty proud of what we accomplished, given the amount of time we had to work with. Bottom line: I survived. And now that I'm on the other side of it, here are some thoughts about my experience.
 
+![]({{ post.url | prepend: site.baseurl }}/img/blog/hackathon.svg)
+
 ## Five Things I Learned From My Hackathon Experience
 
 ### A Renewed Respect for Web Developers
