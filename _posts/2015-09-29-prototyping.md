@@ -4,7 +4,7 @@ title:  "Prototyping"
 date:   2015-09-29 08:54:56
 permalink: prototyping/
 categories: the-iron-yard
-excerpt: Plan. Build. Test. Iterate.
+excerpt: Plan. Build. Iterate.
 ---
 *[UI]: User Interface
 
@@ -12,6 +12,8 @@ excerpt: Plan. Build. Test. Iterate.
 Today at The Iron Yard we (the UI Design class) started our day with a challenge. A marshmallow challenge, to be specific. We were split up into groups and given twenty sticks of spaghetti, one yard of tape, one yard of string, and one marshmallow. Each group was then given eighteen minutes to build the tallest free-standing structure they could, with the marshmallow on top. Apparently this challenge divides participants into two categories: people who prototype, and people who don't. My team oriented ourselves to the task, developed a plan of attack, and built a structure. We lost. You know who consistently does well at this challenge? Children in kindergarten. They build, then refine, then build again. Crazy.
 
 Once the marshmallows had been put away, we talked about prototyping. It's an interesting concept, all about designing something, testing it, and iterating it to make the best possible product. There are a few different means of prototype creation: paper, static, and fully functional. And of course there are variations of each. What's great about all this is that it gets the product in the hands of the person who will *actually be using it*. And the feedback you get from this process is invaluable.
+
+![]({{ post.url | prepend: site.baseurl }}/img/blog/prototyping.svg)
 
 ## Project Details
 After our discussion we tried our hands at a little prototyping of our own. We were paired with a classmate and assigned an airline website. Our goal was to explore the site, find an interaction that we thought could use improvement, and make a paper prototype to be tested by our peers.
