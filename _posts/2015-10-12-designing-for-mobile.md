@@ -12,6 +12,8 @@ This past week I worked on something a bit different than we've been doing up to
 
 Without getting into the nitty gritty, the project consisted of working with a client (a design alumnus) to create a working prototype of a native mobile application. There were basic requirements for research, planning, design, prototyping, and iteration. To make things simpler, we designed for iPhone only.
 
+![]({{ post.url | prepend: site.baseurl }}/img/blog/mobile.svg)
+
 ## App
 Our client wanted an app that could connect restaurants who want to donate extra food with volunteers who could pick it up and deliver it to organizations that could distribute it to people in need. She called it "Extras." It's a fantastic idea for an app, and both my partner and I were excited about it from the start.
 
@@ -31,4 +33,3 @@ There were other issues we struggled with, such as the fine line between too few
 
 ## In Summary
 As it turns out, the process for designing a native mobile app is decidedly different than designing a web app for small screens. Who woulda thought? Seems like this is yet another thing where you can learn the basic principles in a day, but could take a lifetime to master. I'm excited about the possibility of designing more native apps.
-
