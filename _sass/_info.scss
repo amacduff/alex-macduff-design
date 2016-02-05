@@ -21,7 +21,6 @@
     		line-height: 1.25rem;
     		padding-bottom: 0;
             padding-left: 0.1rem;
-    		text-shadow: -1px 1px 0 $color-highlight;
     	}
 
     	p {
@@ -29,7 +28,6 @@
     		font: {
     			@include fntz(2);
     		}
-            text-shadow: -1px 1px 0 $color-shadow;
     	}
 
     }
