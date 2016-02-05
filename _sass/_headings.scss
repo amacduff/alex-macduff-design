@@ -13,9 +13,8 @@ h2 {
 	font: {
 		family: $font-subhead;
 		@include fntz(1.75);
-		weight: 700;
+		weight: 400;
 	}
-	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 }
 
