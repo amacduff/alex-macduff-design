@@ -38,8 +38,10 @@ blockquote {
 	color: lighten($color-text, 15%);
 	display: inline-block;
 	font: {
+		family: $font-subhead;
 		@include fntz(1.75);
 		style: italic;
+		weight: 400;
 	}
 	line-height: 1.4em;
 	margin-top: 3rem;
