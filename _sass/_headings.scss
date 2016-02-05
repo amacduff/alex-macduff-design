@@ -6,7 +6,6 @@ h1 {
 		@include fntz(2);
 	}
 	line-height: 1.25em;
-	text-shadow: -1px 1px 0 $color-highlight;
 }
 
 h2 {
@@ -32,4 +31,3 @@ h2,
 h3 {
 	margin-bottom: 1rem;
 }
-
