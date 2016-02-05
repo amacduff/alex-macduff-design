@@ -11,7 +11,7 @@ body {
 
 p {
 	font: {
-		@include fntz(1.25);
+		@include fntz(1.15);
 	}
 	line-height: 1.5em;
 	margin-bottom: 1rem;
