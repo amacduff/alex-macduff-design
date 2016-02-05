@@ -13,8 +13,9 @@
 		h1 {
 			color: $color-text;
 			font: {
-				family: $font-text;
+				family: $font-subhead;
 				@include fntz(3);
+				weight: 700;
 			}
 			line-height: 1.25em;
 			padding-bottom: 0;
