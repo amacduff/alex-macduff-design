@@ -22,8 +22,9 @@
 	padding-bottom: 4rem;
 
 	.post-meta {
+		display: block;
 		font: {
-			@include fntz(1.25);
+			@include fntz(1.15);
 		}
 	}
 
