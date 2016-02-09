@@ -38,7 +38,7 @@ blockquote {
 	color: lighten($color-text, 15%);
 	display: inline-block;
 	font: {
-		family: $font-subhead;
+		family: $font-text;
 		@include fntz(1.75);
 		style: italic;
 		weight: 400;
