@@ -45,6 +45,7 @@
 			display: inline-block;
 
 			a {
+				font-weight: 600;
 				padding: 1.5rem 1.25rem;
 
 				&:hover {
@@ -62,4 +63,3 @@
 .current {
 	background-color: $color-highlight;
 }
-
