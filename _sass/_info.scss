@@ -27,6 +27,8 @@
     		color: $color-highlight;
     		font: {
     			@include fntz(2);
+                style: italic;
+                weight: 600;
     		}
     	}
 
@@ -44,6 +46,13 @@
 
         h1 {
             margin-bottom: 0;
+        }
+
+        p {
+            font: {
+                style: italic;
+                weight: 600;
+            }
         }
 
     }
