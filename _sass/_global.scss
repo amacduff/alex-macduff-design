@@ -17,10 +17,10 @@ p {
 	margin-bottom: 1rem;
 
 	a {
-		box-shadow: inset 0 -8px 0 $color-accent;
+		border-bottom: 3px solid $color-accent;
 
 		&:hover {
-			background-color: $color-accent;
+			color: $color-accent;
 		}
 
 	}
@@ -48,10 +48,10 @@ blockquote {
 	padding: 1rem;
 
 	a {
-		box-shadow: inset 0 -8px 0 $color-accent;
+		border-bottom: 3px solid $color-accent;
 
 		&:hover {
-			background-color: $color-accent;
+			color: $color-accent;
 		}
 
 	}
