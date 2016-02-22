@@ -7,11 +7,11 @@ footer {
 	padding: 4rem 5%;
 
 	a {
-		box-shadow: inset 0 -8px 0 $color-accent;
+		box-shadow: inset 0 -6px 0 $color-accent-1;
 
-		&:hover {
-			background-color: $color-accent;
-		}
+        &:hover {
+            background-color: $color-accent-1;
+        }
 
 	}
 
