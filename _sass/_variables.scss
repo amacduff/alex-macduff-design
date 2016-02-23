@@ -6,7 +6,7 @@ $color-text: #222222;
 $color-subhead: #666666;
 $color-background: #EEECE3;
 $color-accent: #54BCEB;
-$color-accent-1: rgba(86, 188, 235, 0.3);
+$color-accent-1: lighten(#54BCEB, 20%);
 $color-accent-2: darken(#54BCEB, 30%);
 $color-highlight: #FFFFFF;
 $color-shadow: rgba(0, 0, 0, 0.25);
