@@ -13,7 +13,7 @@
 		h1 {
 			color: $color-text;
 			font: {
-				family: $font-subhead;
+				family: $font-text;
 				@include fntz(3);
 				weight: 400;
 			}
