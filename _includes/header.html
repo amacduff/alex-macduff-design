@@ -12,7 +12,7 @@
                          width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
                     <circle fill="#222222" cx="50" cy="50" r="50"/>
                     <g>
-                        <polygon fill="#FFFFFF" points="18.5,74.576 33.195,19.281 44.736,19.281 59.465,74.719 44.129,74.719 39.01,55.297 33.916,74.576 
+                        <polygon fill="#FFFFFF" points="18.5,74.576 33.195,19.281 44.736,19.281 59.465,74.719 44.129,74.719 39.01,55.297 33.916,74.576
                                 "/>
                         <polygon fill="#FFFFFF" points="51.602,19.281 66.904,19.281 81.5,74.646 66.225,74.646   "/>
                     </g>
@@ -20,13 +20,13 @@
 
                     <span class="site-name">{{ site.title }}</span>
                 </a>
-                
+
             </div>
 
             <nav class="site-nav">
 
             {% assign current = page.url | downcase | split: '/' %}
-                
+
                 <ul>
                     <li><a href="{{ site.baseurl }}/" {% if page.category == 'work' %} class="current"{% endif %}>Work</a></li>
                     <li><a href="{{ site.baseurl }}/info" {% if page.category == 'info' %} class="current"{% endif %}>Info</a></li>

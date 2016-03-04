@@ -8,8 +8,12 @@
 .project-title {
 	margin: 5rem auto;
 
-	.update {
-		font-weight: 600;
+	.update,
+	.timeframe {
+		font: {
+			weight: 600;
+		}
+		text-transform: uppercase;
 	}
 
 }
