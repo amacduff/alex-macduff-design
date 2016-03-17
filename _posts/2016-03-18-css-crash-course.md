@@ -60,6 +60,9 @@ It wasn't easy, but I slowly started gathering my thoughts and piecing together 
 ## The Event
 The day of the event I was feeling pretty nervous. I spent some time reviewing my notes and doing some last minute prepping. The event itself was pretty low key, which I appreciated. There were maybe twenty attendees. Abby acted as my <abbr title="Teacher's Assistant">TA</abbr>, which was a real relief. I started with a simple "Hello World" exercise and introduced some basic <abbr title="Hyper Text Markup Language">HTML</abbr>, and then got into the <abbr title="Cascading Style Sheets">CSS</abbr>. Everything went pretty smoothly and everyone was able to keep up the entire time. There were only a handful of questions, most of which I was able to answer. Abby fielded the tougher ones. As I write this, it seems odd to not have more to say about the actual crash course. But in a way, it's very representative of the whole experience; compared to the preparation that preceded it, the evening was fairly short.
 
+<p data-height="400" data-theme-id="0" data-slug-hash="VaPMbx" data-default-tab="result" data-user="amacduff" class="codepen">See the Pen <a href="http://codepen.io/amacduff/pen/VaPMbx/">Fluorescent Snapper</a> by Alex MacDuff (<a href="http://codepen.io/amacduff">@amacduff</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 ## Feedback
 After the event, Abby had a few pieces of constructive criticism, which I gladly accepted. Her three main points, simplified, were as follows:
 
@@ -68,8 +71,6 @@ After the event, Abby had a few pieces of constructive criticism, which I gladly
 - Not enough enthusiasm
 
 She told me all these things were understandable, and assured me that for my first time teaching, I did a great job. I'm looking forward to putting this feedback to good use, not just in future teaching and speaking engagements, but also in interviews.
-
-![]({{ post.url | prepend: site.baseurl }}/img/blog/dailyui_067.jpg)
 
 ## In Summary
 Looking back, I'm a little surprised I volunteered to do this so readily. But whatever made me do it, I'm glad I did. I've said many times before that I want to share the things I've learned with others, and I think this was a pretty good start. I've already volunteered to give a short talk about <abbr title="Syntactically Awesome Style Sheets">Sass</abbr>. After doing a three hour live demo on <abbr title="Cascading Style Sheets">CSS</abbr>, talking for thirty minutes about <abbr title="Syntactically Awesome Style Sheets">Sass</abbr> doesn't seem so intimidating. I look forward to all the things I have yet to learn and share.
