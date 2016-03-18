@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS Crash Course"
-date:   2016-03-18 08:00:00
+date:   2016-03-18 06:00:00
 permalink: css-crash-course/
 categories: css,teaching
 excerpt: Teaching a crash course on CSS was a big step outside my comfort zone, but I learned a lot in the process.
