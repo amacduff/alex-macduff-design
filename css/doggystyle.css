@@ -47,8 +47,58 @@ table {
 	border-spacing: 0;
 }
 
+
+/* Global */
+
+body {
+    color: #333333;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+}
+
+
+/* Headings */
+
+h1,
+h2 {
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333333;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
 /* Header */
 
 header {
     background-color: #A7FFEB;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+/* Sections */
+
+div {
+    height: 100%;
+}
+
+
+/* Welcome */
+
+.welcome {
+	background: url(../img/dog-on-computer.jpg) no-repeat center;
+	background-size: contain;
 }
