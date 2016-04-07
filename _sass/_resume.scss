@@ -1,1 +1,13 @@
 /* Resume */
+
+.resume {
+
+    .item-name {
+        font: {
+            family: $font-text;
+            @include fntz(1.25);
+            weight: 600;
+        }
+    }
+
+}
