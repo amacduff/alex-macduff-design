@@ -2,6 +2,13 @@
 
 .resume {
 
+    h2 {
+        font: {
+            family: $font-heading;
+        }
+        text-transform: capitalize;
+    }
+
     .item-name {
         font: {
             family: $font-text;
