@@ -24,4 +24,14 @@
         }
     }
 
+    ul {
+
+        li {
+            font: {
+                @include fntz(1.15);
+            }
+        }
+
+    }
+
 }
