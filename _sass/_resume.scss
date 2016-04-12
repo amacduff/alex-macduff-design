@@ -1,11 +1,11 @@
 /* Resume */
 
 .resume {
-    margin: 0 auto;
+    margin: 5rem auto;
     width: 90%;
 
     .resume-title {
-        margin: 5rem auto 3rem auto;
+        margin-bottom: 3rem;
 
         h1 {
             color: $color-accent;
@@ -60,6 +60,12 @@
                 @include fntz(1.15);
             }
             line-height: 1.5;
+        }
+
+        .bulletpoint:before {
+            color: lighten($color-text, 50%);
+            content: "▶";
+			padding-right: 1rem;
         }
 
         &:last-child {
