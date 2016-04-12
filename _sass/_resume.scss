@@ -13,6 +13,14 @@
             }
         }
 
+        p {
+            font: {
+                @include fntz(1.5);
+                style: italic;
+                weight: 600;
+            }
+        }
+
     }
 
     h2 {
