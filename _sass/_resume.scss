@@ -34,7 +34,7 @@
         font: {
             family: $font-heading;
         }
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         text-transform: capitalize;
     }
 
@@ -53,13 +53,17 @@
     }
 
     ul {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
 
         li {
             font: {
                 @include fntz(1.15);
             }
             line-height: 1.5;
+        }
+
+        &:last-child {
+            margin-bottom: 5rem;
         }
 
     }
