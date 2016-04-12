@@ -4,6 +4,17 @@
     margin: 0 auto;
     width: 90%;
 
+    .resume-title {
+
+        h1 {
+            color: $color-accent;
+            font: {
+                @include fntz(2.5);
+            }
+        }
+
+    }
+
     h2 {
         color: $color-text;
         font: {
