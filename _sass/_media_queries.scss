@@ -186,6 +186,20 @@
 
 	}
 
+	.resume {
+		width: 90%;
+
+		.column-left {
+			@include grid(7);
+		}
+
+		.column-right {
+			@include grid(5);
+			margin-right: 0;
+		}
+
+	}
+
 	footer {
 
 		ul,
@@ -236,6 +250,10 @@
 	.info,
 	.blog-title,
 	.blog {
+		width: 70%;
+	}
+
+	.resume {
 		width: 70%;
 	}
 
