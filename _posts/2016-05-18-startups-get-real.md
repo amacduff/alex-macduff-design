@@ -18,7 +18,7 @@ I recently read this request from the founder of a mobile app development compan
 
 ![]({{ post.url | prepend: site.baseurl }}/img/blog/finger.svg)
 
-## What I Hate About This Message
+## Three Things I Hate About This Message
 
 ### It targets students and recent grads
 I'll start by saying that this was posted on a boot camp Slack team by a student friend of the person requesting the work. This message was meant to target students and recent grads who are looking for a job.
