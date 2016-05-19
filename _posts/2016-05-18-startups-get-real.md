@@ -47,7 +47,7 @@ This would be like someone going to a college and saying, “I'm a smart person 
 ## Startups, Listen Up
 - If you have a great idea for an app, go get funding for it.
 - If you can't get funding for your idea, it's probably not viable.
-- If you don't have money for something, don't ask for it.
+- If you don't have money for something, don't ask for it for free.
 
 ## On Side Projects
 As if I haven't already voiced enough personal opinion, I'll throw in my two cents regarding side projects. Side projects are great; everyone should have one. They're a good way to try new things, learn new things, and gain experience. Here's the thing, though: work on your own side project.
