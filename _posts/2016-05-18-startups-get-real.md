@@ -4,7 +4,7 @@ title:  "Dear Startups, Stop Asking People to Work for Free"
 date:   2016-05-18 08:00:00
 permalink: dear-startups/
 categories: design,startups,spec
-excerpt: Stop asking designers to work for free.
+excerpt: Startups, wise up.
 ---
 
 ## Background
@@ -39,7 +39,7 @@ But even with all of this vagueness, designers will be considering doing this. S
 
 ![]({{ post.url | prepend: site.baseurl }}/img/blog/finger.svg)
 
-## Getting Real
+## Wise Up
 It's ridiculous to me that this is even an issue. There aren't many professions in existence where this kind of request would be tolerated. I've seen all kinds of analogies for this type of scenario and I don't believe there is a perfect one, but here's one of my own:
 
 This would be like someone going to a college and saying, “I'm a smart person and I would like to start a career, so I need you to educate me. I'm going to need good training, so give me your best! I don't have any money, so I'm not ready to pay at this time. But, if I get a good job, I will be happy to pay you.”
