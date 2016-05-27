@@ -57,7 +57,7 @@
  	ul {
 
  		li:before {
-			content: "▶";
+			content: "»";
 		}
 
  	}
@@ -77,6 +77,10 @@
 
 	img {
 		margin: 2rem 0;
+	}
+
+	iframe {
+		margin: 4rem 0;
 	}
 
 }

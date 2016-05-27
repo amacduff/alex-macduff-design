@@ -7,6 +7,15 @@
 
 .project-title {
 	margin: 5rem auto;
+
+	.update,
+	.timeframe {
+		font: {
+			weight: 600;
+		}
+		text-transform: uppercase;
+	}
+
 }
 
 .process {
@@ -46,7 +55,7 @@
 
 		li:before {
 			color: lighten($color-text, 50%);
-			content: "▶";
+			content: "»";
 			padding-right: 1rem;
 		}
 
@@ -70,5 +79,10 @@
  		vertical-align: middle;
  		width: 3rem;
  	}
+
+	.revision {
+		border-top: 2px solid $color-highlight;
+		padding-top: 5rem;
+	}
 
 }

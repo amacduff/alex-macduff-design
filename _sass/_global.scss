@@ -85,6 +85,10 @@ em {
 	font-style: italic;
 }
 
+abbr {
+	border-bottom: 1px dotted lighten($color-text, 50%);
+}
+
 img {
 	max-width: 100%;
 }
