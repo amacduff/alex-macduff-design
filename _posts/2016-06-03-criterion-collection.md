@@ -8,7 +8,7 @@ excerpt: A few things I've learned as a Criterion fanboy.
 ---
 
 ## Chasing Amy
-I remember the first Criterion DVD I bought: Chasing Amy. This was somewhere around the year 2001 or 2001, back when I was collecting DVDs like baseball cards. Or, for you younger folk, like Pokémon cards. I had already built up a decent collection, so DVDs were nothing new to me. But there was something different about this one.
+I remember the first Criterion DVD I bought: _Chasing Amy_. This was somewhere around the year 2001 or 2001, back when I was collecting DVDs like baseball cards. Or, for you younger folk, like Pokémon cards. I had already built up a decent collection, so DVDs were nothing new to me. But there was something different about this one.
 
 First, on the front cover it read, "The Criterion Collection". Now, I was used to seeing all kinds of things on DVD packaging: Special Edition, Collector's Edition, Unrated Edition, etc., but I wasn't familiar with this nomenclature: "The Criterion Collection". Okay, whatever.
 
@@ -18,9 +18,9 @@ The next thing I noticed was the spine; it was numbered. Huh. Now _that_ peaked 
 
 But the thing that really stood out to me was the insert. Most movies come with a flimsy one-piece foldover with a repeated cover image, a few details about the film (maybe), and a list of disc chapters. This disc came with a booklet that was made to look like a comic book (which was appropriate for the film) and, in addition to the usual stuff, included a note from the director and a guide to the characters.
 
-All in all, Criterion's packaging for Chasing Amy is pretty modest. In fact, in comparison to most of the titles in the Criterion Collection, I would say Chasing Amy is one of the least notable treatments. And yet it still stands out against the vast majority of DVD packaging out there.
+All in all, Criterion's packaging for _Chasing Amy_ is pretty modest. In fact, in comparison to most of the titles in the Criterion Collection, I would say _Chasing Amy_ is one of the least notable treatments. And yet it still stands out against the vast majority of DVD packaging out there.
 
-All that to say, since picking up that first disc, I have been a fan of the folks at Criterion. They have opened my eyes to a number of films I might have otherwise not discovered, like For All Mankind or House, and they have created definitive versions of some of my favorite films, like Days of Heaven and Paths of Glory. They even introduced me to my new favorite director, Akira Kurosawa. What's more, they've taught me some important things about design.
+All that to say, since picking up that first disc, I have been a fan of the folks at Criterion. They have opened my eyes to a number of films I might have otherwise not discovered, like _For All Mankind_ or _House_, and they have created definitive versions of some of my favorite films, like _Days of Heaven_ and _Paths of Glory_. They even introduced me to my new favorite director, Akira Kurosawa. What's more, they've taught me some important things about design.
 
 ![]({{ post.url | prepend: site.baseurl }}/img/blog/criterion-collection-smith.png)
 
