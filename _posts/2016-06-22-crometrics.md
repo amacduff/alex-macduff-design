@@ -51,7 +51,7 @@ Like many other teams these days, CROmetrics is a distributed company. As with e
 ### A Few Challenges
 - Difficulty working across time zones
 - Communication requires more work
-- Employees shoulder the cost of dedicated work space
+- As independent contractors, everyone pays for their own tools and work space
 
 CROmetrics does a great job of keeping its team members connected via tools like Slack, Trello, and regular video chats. Additionally, there are a handful of team members in Austin who are starting a coworking space. I'm looking forward to the possibility of sharing an office space with colleagues.
 
