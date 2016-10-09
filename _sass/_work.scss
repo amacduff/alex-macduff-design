@@ -14,8 +14,8 @@
 			color: $color-text;
 			font: {
 				family: $font-text;
-				@include fntz(3);
-				weight: 600;
+				@include fntz(1.65);
+				weight: 700;
 			}
 			line-height: 1.25em;
 			padding-bottom: 0;

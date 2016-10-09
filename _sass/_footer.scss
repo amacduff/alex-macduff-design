@@ -31,11 +31,10 @@ footer {
 			display: inline-block;
 			font: {
 				family: $font-subhead;
-				weight: 700;
+				weight: 400;
 			}
 			line-height: 2em;
 			padding-right: 0.25rem;
-			text-transform: uppercase;
 
 			&:after {
 				content: " /";

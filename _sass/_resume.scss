@@ -19,7 +19,7 @@
             font: {
                 @include fntz(1.5);
                 style: italic;
-                weight: 600;
+                weight: 400;
             }
         }
 
@@ -42,7 +42,7 @@
         font: {
             family: $font-text;
             @include fntz(1.25);
-            weight: 600;
+            weight: 400;
         }
     }
 
