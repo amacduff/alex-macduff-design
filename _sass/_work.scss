@@ -1,7 +1,7 @@
 /* Work */
 
 .ui-designer {
-	background-color: darken($color-background, 5%);
+	background-color: $color-background-2;
 	display: block;
 	overflow: hidden;
 
@@ -32,7 +32,7 @@
 
 .project {
 	overflow: hidden;
-	padding: 4rem 0;
+	padding: 2rem 0;
 
 	.project-container {
 		margin: 0 auto;
@@ -46,10 +46,15 @@
 	.details,
 	.sample {
 		@include grid(12);
+
+		h2 {
+			margin-bottom: 0.5rem;
+		}
+
 	}
 
 	.sample {
-		margin-top: 3rem;
+		margin-bottom: 1rem;
 
 		&.mobile {
 			text-align: center;
