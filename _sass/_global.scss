@@ -9,6 +9,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.colorbar {
+	background-image:
+	    linear-gradient(
+		    to right,
+	        $color-accent, $color-accent-3
+	    );
+	height: 0.5rem;
+}
+
 p {
 	font: {
 		@include fntz(1.15);
