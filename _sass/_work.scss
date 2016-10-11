@@ -1,23 +1,24 @@
 /* Work */
 
 .ui-designer {
-	background-color: $color-background-2;
+	border-bottom: 1px solid $color-border;
 	display: block;
 	overflow: hidden;
 
 	.statement {
 		box-sizing: border-box;
-		@include grid(11);
-		padding: 5rem 0 4rem 5%;
+		margin: 0 auto;
+		overflow: hidden;
+		padding: 5rem 0 4rem 0;
+		width: 90%;
 
 		h1 {
 			color: $color-text;
 			font: {
 				family: $font-text;
-				@include fntz(1.65);
+				@include fntz(1.35);
 				weight: 700;
 			}
-			line-height: 1.25em;
 			padding-bottom: 0;
 		}
 
@@ -27,44 +28,27 @@
 
 .work {
 	clear: both;
-	padding-bottom: 4rem;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 4rem 0;
+	width: 90%;
 }
 
 .project {
 	overflow: hidden;
 	padding: 2rem 0;
 
-	.project-container {
-		margin: 0 auto;
-		width: 90%;
-	}
-
-	&:nth-child(odd) {
-		background-color: lighten($color-background, 5%);
-	}
-
 	.details,
 	.sample {
-		@include grid(12);
 
 		h2 {
-			margin-bottom: 0.5rem;
+			margin-bottom: 0.25rem;
 		}
 
 	}
 
-	.sample {
-		margin-bottom: 1rem;
-
-		&.mobile {
-			text-align: center;
-
-			img {
-				max-height: 20rem;
-			}
-
-		}
-
+	.details {
+		padding-top: 0.5rem;
 	}
 
 	.more-link {

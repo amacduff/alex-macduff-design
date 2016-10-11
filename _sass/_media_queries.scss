@@ -1,6 +1,6 @@
 /* Media Queries */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 481px) {
 
 	.top-bar {
 		font: {
@@ -35,28 +35,11 @@
 
 	}
 
-	.ui-designer .statement {
-		padding-left: 15%;
-	}
-
 	.project {
+		@include grid(6);
 
-		.project-container {
-			width: 70%;
-		}
-
-		.sample {
-			@include grid(8);
-
-			&.mobile {
-				text-align: left;
-
-				img {
-					max-height: 100%;
-				}
-
-			}
-
+		&:nth-child(even) {
+			margin-right: 0;
 		}
 
 	}
@@ -91,35 +74,50 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 601px) {
 
 	.ui-designer .statement {
-		padding-left: 5%;
+
+		h1 {
+			@include grid(4);
+		}
+
+		p {
+			@include grid(8);
+		}
+
 	}
 
 	.project {
+		@include grid(4);
 
-		.project-container {
-			width: 90%;
+		&:nth-child(even) {
+			margin-right: 5%;
 		}
 
-		.details {
-			@include grid (6);
-
-			&.even {
-				box-sizing: border-box;
-				float: right;
-				padding-left: 5%;
-			}
-
+		&:nth-child(3n+3) {
+			margin-right: 0;
 		}
 
-		.sample {
-			@include grid(6);
-			margin-top: 0;
+		&:nth-child(4) {
+			clear: both;
 		}
 
 	}
+
+}
+
+@media screen and (min-width: 961px) {
+
+	.ui-designer .statement,
+	.work,
+	.footie {
+		max-width: 960px;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
 
 	.process {
 
@@ -211,8 +209,7 @@
 			float: left;
 		}
 
-		p,
-		.back-to-top {
+		p {
 			float: right;
 			padding-bottom: 0;
 			text-align: right;
@@ -223,18 +220,6 @@
 }
 
 @media screen and (min-width: 1400px) {
-
-	.ui-designer .statement {
-		padding-left: 15%;
-	}
-
-	.project {
-
-		.project-container {
-			width: 70%;
-		}
-
-	}
 
 	.alex {
 		height: 33rem;
@@ -255,20 +240,6 @@
 
 	.resume {
 		width: 70%;
-	}
-
-	footer {
-
-		ul,
-		p,
-		.back-to-top {
-			width: 33.3333%;
-		}
-
-		.back-to-top {
-			text-align: center;
-		}
-
 	}
 
 }
