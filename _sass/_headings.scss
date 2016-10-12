@@ -2,26 +2,23 @@
 
 h1 {
 	font: {
-		family: $font-heading;
-		@include fntz(2);
+		@include fntz(1.35);
+		weight: 700;
 	}
 	line-height: 1.25em;
 }
 
 h2 {
-	color: lighten($color-text, 15%);
 	font: {
-		family: $font-subhead;
-		@include fntz(1.75);
+		@include fntz(1.15);
 		weight: 700;
 	}
-	text-transform: uppercase;
 }
 
 h3 {
+	color: lighten($color-text, 25%);
 	font: {
-		@include fntz(1.5);
-		style: italic;
+		@include fntz(1.15);
 	}
 }
 

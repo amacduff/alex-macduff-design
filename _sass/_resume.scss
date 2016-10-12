@@ -2,27 +2,44 @@
 
 .resume {
     margin: 5rem auto;
+    overflow: hidden;
     width: 90%;
 
     .resume-title {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
 
         h1 {
-            color: $color-accent;
-            font: {
-                @include fntz(2.5);
-            }
             margin-bottom: 0;
         }
 
         p {
             font: {
-                @include fntz(1.5);
+                @include fntz(1.15);
                 style: italic;
-                weight: 600;
+                weight: 400;
             }
         }
 
+    }
+
+    .resume-download {
+        margin-bottom: 3rem;
+
+        a {
+    		border-bottom: 1px solid $color-text;
+            line-height: 2;
+
+            &:hover {
+    			border-bottom: 1px solid $color-accent;
+                color: $color-accent;
+            }
+
+    	}
+
+    }
+
+    .column-left {
+        clear: both;
     }
 
     #contact-info {
@@ -30,19 +47,19 @@
     }
 
     h2 {
+        border-bottom: 1px solid $color-border;
         color: $color-text;
         font: {
             family: $font-heading;
         }
         margin-bottom: 2rem;
+        padding-bottom: 1rem;
         text-transform: capitalize;
     }
 
     .item-name {
         font: {
-            family: $font-text;
-            @include fntz(1.25);
-            weight: 600;
+            weight: 700;
         }
     }
 

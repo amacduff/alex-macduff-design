@@ -1,6 +1,6 @@
 /* Media Queries */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 481px) {
 
 	.top-bar {
 		font: {
@@ -35,46 +35,17 @@
 
 	}
 
-	.ui-designer .statement {
-		padding-left: 15%;
-	}
-
 	.project {
+		@include grid(6);
 
-		.project-container {
-			width: 70%;
-		}
-
-		.sample {
-			@include grid(8);
-
-			&.mobile {
-				text-align: left;
-
-				img {
-					max-height: 100%;
-				}
-
-			}
-
+		&:nth-child(odd) {
+			margin-right: 0;
 		}
 
 	}
 
 	.alex {
 		height: 21rem;
-	}
-
-	.project-title,
-	.process,
-	.info,
-	.blog-title,
-	.blog {
-		width: 70%;
-	}
-
-	.resume {
-		width: 70%;
 	}
 
 	footer {
@@ -91,35 +62,79 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 601px) {
 
-	.ui-designer .statement {
-		padding-left: 5%;
+	.ui-designer .statement,
+	.contact-info,
+	.elsewhere {
+
+		h1 {
+			@include grid(4);
+		}
+
+		p,
+		ul {
+			@include grid(8);
+		}
+
 	}
 
 	.project {
+		@include grid(4);
 
-		.project-container {
-			width: 90%;
+		&:nth-child(odd) {
+			margin-right: 5%;
 		}
 
-		.details {
-			@include grid (6);
-
-			&.even {
-				box-sizing: border-box;
-				float: right;
-				padding-left: 5%;
-			}
-
+		&:nth-child(4) {
+			margin-right: 0;
 		}
 
-		.sample {
-			@include grid(6);
-			margin-top: 0;
+		&:nth-child(7) {
+			margin-right: 0;
+		}
+
+		&:nth-child(5) {
+			clear: both;
 		}
 
 	}
+
+}
+
+@media screen and (min-width: 901px) {
+
+	.ui-designer .statement,
+	.work,
+	.project-title,
+	.process,
+	.resume,
+	.footie {
+		max-width: 900px;
+	}
+
+	.resume {
+
+		.resume-title,
+		.column-left {
+			@include grid(7);
+		}
+
+		.resume-title {
+			margin-bottom: 3rem;
+		}
+
+		.resume-download,
+		.column-right {
+			@include grid(5);
+			margin-right: 0;
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
 
 	.process {
 
@@ -186,20 +201,6 @@
 
 	}
 
-	.resume {
-		width: 90%;
-
-		.column-left {
-			@include grid(7);
-		}
-
-		.column-right {
-			@include grid(5);
-			margin-right: 0;
-		}
-
-	}
-
 	footer {
 
 		ul,
@@ -211,30 +212,11 @@
 			float: left;
 		}
 
-		p,
-		.back-to-top {
-			float: right;
-			padding-bottom: 0;
-			text-align: right;
-		}
-
 	}
 
 }
 
 @media screen and (min-width: 1400px) {
-
-	.ui-designer .statement {
-		padding-left: 15%;
-	}
-
-	.project {
-
-		.project-container {
-			width: 70%;
-		}
-
-	}
 
 	.alex {
 		height: 33rem;
@@ -255,20 +237,6 @@
 
 	.resume {
 		width: 70%;
-	}
-
-	footer {
-
-		ul,
-		p,
-		.back-to-top {
-			width: 33.3333%;
-		}
-
-		.back-to-top {
-			text-align: center;
-		}
-
 	}
 
 }
