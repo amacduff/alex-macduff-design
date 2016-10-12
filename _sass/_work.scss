@@ -66,4 +66,47 @@
 
 	}
 
+	&:nth-child(7) {
+		padding-bottom: 4rem;
+	}
+
+}
+
+.contact-info,
+.elsewhere {
+	border-top: 1px solid $color-border;
+	clear: both;
+	overflow: hidden;
+	padding: 4rem 0;
+
+	h1 {
+		margin-bottom: 2.5rem;
+	}
+
+	ul {
+
+		li {
+			font: {
+				@include fntz(1.15);
+			}
+			line-height: 1.5;
+			margin-bottom: 0.25rem;
+		}
+
+	}
+
+	a {
+		border-bottom: 1px solid $color-text;
+
+        &:hover {
+			border-bottom: 1px solid $color-accent;
+            color: $color-accent;
+        }
+
+	}
+
+}
+
+.elsewhere {
+	padding-bottom: 0;
 }

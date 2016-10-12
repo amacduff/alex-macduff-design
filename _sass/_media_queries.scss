@@ -38,7 +38,7 @@
 	.project {
 		@include grid(6);
 
-		&:nth-child(even) {
+		&:nth-child(odd) {
 			margin-right: 0;
 		}
 
@@ -76,13 +76,16 @@
 
 @media screen and (min-width: 601px) {
 
-	.ui-designer .statement {
+	.ui-designer .statement,
+	.contact-info,
+	.elsewhere {
 
 		h1 {
 			@include grid(4);
 		}
 
-		p {
+		p,
+		ul {
 			@include grid(8);
 		}
 
@@ -91,15 +94,19 @@
 	.project {
 		@include grid(4);
 
-		&:nth-child(even) {
+		&:nth-child(odd) {
 			margin-right: 5%;
 		}
 
-		&:nth-child(3n+3) {
+		&:nth-child(4) {
 			margin-right: 0;
 		}
 
-		&:nth-child(4) {
+		&:nth-child(7) {
+			margin-right: 0;
+		}
+
+		&:nth-child(5) {
 			clear: both;
 		}
 
@@ -107,12 +114,12 @@
 
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 901px) {
 
 	.ui-designer .statement,
 	.work,
 	.footie {
-		max-width: 960px;
+		max-width: 900px;
 	}
 
 }
@@ -207,12 +214,6 @@
 
 		ul {
 			float: left;
-		}
-
-		p {
-			float: right;
-			padding-bottom: 0;
-			text-align: right;
 		}
 
 	}
