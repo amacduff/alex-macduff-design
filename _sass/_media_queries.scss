@@ -48,18 +48,6 @@
 		height: 21rem;
 	}
 
-	.project-title,
-	.process,
-	.info,
-	.blog-title,
-	.blog {
-		width: 70%;
-	}
-
-	.resume {
-		width: 70%;
-	}
-
 	footer {
 
 		ul,
@@ -118,8 +106,30 @@
 
 	.ui-designer .statement,
 	.work,
+	.project-title,
+	.process,
+	.resume,
 	.footie {
 		max-width: 900px;
+	}
+
+	.resume {
+
+		.resume-title,
+		.column-left {
+			@include grid(7);
+		}
+
+		.resume-title {
+			margin-bottom: 3rem;
+		}
+
+		.resume-download,
+		.column-right {
+			@include grid(5);
+			margin-right: 0;
+		}
+
 	}
 
 }
@@ -187,20 +197,6 @@
 		.recent-posts {
 			@include grid(4);
 			margin-top: 4rem;
-		}
-
-	}
-
-	.resume {
-		width: 90%;
-
-		.column-left {
-			@include grid(7);
-		}
-
-		.column-right {
-			@include grid(5);
-			margin-right: 0;
 		}
 
 	}
