@@ -1,7 +1,7 @@
 /* Resume */
 
 .resume {
-    margin: 5rem auto;
+    margin: 0 auto 4rem auto;
     overflow: hidden;
     width: 90%;
 
@@ -27,7 +27,7 @@
 
         a {
     		border-bottom: 1px solid $color-text;
-            line-height: 2;
+            line-height: 1.95;
 
             &:hover {
     			border-bottom: 1px solid $color-accent;
