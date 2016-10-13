@@ -62,6 +62,18 @@
 
 }
 
+@media screen and (max-width: 600px) {
+
+	.ui-designer .statement {
+
+		h1 {
+			margin-bottom: 4rem;
+		}
+
+	}
+
+}
+
 @media screen and (min-width: 601px) {
 
 	.ui-designer .statement,
