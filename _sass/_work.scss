@@ -9,16 +9,17 @@
 		box-sizing: border-box;
 		margin: 0 auto;
 		overflow: hidden;
-		padding: 5rem 0 4rem 0;
+		padding-bottom: 4rem;
 		width: 90%;
 
 		h1 {
 			color: $color-text;
 			font: {
-				family: $font-text;
-				@include fntz(1.35);
-				weight: 700;
+				@include fntz(1.15);
+				style: italic;
+				weight: 400;
 			}
+			line-height: 1.5;
 			padding-bottom: 0;
 		}
 
