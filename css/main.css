@@ -5,9 +5,8 @@ Error: Invalid CSS after "@charset "utf-8"": expected "{", was ";"
 1: ---
 2: # Only the main Sass file needs front matter (the dashes are enough)
 3: ---
-4: @charset "utf-8";
 5: 
-6: 
+6:
 7: // Import partials from `sass_dir` (defaults to `_sass`)
 8: @import
 9:         "variables",
