@@ -131,11 +131,15 @@ img {
 }
 
 ::-moz-selection {
-  background-color: $color-highlight;
+  background-color: $color-accent-1;
+}
+
+::-o-selection {
+	background-color: $color-accent-1;
 }
 
 ::selection {
-  background-color: $color-highlight;
+  background-color: $color-accent-1;
 }
 
 :focus {

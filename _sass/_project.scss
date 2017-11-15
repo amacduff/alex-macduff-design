@@ -1,7 +1,8 @@
 /* Project Styles */
 
 .project-title,
-.process {
+.process,
+.case-study {
 	width: 90%;
 }
 
@@ -21,6 +22,75 @@
 }
 
 .process {
+	margin: 0 auto 4rem auto;
+
+	section {
+		clear: both;
+		overflow: hidden;
+		margin-top: 4rem;
+	}
+
+	.summary,
+	.image {
+		@include grid(12);
+	}
+
+	.summary {
+		margin-bottom: 2rem;
+	}
+
+	ul,
+	dl {
+		font: {
+			@include fntz(1.15);
+		}
+		line-height: 1.5em;
+	}
+
+	ul {
+		margin-left: 0;
+		padding-left: 2rem;
+		text-indent: -2rem;
+
+		li {
+			margin-bottom: 1.5rem;
+		}
+
+		li:before {
+			color: lighten($color-text, 50%);
+			content: "»";
+			padding-right: 1rem;
+		}
+
+ 	}
+
+ 	dl {
+
+ 		dt {
+ 			font: {
+				style: italic;
+ 				weight: 400;
+ 			}
+ 			margin: 1.5rem 0 0.5rem 0;
+ 		}
+
+ 	}
+
+ 	.persona-photo {
+ 		border-radius: 50%;
+ 		margin-right: 1rem;
+ 		vertical-align: middle;
+ 		width: 3rem;
+ 	}
+
+	.revision {
+		border-top: 1px solid $color-border;
+		padding-top: 4rem;
+	}
+
+}
+
+.case-study {
 	margin: 0 auto 4rem auto;
 
 	section {
