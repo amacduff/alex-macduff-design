@@ -2,7 +2,8 @@
 
 .project-title,
 .process,
-.case-study {
+.case-study,
+.quick-navigation {
 	width: 90%;
 	max-width: 43.75rem;
 }
@@ -43,7 +44,7 @@
 	ul,
 	dl {
 		font: {
-			@include fntz(1.15);
+			@include fntz(1.3);
 		}
 		line-height: 1.5em;
 	}
@@ -96,8 +97,9 @@
 
 	section {
 		clear: both;
-		overflow: hidden;
+		margin-bottom: 1rem;
 		margin-top: 4rem;
+		overflow: hidden;
 	}
 
 	.summary,
@@ -112,7 +114,7 @@
 	ul,
 	dl {
 		font: {
-			@include fntz(1.15);
+			@include fntz(1.3);
 		}
 		line-height: 1.5em;
 	}
@@ -168,6 +170,36 @@
 	.img-container {
 		margin: 0 auto;
 		max-width: 800px;
+	}
+
+}
+
+.quick-navigation {
+	border-top: 1px solid $color-border;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 4rem 0;
+
+	.prev-link {
+		float: left;
+	}
+
+	.next-link {
+		float: right;
+	}
+
+	a {
+		border-bottom: 1px solid $color-text;
+		font: {
+			@include fntz(1.3);
+		}
+		line-height: 1.3;
+
+		&:hover {
+			border-bottom: 1px solid $color-accent;
+            color: $color-accent;
+        }
+
 	}
 
 }
