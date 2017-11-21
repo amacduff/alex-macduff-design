@@ -4,6 +4,7 @@
 .process,
 .case-study {
 	width: 90%;
+	max-width: 43.75rem;
 }
 
 .project-title {
@@ -91,7 +92,7 @@
 }
 
 .case-study {
-	margin: 0 auto 4rem auto;
+	margin: 0 auto;
 
 	section {
 		clear: both;
@@ -155,6 +156,18 @@
 	.revision {
 		border-top: 1px solid $color-border;
 		padding-top: 4rem;
+	}
+
+}
+
+.image-break {
+	background: #fafafa;
+	padding: 4rem 0 2.5rem 0;
+	text-align: center;
+
+	.img-container {
+		margin: 0 auto;
+		max-width: 800px;
 	}
 
 }
