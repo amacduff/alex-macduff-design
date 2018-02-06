@@ -100,6 +100,12 @@
 
         }
 
+        &.tools .bulletpoint,
+        &.languages .bulletpoint,
+        &.methods .bulletpoint {
+            padding-top: 0;
+        }
+
         .bulletpoint:before {
           color: lighten($color-text, 50%);
           content: "»";
