@@ -1,0 +1,45 @@
+/*
+Error: Invalid CSS after "..."media_queries"": expected "{", was ";"
+        on line 20 of main.scss
+
+15:         "goodreads",
+16:         "blog",
+17:         "footer",
+18:         "splash",
+19:         "media_queries"
+20: ;
+
+Backtrace:
+main.scss:20
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin.rb:109:in `method_missing'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:383:in `watch_or_update'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/alexmacduff/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...\"media_queries\"\": expected \"{\", was \";\"\A         on line 20 of main.scss\A \A 15:         \"goodreads\",\A 16:         \"blog\",\A 17:         \"footer\",\A 18:         \"splash\",\A 19:         \"media_queries\"\A 20: ;"; }
