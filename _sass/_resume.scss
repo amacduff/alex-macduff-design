@@ -19,6 +19,13 @@
                 style: italic;
                 weight: 400;
             }
+
+            &.resume-statement {
+                font: {
+                    style: normal;
+                }
+            }
+
         }
 
     }
@@ -62,6 +69,13 @@
         font: {
             weight: 700;
         }
+
+        .company {
+            font: {
+                weight: 400;
+            }
+        }
+
     }
 
     .timeframe {
@@ -78,12 +92,19 @@
                 @include fntz(1.15);
             }
             line-height: 1.5;
+
+            &.bulletpoint {
+              margin-left: 1.5rem;
+              padding-top: 0.75rem;
+            }
+
         }
 
         .bulletpoint:before {
-            color: lighten($color-text, 50%);
-            content: "»";
-			padding-right: 1rem;
+          color: lighten($color-text, 50%);
+          content: "»";
+          margin-left: -1.5rem;
+          padding-right: 0.95rem;
         }
 
         &:last-child {
