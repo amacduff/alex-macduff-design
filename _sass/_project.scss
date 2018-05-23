@@ -59,7 +59,6 @@
 	}
 
 	.division {
-		border-bottom: 3px solid $color-text-2;
 		margin-bottom: 2rem;
 		width: 50px;
 	}
@@ -72,6 +71,22 @@
 		text-transform: uppercase;
 	}
 
+}
+
+#apfm-hero .division {
+	border-bottom: 5px solid $color-project-1;
+}
+
+#pebble-hero .division {
+	border-bottom: 5px solid $color-project-2;
+}
+
+#leankit-hero .division {
+	border-bottom: 5px solid $color-project-3;
+}
+
+#earnest-hero .division {
+	border-bottom: 5px solid $color-project-4;
 }
 
 .process {
