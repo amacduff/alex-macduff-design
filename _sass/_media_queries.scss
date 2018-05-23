@@ -230,17 +230,15 @@
 }
 
 @media screen and (min-width: 901px) {
-/*
-	.home-link,
-	.ui-designer .statement,
-	.work,
-	.project-title,
-	.process,
-	.resume,
-	.footie {
-		max-width: 900px;
+
+	.image-break {
+
+		.img-container {
+			margin: 0 auto;
+			max-width: 50rem;
+		}
+
 	}
-	*/
 
 	.resume {
 
