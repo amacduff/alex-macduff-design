@@ -2,7 +2,7 @@
 
 $tot-width: 100%;
 $tot-num-col: 12;
-$gut-width: 5%;
+$gut-width: 0;
 $col-width: ($tot-width - (($tot-num-col - 1)*$gut-width))/$tot-num-col;
 
 @mixin grid($col-num) {

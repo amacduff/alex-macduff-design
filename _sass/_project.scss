@@ -4,14 +4,65 @@
 .process,
 .case-study,
 .quick-navigation {
-	width: 90%;
-	max-width: 43.75rem;
+	padding: 0 5%;
 }
 
 .project-title {
-	border-bottom: 1px solid $color-border;
 	margin: 0 auto;
-	padding: 2rem 0 3rem 0;
+	padding: 4rem 5%;
+
+	&#apfm-hero {
+		background: url('../img/apfm-hero.jpg') center;
+	}
+
+	&#pebble-hero {
+		background: url('../img/pebble-hero.jpg') center;
+	}
+
+	&#leankit-hero {
+		background: url('../img/leankit-hero.jpg') center;
+	}
+
+	&#earnest-hero {
+		background: url('../img/earnest-hero.jpg') center;
+	}
+
+	&#apfm-hero,
+	&#pebble-hero,
+	&#leankit-hero,
+	&#earnest-hero {
+		background-size: cover;
+	}
+
+	.overview {
+		margin: 0 auto;
+		max-width: 43.75rem;
+		width: 100%;
+	}
+
+	h1,
+	h2,
+	p {
+		color: $color-text-2;
+	}
+
+	h1 {
+		margin-bottom: 0.5rem;
+	}
+
+	h2 {
+		margin-bottom: 2rem;
+	}
+
+	p {
+		text-transform: uppercase;
+	}
+
+	.division {
+		border-bottom: 3px solid $color-text-2;
+		margin-bottom: 2rem;
+		width: 50px;
+	}
 
 	.update,
 	.timeframe {
@@ -94,6 +145,7 @@
 
 .case-study {
 	margin: 0 auto;
+	max-width: 43.75rem;
 
 	section {
 		clear: both;
@@ -163,13 +215,28 @@
 }
 
 .image-break {
-	background: #fafafa;
 	padding: 4rem 0 2.5rem 0;
 	text-align: center;
 
 	.img-container {
-		margin: 0 auto;
-		max-width: 800px;
+		margin: 0 5%;
+		max-width: 43.75rem;
+	}
+
+	&.apfm {
+		background-color: $color-project-1;
+	}
+
+	&.pebble {
+		background-color: $color-project-2;
+	}
+
+	&.leankit {
+		background-color: $color-project-3;
+	}
+
+	&.earnest {
+		background-color: $color-project-4;
 	}
 
 }
@@ -177,8 +244,9 @@
 .quick-navigation {
 	border-top: 1px solid $color-border;
 	margin: 0 auto;
+	max-width: 43.75rem;
 	overflow: hidden;
-	padding: 4rem 0;
+	padding: 4rem 5%;
 
 	.prev-link {
 		float: left;
@@ -189,17 +257,10 @@
 	}
 
 	a {
-		border-bottom: 1px solid $color-text;
 		font: {
-			@include fntz(1.3);
+			weight: 600;
 		}
 		line-height: 1.3;
-
-		&:hover {
-			border-bottom: 1px solid $color-accent;
-            color: $color-accent;
-        }
-
 	}
 
 }
