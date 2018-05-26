@@ -12,6 +12,17 @@
 
 	}
 
+	.summary {
+
+		h2 {
+			font: {
+				@include fntz(1.6);
+			}
+			margin-bottom: .95rem;
+		}
+
+	}
+
 	p,
 	.quick-navigation,
 	footer p {
@@ -121,6 +132,24 @@
 
 	}
 
+	.worklist {
+
+		article {
+
+			.thumb-desc {
+
+				h2 {
+					font: {
+						@include fntz(1.6);
+					}
+				}
+
+			}
+
+		}
+
+	}
+
 	.contact-info {
 
 		span {
@@ -215,6 +244,17 @@
 
 			}
 
+		}
+
+	}
+
+	.summary {
+
+		h2 {
+			font: {
+				@include fntz(1.75);
+			}
+			margin-bottom: 1.1rem;
 		}
 
 	}
@@ -421,6 +461,17 @@
 			}
 
 		}
+
+	}
+
+	.summary {
+
+		h2 {
+			font: {
+				@include fntz(2);
+			}
+		}
+		margin-bottom: 1.35rem;
 
 	}
 
