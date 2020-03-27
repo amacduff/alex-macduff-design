@@ -11,6 +11,14 @@
 	margin: 0 auto;
 	padding: 4rem 5%;
 
+	&#deverus-cert-hero {
+		background: url('../img/deverus-cert-hero.jpg') center;
+	}
+
+	&#deverus-empv-hero {
+		background: url('../img/deverus-empv-hero.jpg') center;
+	}
+
 	&#apfm-hero {
 		background: url('../img/apfm-hero.jpg') center;
 	}
@@ -73,20 +81,28 @@
 
 }
 
-#apfm-hero .division {
+#deverus-cert-hero .division {
 	border-bottom: 5px solid $color-project-1;
 }
 
-#pebble-hero .division {
+#deverus-empv-hero .division {
 	border-bottom: 5px solid $color-project-2;
 }
 
-#leankit-hero .division {
+#apfm-hero .division {
 	border-bottom: 5px solid $color-project-3;
 }
 
-#earnest-hero .division {
+#pebble-hero .division {
 	border-bottom: 5px solid $color-project-4;
+}
+
+#leankit-hero .division {
+	border-bottom: 5px solid $color-project-5;
+}
+
+#earnest-hero .division {
+	border-bottom: 5px solid $color-project-6;
 }
 
 .process {
@@ -181,8 +197,13 @@
 			font: {
 				weight: 800;
 			}
+
+			&.extraroom {
+				margin-top: 4rem;
+			}
+
 		}
-		
+
 	}
 
 	ul,
@@ -245,20 +266,28 @@
 		max-width: 43.75rem;
 	}
 
-	&.apfm {
+	&.deverus-cert {
 		background-color: $color-project-1;
 	}
 
-	&.pebble {
+	&.deverus-empv {
 		background-color: $color-project-2;
 	}
 
-	&.leankit {
+	&.apfm {
 		background-color: $color-project-3;
 	}
 
-	&.earnest {
+	&.pebble {
 		background-color: $color-project-4;
+	}
+
+	&.leankit {
+		background-color: $color-project-5;
+	}
+
+	&.earnest {
+		background-color: $color-project-6;
 	}
 
 }

@@ -190,10 +190,26 @@
 			background-color: $color-project-4;
 		}
 
+		&:nth-child(5)::before {
+			background-color: $color-project-5;
+		}
+
+		&:nth-child(6)::before {
+			background-color: $color-project-6;
+		}
+
 		&:hover::before {
 		    opacity: 0;
 		}
 
+	}
+
+	#deverus1 {
+		background: url('../img/deverus-cert-thumb.jpg') center center;
+	}
+
+	#deverus2 {
+		background: url('../img/deverus-empv-thumb.jpg') center center;
 	}
 
 	#apfm {
