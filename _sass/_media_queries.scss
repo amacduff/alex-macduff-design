@@ -68,7 +68,7 @@
 
 	}
 
-	.ui-designer,
+	.ux-designer,
 	.project-title,
 	.contact-info {
 
@@ -117,7 +117,7 @@
 
 @media screen and (min-width: 601px) {
 
-	.ui-designer .statement,
+	.ux-designer .statement,
 	.contact-info,
 	.elsewhere {
 
@@ -183,10 +183,14 @@
 
 @media screen and (min-width: 737px) {
 
-	.ui-designer,
+	.ux-designer {
+		padding: 8rem 5% 6rem;
+	}
+
+	.ux-designer,
 	.project-title,
 	.contact-info {
-		
+
 		.statement,
 		.overview {
 
@@ -393,6 +397,10 @@
 
 @media screen and (min-width: 1281px) {
 
+	.ux-designer {
+		padding: 10rem 5% 6rem;
+	}
+
 	.home-link {
 
 		a {
@@ -403,7 +411,7 @@
 
 	}
 
-	.ui-designer,
+	.ux-designer,
 	.project-title {
 		height: 40vh;
 	    min-height: 15rem;
