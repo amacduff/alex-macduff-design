@@ -11,7 +11,7 @@ html {
 
 body {
 	background-color: $color-bg-1;
-	color: $color-text;
+	color: $color-text-1;
 	font: {
 		family: $font-text;
 	}
@@ -25,6 +25,8 @@ body {
 	padding: 0.65rem 5%;
 
 	a {
+		border-bottom: none;
+		color: $color-accent;
 		font: {
 			@include fntz(.85);
 			weight: 800;
@@ -32,12 +34,6 @@ body {
 		letter-spacing: 0.25em;
 		line-height: 1.5em;
 		text-transform: uppercase;
-
-		&:hover {
-			border-bottom: 3px solid transparent;
-            color: $color-accent;
-        }
-
 	}
 
 }
