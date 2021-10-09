@@ -28,6 +28,15 @@
 			}
 		}
 
+		a {
+			border-bottom: 2px solid $color-accent-slide;
+			color: $color-text-1;
+
+			&:hover {
+				color: $color-accent-slide;
+
+		}
+
 		span {
 			white-space: nowrap;
 		}
@@ -265,6 +274,8 @@
 					weight: 600;
 				}
 				line-height: 1;
+				text-transform: uppercase;
+				transition: all 0.15s ease-in-out;
 				white-space: nowrap;
 
 				&:hover {
