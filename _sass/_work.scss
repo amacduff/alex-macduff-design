@@ -240,7 +240,11 @@
 }
 
 .contact-info {
-	padding: 6rem 5%;
+	padding: 2rem 0;
+
+	h2 {
+		line-height: 1.58;
+	}
 
 	.contact-contents {
 		margin: 0 auto;
