@@ -29,11 +29,12 @@
 		}
 
 		a {
-			border-bottom: 2px solid $color-accent;
+			border-bottom: 2px solid $color-accent-slide;
 			color: $color-text-1;
 
 			&:hover {
-				color: $color-accent;
+				color: $color-accent-slide;
+			}
 
 		}
 
