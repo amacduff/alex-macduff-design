@@ -2,6 +2,7 @@
 
 html {
 	-webkit-text-size-adjust: 100%;
+	height: 100%;
 }
 
 * {
@@ -14,6 +15,7 @@ body {
 	font: {
 		family: $font-text;
 	}
+	height: 100%;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -45,23 +47,19 @@ p {
 	margin-bottom: 1rem;
 
 	a {
-
-        &:hover {
-			border-bottom: 2px solid $color-accent;
-        }
-
+		border-bottom: 2px solid $color-accent;
 	}
 
 }
 
 a {
-	border-bottom: 3px solid transparent;
-	color: $color-accent;
+	border-bottom: 3px solid $color-accent;
+	color: $color-text-1;
 	text-decoration: none;
 	transition: all 0.15s ease-in-out;
 
 	&:hover {
-		border-bottom: 3px solid $color-accent;
+		color: $color-accent;
 	}
 
 }
