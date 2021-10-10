@@ -263,6 +263,13 @@
 	.contact-contents {
 		margin: 0 auto;
 		max-width: 43.75rem;
+
+		h2 {
+			a {
+				border-bottom: 2px solid $color-accent;
+			}
+		}
+
 	}
 
 	ul {
