@@ -303,6 +303,10 @@
 		background-color: $color-project-5;
 	}
 
+	&.no-bg {
+		background: none;
+	}
+
 }
 
 .quick-navigation {
