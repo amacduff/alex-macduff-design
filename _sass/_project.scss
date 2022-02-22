@@ -43,12 +43,17 @@
 		background: url('../img/abr-hero.jpg') center;
 	}
 
+	&#motion-hero {
+		background: url('../img/motion-hero.jpg') center;
+	}
+
 	&#apfm-hero,
 	&#pebble-hero,
 	&#leankit-hero,
 	&#earnest-hero,
 	&#openn-hero,
-	&#abr-hero {
+	&#abr-hero,
+	&#motion-hero {
 		background-size: cover;
 	}
 
@@ -121,6 +126,10 @@
 
 #abr-hero .division {
 	border-bottom: 5px solid $color-project-7;
+}
+
+#motion-hero .division {
+	border-bottom: 5px solid $color-project-4;
 }
 
 .process {
@@ -314,6 +323,10 @@
 
 	&.abr {
 		background-color: $color-project-7;
+	}
+
+	&.motion {
+		background-color: $color-project-4;
 	}
 
 }
