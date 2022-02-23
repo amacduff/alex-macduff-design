@@ -15,24 +15,12 @@
 		background: url('../img/deverus-cert-hero.jpg') center;
 	}
 
-	&#deverus-empv-hero {
-		background: url('../img/deverus-empv-hero.jpg') center;
-	}
-
 	&#apfm-hero {
 		background: url('../img/apfm-hero.jpg') center;
 	}
 
-	&#pebble-hero {
-		background: url('../img/pebble-hero.jpg') center;
-	}
-
 	&#leankit-hero {
 		background: url('../img/leankit-hero.jpg') center;
-	}
-
-	&#earnest-hero {
-		background: url('../img/earnest-hero.jpg') center;
 	}
 
 	&#openn-hero {
@@ -97,10 +85,6 @@
 }
 
 #deverus-cert-hero .division {
-	border-bottom: 5px solid $color-project-1;
-}
-
-#deverus-empv-hero .division {
 	border-bottom: 5px solid $color-project-2;
 }
 
@@ -108,15 +92,7 @@
 	border-bottom: 5px solid $color-project-3;
 }
 
-#pebble-hero .division {
-	border-bottom: 5px solid $color-project-4;
-}
-
 #leankit-hero .division {
-	border-bottom: 5px solid $color-project-6;
-}
-
-#earnest-hero .division {
 	border-bottom: 5px solid $color-project-6;
 }
 
@@ -125,7 +101,7 @@
 }
 
 #abr-hero .division {
-	border-bottom: 5px solid $color-project-7;
+	border-bottom: 5px solid $color-project-1;
 }
 
 #motion-hero .division {
