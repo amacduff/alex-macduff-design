@@ -35,13 +35,18 @@
 		background: url('../img/motion-hero.jpg') center;
 	}
 
+	&#deverus-empv-hero {
+		background: url('../img/deverus-empv-hero.jpg') center;
+	}
+
 	&#apfm-hero,
 	&#pebble-hero,
 	&#leankit-hero,
 	&#earnest-hero,
 	&#openn-hero,
 	&#abr-hero,
-	&#motion-hero {
+	&#motion-hero,
+	&#deverus-empv-hero {
 		background-size: cover;
 	}
 
@@ -106,6 +111,10 @@
 
 #motion-hero .division {
 	border-bottom: 5px solid $color-project-4;
+}
+
+#deverus-cert-hero .division {
+	border-bottom: 5px solid $color-project-6;
 }
 
 .process {
@@ -291,6 +300,10 @@
 
 	&.motion {
 		background-color: $color-project-4;
+	}
+
+	&.deverus-empv {
+		background-color: $color-project-6;
 	}
 
 }
