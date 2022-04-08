@@ -40,11 +40,10 @@
 
 		span {
 			white-space: nowrap;
+		}
 
-			.strike {
-				text-decoration: #54BCEB line-through;
-			}
-
+		.strike {
+			text-decoration: $color-accent line-through;
 		}
 
 	}
