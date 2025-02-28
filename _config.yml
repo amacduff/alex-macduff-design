@@ -4,7 +4,7 @@ email: alex@alexmacduff.com
 description: > # this means to ignore newlines until "baseurl:"
   Designer person passionate about people and tacos.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alexmacduff.com" # the base hostname & protocol for your site
+url: "https://alexmacduff.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
