@@ -1,69 +1,68 @@
 /* Footer */
 
+@use 'variables';
+@use 'mixins';
+
+
 footer {
-	border-top: 1px solid $color-border;
-	clear: both;
-	overflow: hidden;
-	padding: 4rem 5%;
+	border-top: 1px solid variables.$color-border;
 
-	.footie {
+	.contact-info {
 		margin: 0 auto;
-		max-width: 43.75rem;
-	}
+    	max-width: 25rem;
+		padding: 4rem 1rem 6rem 1rem;
 
-	a {
-		border-bottom: 1px solid $color-text;
-
-        &:hover {
-			border-bottom: 1px solid $color-accent;
-            color: $color-accent;
-        }
-
-	}
-
-	ul,
-	p,
-	.back-to-top {
-		line-height: 2;
-		padding-bottom: 0.25rem;
-	}
-
-	span {
-		white-space: nowrap;
-	}
-
-	ul {
-
-		li {
-			display: inline-block;
-			font: {
-				family: $font-subhead;
-				weight: 400;
+		.contact-contents {
+	
+			h1,h2 {
+				color: variables.$color-text;
+				font: {
+					@include mixins.fntz(1.25);
+					weight: 400;
+				}
+				text-align: left;
+				text-transform: none;
+	
+				span {
+					display: block;
+					font: {
+						weight: 700;
+					}
+				}
+	
 			}
-			line-height: 2;
-			padding-right: 0.25rem;
-
-			&:after {
-				content: " /";
+	
+			h2 {
+				padding: 1.5rem 0;
 			}
-
-			&:last-child:after {
-				content: none;
-			}
-
+	
 		}
-
+	
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1.5rem 4rem;
+	
+			li {
+				white-space: nowrap;
+			}
+	
+		}
+	
+		svg {
+			height: 1.125rem;
+			padding-right: .5rem;
+			vertical-align: middle;
+		}
+	
 	}
 
-	p {
-		margin-bottom: 0;
-	}
+	.copyright {
+		padding: 0 1rem .5rem 1rem;
 
-	#tx-icon {
-		height: 1.5rem;
-		padding-bottom: 0.25rem;
-		vertical-align: middle;
-		width: 1.5rem;
+		p {
+			color: variables.$color-subtle;
+		}
 	}
 
 }

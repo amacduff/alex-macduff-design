@@ -1,6 +1,9 @@
 /**
  * Reset some basic elements
  */
+
+@use 'variables';
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -14,12 +17,12 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
+    font-family: variables.$font-text;
+    font-size: @include fntz(1);
+    line-height: 1.5;
+    font-weight: 400;
+    color: variables.$color-text;
+    background-color: $color-background;
     -webkit-text-size-adjust: 100%;
 }
 

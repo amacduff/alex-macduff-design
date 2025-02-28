@@ -1,65 +1,50 @@
 /* Header */
 
+@use 'variables';
+@use 'mixins';
+
+// Top Bar
 .top-bar {
-	background-color: $color-accent;
-	border-bottom: 8px solid $color-highlight;
-	overflow: hidden;
-}
+	border-bottom: 1px solid variables.$color-border;
+	padding: .5rem 1rem;
 
-.top-bar-container {
-	margin: 0 auto;
-	width: 90%;
-}
+	.home-link {
+		display: inline-block;
 
-.site-title {
-	box-sizing: border-box;
-	font: {
-		family: $font-heading;
-	}
-	@include grid(2);
-	padding: 0.7rem 0;
-}
+		a {
+			border-bottom: none;
+			color: variables.$color-text;
 
-.site-name {
-	display: none;
-	vertical-align: middle;
-}
-
-#logo {
-	display: inline;
-	height: 2.5rem;
-	margin-right: 0.25rem;
-	vertical-align: middle;
-	width: 2.5rem;
-}
-
-.site-nav {
-	@include grid(10);
-
-	ul {
-		overflow: hidden;
-		padding: 1.5rem 0;
-		text-align: right;
-
-		li {
-			display: inline-block;
-
-			a {
-				font-weight: 400;
-				padding: 1.5rem 1.25rem;
-
-				&:hover {
-					background-color: $color-accent-1;
-				}
-
+			font: {
+				weight: 900;
 			}
 
 		}
 
 	}
 
-}
+	nav{
+		display: inline-block;
+		float: right;
 
-.current {
-	background-color: $color-highlight;
+		ul{
+
+			li{
+				display: inline;
+				padding-left: 2.5rem;
+
+				a {
+					border-bottom: none;
+					font: {
+						@include mixins.fntz(.875);
+					}
+					text-transform: uppercase;
+				}
+
+			}
+			
+		}
+
+	}
+
 }

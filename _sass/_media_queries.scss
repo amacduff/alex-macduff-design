@@ -1,495 +1,649 @@
 /* Media Queries */
 
+@use 'variables';
+@use 'mixins';
+
+@media screen and (max-width: 736px) {
+
+	.top-bar nav {
+        display: none;
+    }
+
+}
+
 @media screen and (min-width: 361px) {
 
-	.home-link {
-
-		a {
-			font: {
-				@include fntz(1);
-			}
-		}
-
-	}
-
-	.summary {
-
-		h2 {
-			font: {
-				@include fntz(1.6);
-			}
-			margin-bottom: .95rem;
-		}
-
-	}
-
-	p,
-	.quick-navigation,
-	footer p {
-		font: {
-			@include fntz(1.15);
-		}
-	}
+	
 
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 400px) {
 
-	.top-bar {
-		font: {
-			@include fntz(1.3);
-		}
-	}
+	.tldr {
+        margin: -2rem auto 0 auto;
+    }
 
-	.site-title {
-		@include grid(6);
-		margin-right: 0;
-		padding: 0.85rem 0;
-	}
-
-	.site-name {
-		display: inline;
-	}
-
-	.site-nav {
-		font: {
-			@include fntz(1.3);
-		}
-		@include grid(6);
-
-		ul {
-			padding:
-
-			li a {
-				padding: 1.5rem 1.25rem;
-			}
-
-		}
-
-	}
-
-	.ux-designer,
-	.project-title,
-	.contact-info {
-
-		.statement,
-		.contact-contents,
-		.overview {
-
-			h1 {
-				font: {
-					@include fntz(2.5);
-				}
-			}
-
-			h2 {
-				font: {
-					@include fntz(1.65)
-				}
-			}
-
-		}
-
-	}
-
-	.worklist {
-
-		article {
-			@include grid(6);
-		}
-
-	}
-
-	.project {
-		@include grid(6);
-
-		&:nth-child(odd) {
-			margin-right: 0;
-		}
-
-	}
-
-	.alex {
-		height: 21rem;
-	}
+    .case-study .summary,
+    .image-break .img-container,
+    .quick-navigation .content {
+        margin: 0 auto;
+    }
 
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 690px) {
 
-	.ux-designer .statement,
-	.contact-info,
-	.elsewhere {
+    .top-bar {
+        padding: .5rem 1.5rem;
 
-		/*h1 {
-			@include grid(4);
-		}*/
+        .home-link a {
+            font: {
+                @include mixins.fntz(1.25);
+            }
+        }
 
-		/*p,
-		ul {
-			@include grid(8);
-		}*/
+        nav {
+            padding: .25rem 0;
+        }
 
+    }
+
+    .ux-designer {
+        gap: 3rem;
+        padding: 3rem 0;
+
+        .headshot {
+            height: 12.5rem;
+            width: 12.5rem;
+        }
+
+        .statement {
+        
+            h1 {
+                font: {
+                    @include mixins.fntz(2);
+                }
+    
+            }
+    
+        }
+
+    }
+
+    .logo-belt {
+
+        padding: 1.75rem 0;
+
+        #logo-label {
+            display: inline;
+        }
+
+        ul {
+            height: 2rem;
+    
+            li {
+                padding: 0 2rem;
+            }
+    
+        }
+    
+        svg {
+            height: 2rem;
+        }
+
+    }
+
+    .ux-designer,
+    .portfolio {
+        max-width: 40.125rem;
+    }
+
+    .portfolio {
+        padding: 4rem 0 0 0;
+
+        h1 {
+            font: {
+                @include mixins.fntz(2.25);
+            }
+
+            padding-bottom: 3rem;
+
+        }
+
+    }
+
+    .cs-card {
+        display: flex;
+        font: {
+            @include mixins.fntz(1.25);
+        }
+        margin: 0 auto 3rem auto;
+        max-width: 45rem;
+        min-width: 16.25rem;
+        overflow: hidden;
+        padding: .5rem;
+        
+        .thumb-link {
+            display: inline-block;
+            padding: 0.5rem;
+        }
+      
+        .card-image {
+            border-radius: .5rem;
+            flex-grow: 1;
+            height: 11.25rem;
+            width: 15rem;
+        }
+      
+        .card-info {
+          flex-grow: 2;
+          vertical-align: top;
+          
+          h2 {
+            font-size: 1.5rem;
+          }
+
+          th {
+            padding-top: 0;
+          }
+          
+        }
+      
+        .label, a {
+          font-size: 1rem;
+          text-transform: uppercase;
+        }
+        
+        .fullcase {
+          padding: 0.5rem 0 0 0;
+
+            &.mobile {
+                display: none;
+            }
+
+            &.tablet {
+                display: block;
+            }
+
+        }
+      
+        a {
+          /* "to left" / "to right" - affects initial color */
+          background: linear-gradient(to left, #AA00FF 50%, #8000BF 50%) right;
+          background-size: 200%;
+          transition: .5s ease-out;
+      
+          border-radius: 0.5rem;
+          color: #FFF;
+          display: block;
+          font-weight: 700;
+          padding: 1rem 1.5rem;
+          text-align: center;
+          text-decoration: none;
+        }
+      
+        a:hover {
+          background-position: left;
+        }
+        
+      }
+
+    .testimonials {
+        padding: 1rem 0 4rem 0;
+
+        .slider {
+            height: 23rem;
+        }
+
+        blockquote {
+            font: {
+                @include mixins.fntz(1.5);
+            }
+            padding-bottom: 2.5rem;
+        }
+
+        .kindhuman {
+
+            .source-photo {
+                height: 4rem;
+                width: 4rem;
+            }
+
+            figcaption {
+                font: {
+                    @include mixins.fntz(1.25);
+                }
+            }
+
+        }
+
+        .more-testimonials {
+            padding-top: 1.5rem;
+        }
+
+    }
+
+    .writing-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        .writing-card {
+            margin: 0;
+            width: 19.3rem;
+
+            ul {
+
+                li {
+                    font: {
+                        @include mixins.fntz(1);
+                    }
+                }
+
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p,
+            a {
+                font: {
+                    @include mixins.fntz(1.25);
+                }
+            }
+
+        }
+
+    }
+
+    /* Case Study Pages */
+    .project-title .overview,
+    .tldr,
+    .case-study .summary,
+    .image-break .img-container,
+    .quick-navigation .content,
+    footer .contact-info {
+        max-width: 40.125rem;
+    }
+
+    .project-title {
+        padding: 5rem 1rem 7.5rem 1rem;
+
+        h1 {
+            font: {
+                @include mixins.fntz(2);
+            }
+        }
+
+        h2 {
+            font: {
+                @include mixins.fntz(1.5);
+            }
+        }
+
+    }
+
+    .tldr,
+    .case-study .summary,
+    .quick-navigation .content {
+
+        h2 {
+            font: {
+                @include mixins.fntz(1.5);
+            }
+        }
+
+    }
+
+    .case-study .summary {
+        h2 {
+            padding-bottom: 1rem;
+        }
+    }
+
+    .tldr dt {
+		font: {
+			@include mixins.fntz(1);
+		}
 	}
 
-	.worklist {
+    p,
+    .tldr dd {
+        font: {
+            @include mixins.fntz(1.25);
+        }
+    }
 
-		article {
+    .tldr {
+        margin-top: -2.5rem;
+        padding: 1.5rem;
 
-			.thumb-desc {
+        dl {
+            align-items: baseline;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
 
-				h2 {
-					font: {
-						@include fntz(1.6);
-					}
-				}
+        dt {
+            vertical-align: text-bottom;
+            width: 7.375rem;
+        }
 
+        dd {
+            width: 28.125rem;
+            padding-bottom: 0;
+        }
+
+    }
+
+    .case-study {
+        margin: 4rem auto;
+    }
+
+    .image-break {
+        padding: 4rem 0 3rem 0;
+
+        .img-container figcaption {
+			font: {
+				@include mixins.fntz(1);
 			}
-
 		}
 
-	}
+    }
 
-	.contact-info {
+    .quick-navigation {
+        font: {
+            @include mixins.fntz(1.25);
+        }
+        padding: 4rem 0;
+    }
 
-		span {
-			white-space: nowrap;
-		}
+    footer {
 
-	}
+        .contact-info {
+            padding: 8rem 0;
 
-	.project {
-		@include grid(4);
+            .contact-contents {
+        
+                h1 {
+                    font: {
+                        @include mixins.fntz(1.5);
+                    }
+                }
 
-		/*&:nth-child(odd) {
-			margin-right: 5%;
-		}
+                h1,h2 {
+                    
+                    span {
+                        display: inline-block;
+                        margin-right: .5rem;
+                    }
+    
+                }
+    
+                h2 {
+                    font: {
+                        @include mixins.fntz(1.25);
+                    }
+                    padding: 3rem 0;
+                }
+    
+            }
+    
+            ul {
+                gap: 1.5rem 3rem;
+        
+                li {
+                    font: {
+                        @include mixins.fntz(1.25);
+                    };
+                }
+        
+            }
+        
+            svg {
+                height: 1.5rem;
+                padding-right: .75rem;
+            }
+    
+        }
 
-		&:nth-child(4) {
-			margin-right: 0;
-		}
+        .copyright {
+            padding: 0 1.5rem .5rem 1.5rem;
 
-		&:nth-child(7) {
-			margin-right: 0;
-		}*/
+            p {
+                font: {
+                    @include mixins.fntz(1);
+                }
+            }
 
-		&:nth-child(5) {
-			clear: both;
-		}
-
-	}
+        }
+    
+    }
 
 }
 
 @media screen and (min-width: 737px) {
 
-	.ux-designer,
-	.project-title,
-	.contact-info {
-
-		.statement,
-		.overview {
-
-			h1 {
-				font: {
-					@include fntz(3.5);
-				}
-			}
-
-			h2 {
-				font: {
-					@include fntz(2)
-				}
-			}
-
-		}
-
-	}
-
-	//.project-title,
-	.process,
-	.case-study {
-		padding: 0;
-	}
-
-	.home-link {
-		padding: 0.65rem 0;
-	}
-
-	.quick-navigation {
-		padding: 4rem 0;
-	}
-
-	.worklist {
-
-		article {
-			height: 30vh;
-			max-height: 30rem;
-			min-height: 20rem;
-
-			.thumb-desc {
-
-				h2 {
-					font: {
-						@include fntz(1.75);
-					}
-				}
-
-			}
-
-		}
-
-	}
-
-	.summary {
-
-		h2 {
-			font: {
-				@include fntz(1.75);
-			}
-			margin-bottom: 1.1rem;
-		}
-
-	}
-
-	.image-break {
-
-		.img-container {
-			margin: 0 auto;
-		}
-
-	}
+	
 
 }
 
 @media screen and (min-width: 901px) {
 
-	.image-break {
-
-		.img-container {
-			margin: 0 auto;
-			max-width: 50rem;
-		}
-
-	}
-
-	.resume {
-
-		.resume-title,
-		.column-left {
-			@include grid(7);
-		}
-
-		.resume-title {
-			margin-bottom: 3rem;
-		}
-
-		.resume-download,
-		.column-right {
-			@include grid(5);
-			margin-right: 0;
-		}
-
-	}
+	
 
 }
 
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 968px) {
 
-	.worklist article:nth-child(4n-3),
-	.worklist article:nth-child(4n) {
-		@include grid(5);
-	}
+	.ux-designer {
+        padding: 5rem 0;
 
-	.worklist article:nth-child(4n-1),
-	.worklist article:nth-child(4n-2) {
-		@include grid(7);
-	}
+        .headshot {
+            height: 20rem;
+            width: 20rem;
+        }
+
+        .statement {
+        
+            h1 {
+                font: {
+                    @include mixins.fntz(3);
+                }
+    
+            }
+    
+        }
+
+    }
+
+    #hint,
+    #sierraclub {
+        display: inline-block;
+    }
+
+    .ux-designer,
+    .portfolio {
+        max-width: 57.5rem;
+    }
+
+    .portfolio {
+        padding: 5rem 0 0 0;
+
+        h1 {
+            font: {
+                @include mixins.fntz(2.5);
+            }
+
+            padding-bottom: 3rem;
+
+        }
+
+    }
+
+    .cs-card {
+        max-width: 57.5rem;
+
+        .thumb-link,
+        .card-info {
+            padding: 1rem;
+        }
+
+        .card-info {
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            th {
+                padding-bottom: 1.5rem;
+            }
+
+            .label {
+                width: 6rem;
+            }
+
+        }
+        
+    }
+
+    .testimonials {
+        padding: 2rem 6.875rem 5rem 6.875rem;
+
+        .slider {
+            height: 32rem;
+        }
+
+        blockquote {
+            font: {
+                @include mixins.fntz(2);
+            }
+            padding-bottom: 3rem;
+        }
+
+    }
+
+    .writing {
+        padding-bottom: 5rem;
+    }
+
+    .writing-wrapper {
+
+        .writing-card {
+            width: 28rem;
+        }
+
+    }
+
+    /* Case Study Pages */
+    .project-title .overview,
+    .case-study .summary,
+    .image-break .img-container,
+    .quick-navigation .content,
+    footer .contact-info {
+        max-width: 45.5rem;
+    }
+
+    .tldr {
+        max-width: 51.5rem;
+    }
+
+    .project-title {
+        padding: 8rem 1rem 12.5rem 1rem;
+
+        h1 {
+            font: {
+                @include mixins.fntz(3);
+            }
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font: {
+                @include mixins.fntz(2);
+            }
+        }
+
+    }
+
+    .tldr,
+    .case-study .summary,
+    .quick-navigation .content {
+
+        h2 {
+            font: {
+                @include mixins.fntz(2);
+            }
+        }
+
+    }
+
+    .tldr {
+        margin-top: -4.5rem;
+        padding: 3rem;
+
+        dd {
+            width: 36.5rem;
+        }
+
+    }
+
+    .case-study {
+        margin: 5rem auto;
+    }
+
+    .image-break {
+        padding: 5rem 0 4rem 0;
+    }
+
+    .quick-navigation {
+        padding: 5rem 0;
+    }
+
+    footer {
+
+        .contact-info {
+
+            .contact-contents {
+        
+                h1 {
+                    font: {
+                        @include mixins.fntz(2);
+                    }
+                }
+
+                h2 {
+                    font: {
+                        @include mixins.fntz(1.5);
+                    }
+                }
+
+            }
+        
+        }
+
+    }
 
 }
 
 @media screen and (min-width: 1024px) {
 
-	.process {
-
-		/*.summary,
-		.image {
-			@include grid(6);
-		}*/
-
-		.summary {
-			margin-bottom: 0;
-		}
-
-		.summary.even {
-				box-sizing: border-box;
-				float: right;
-				padding-left: 5%;
-			}
-
-	}
-
-	.title-small {
-		display: none;
-	}
-
-	.alex {
-		height: 28rem;
-
-	    .title {
-	    	display: block;
-	    	padding: 15rem 0 0 5%;
-	    }
-
-	}
-
-	/*.project-title,
-	.process,
-	.info,
-	.blog-title,
-	.blog {
-		width: 90%;
-	}*/
-
-
-	.info {
-
-		p {
-			@include grid(6);
-		}
-
-	}
-
-	.blog {
-
-		.featured-post,
-		.post-content {
-			border-bottom: 0;
-			@include grid(8);
-			padding-bottom: 0;
-		}
-
-		.recent-posts {
-			@include grid(4);
-			margin-top: 4rem;
-		}
-
-	}
-
-	footer {
-
-		ul,
-		p {
-			width: 50%;
-		}
-
-		ul {
-			float: left;
-		}
-
-	}
+	
 
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
 
-	.home-link {
-
-		a {
-			font: {
-				@include fntz(1.3);
-			}
-		}
-
-	}
-
-	.ux-designer,
-	.project-title {
-		/* height: 40vh;
-	    min-height: 15rem;
-	    max-height: 30rem; */
-
-		.statement,
-		.overview {
-
-			h1 {
-				font: {
-					@include fntz(4);
-				}
-			}
-
-			h2 {
-				font: {
-					@include fntz(2.25)
-				}
-			}
-
-		}
-
-	}
-
-	p,
-	.quick-navigation,
-	footer p {
-		font: {
-			@include fntz(1.3);
-		}
-	}
-
-	.worklist {
-
-		article {
-			height: 40vh;
-			max-height: 40rem;
-			min-height: 23rem;
-
-			.thumb-desc {
-
-				h2 {
-					font: {
-						@include fntz(2);
-					}
-				}
-
-			}
-
-		}
-
-	}
-
-	.summary {
-
-		h2 {
-			font: {
-				@include fntz(2);
-			}
-		}
-		margin-bottom: 1.35rem;
-
-	}
+	#brooklinen {
+        display: inline-block;
+    }
 
 }
 
 @media screen and (min-width: 1400px) {
 
-	.alex {
-		height: 33rem;
-
-	    .title {
-	    	padding: 15rem 0 0 15%;
-	    }
-
-	}
-
-	.process,
-	.info,
-	.blog-title,
-	.blog {
-		width: 70%;
-	}
-
-	.resume {
-		width: 70%;
-	}
+	
 
 }

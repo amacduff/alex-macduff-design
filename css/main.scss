@@ -2,19 +2,10 @@
 ---
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  "variables",
-  "mixins",
-  "global",
-  "headings",
-  "header",
-  "work",
-  "project",
-  "info",
-  "resume",
-  "goodreads",
-  "blog",
-  "footer",
-  "splash",
-  "media_queries"
-;
+
+@use 'global';
+@use 'header';
+@use 'landing';
+@use 'project';
+@use 'footer';
+@use 'media_queries';

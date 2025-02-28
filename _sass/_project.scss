@@ -1,15 +1,25 @@
 /* Project Styles */
 
-.project-title,
-.process,
+@use 'variables';
+@use 'mixins';
+
 .case-study,
 .quick-navigation {
-	padding: 0 5%;
+	width: 100%;
+}
+
+.project-title .overview,
+.tldr,
+.case-study .summary,
+.image-break .img-container,
+.quick-navigation .content {
+	max-width: 23rem;
+	min-width: 16.25rem;
 }
 
 .project-title {
-	margin: 0 auto;
-	padding: 4rem 5%;
+	padding: 2.5rem 1rem 4.5rem 1rem;
+	width: 100%;
 
 	&#deverus-cert-hero {
 		background: url('../img/deverus-cert-hero.jpg') center;
@@ -52,143 +62,80 @@
 
 	.overview {
 		margin: 0 auto;
-		max-width: 43.75rem;
-		width: 100%;
 	}
 
 	h1,
-	h2,
-	p {
-		color: $color-text-2;
+	h2 {
+		color: variables.$color-background-1;
 	}
 
 	h1 {
-		margin-bottom: 0.5rem;
+		font: {
+			@include mixins.fntz(1.5);
+			weight: 900;
+		}
+		margin-bottom: 1rem;
 	}
 
 	h2 {
-		margin-bottom: 2rem;
+		font: {
+			@include mixins.fntz(1);
+		}
 	}
 
-	p {
+}
+
+.tldr,
+.case-study .summary,
+.quick-navigation .content {
+
+	h2 {
+		font: {
+			@include mixins.fntz(1.25);
+			weight: 700;
+		}
+		padding-bottom: .5rem;
+	}
+
+}
+
+.tldr {
+	background-color: variables.$color-background-2;
+	border: 1px solid variables.$color-border;
+	border-radius: .5rem;
+	margin: -2rem 1rem 0 1rem;
+	padding: 1rem;
+
+	dt {
+		color: variables.$color-support;
+		font: {
+			@include mixins.fntz(.875);
+			weight: 700;
+		}
 		text-transform: uppercase;
 	}
 
-	.division {
-		margin-bottom: 2rem;
-		width: 50px;
-	}
+	dd {
+		padding-bottom: 1.5rem;
 
-	.update,
-	.timeframe {
-		font: {
-			weight: 400;
-		}
-		text-transform: uppercase;
-	}
-
-}
-
-#deverus-cert-hero .division {
-	border-bottom: 5px solid $color-project-2;
-}
-
-#apfm-hero .division {
-	border-bottom: 5px solid $color-project-3;
-}
-
-#leankit-hero .division {
-	border-bottom: 5px solid $color-project-6;
-}
-
-#openn-hero .division {
-	border-bottom: 5px solid $color-project-5;
-}
-
-#abr-hero .division {
-	border-bottom: 5px solid $color-project-1;
-}
-
-#motion-hero .division {
-	border-bottom: 5px solid $color-project-4;
-}
-
-#deverus-empv-hero .division {
-	border-bottom: 5px solid $color-project-6;
-}
-
-.process {
-	margin: 0 auto 4rem auto;
-
-	section {
-		clear: both;
-		overflow: hidden;
-		margin-top: 4rem;
-	}
-
-	.summary,
-	.image {
-		@include grid(12);
-	}
-
-	.summary {
-		margin-bottom: 2rem;
-	}
-
-	ul,
-	dl {
-		font: {
-			@include fntz(1.3);
-		}
-		line-height: 1.5em;
-	}
-
-	ul {
-		margin-left: 0;
-		padding-left: 2rem;
-		text-indent: -2rem;
-
-		li {
-			margin-bottom: 1.5rem;
+		&:last-child {
+			padding-bottom: 0;
 		}
 
-		li:before {
-			color: lighten($color-text, 50%);
-			content: "»";
-			padding-right: 1rem;
-		}
-
- 	}
-
- 	dl {
-
- 		dt {
- 			font: {
-				style: italic;
- 				weight: 400;
- 			}
- 			margin: 1.5rem 0 0.5rem 0;
- 		}
-
- 	}
-
- 	.persona-photo {
- 		border-radius: 50%;
- 		margin-right: 1rem;
- 		vertical-align: middle;
- 		width: 3rem;
- 	}
-
-	.revision {
-		border-top: 1px solid $color-border;
-		padding-top: 4rem;
 	}
 
+}
+
+.division {
+	background-color: variables.$color-border;
+	height: .25rem;
+	margin: .5rem 0 1rem 0;
+	overflow: hidden;
+	width: 2.5rem;
 }
 
 .case-study {
-	margin: 0 auto;
-	max-width: 43.75rem;
+	margin: 2.5rem auto;
 
 	section {
 		clear: both;
@@ -197,31 +144,14 @@
 		overflow: hidden;
 	}
 
-	.summary,
-	.image {
-		@include grid(12);
-	}
-
 	.summary {
-		margin-bottom: 2rem;
-
-		h2 {
-			font: {
-				weight: 800;
-			}
-
-			&.extraroom {
-				margin-top: 4rem;
-			}
-
-		}
-
+		margin: 0 1rem;
 	}
 
 	ul,
 	dl {
 		font: {
-			@include fntz(1.3);
+			@include mixins.fntz(1.3);
 		}
 		line-height: 1.5em;
 	}
@@ -233,12 +163,6 @@
 
 		li {
 			margin-bottom: 1.5rem;
-		}
-
-		li:before {
-			color: lighten($color-text, 50%);
-			content: "»";
-			padding-right: 1.4rem;
 		}
 
  	}
@@ -255,79 +179,55 @@
 
  	}
 
- 	.persona-photo {
- 		border-radius: 50%;
- 		margin-right: 1rem;
- 		vertical-align: middle;
- 		width: 3rem;
- 	}
-
-	.revision {
-		border-top: 1px solid $color-border;
-		padding-top: 4rem;
-	}
-
 }
 
 .image-break {
-	padding: 4rem 0 2.5rem 0;
+	background-color: variables.$color-background-2;
+	padding: 2.5rem 0 1.5rem 0;
 	text-align: center;
 
 	.img-container {
-		margin: 0 5%;
-		max-width: 43.75rem;
-	}
+		margin: 0 1rem;
 
-	&.deverus-cert {
-		background-color: $color-project-2;
-	}
+		img {
+			max-width: 100%;
+		}
 
-	&.apfm {
-		background-color: $color-project-3;
-	}
+		figcaption {
+			font: {
+				@include mixins.fntz(.875);
+			}
+			padding-top: .5rem;
+		}
 
-	&.leankit {
-		background-color: $color-project-6;
-	}
-
-	&.openn {
-		background-color: $color-project-5;
-	}
-
-	&.abr {
-		background-color: $color-project-1;
-	}
-
-	&.motion {
-		background-color: $color-project-4;
-	}
-
-	&.deverus-empv {
-		background-color: $color-project-6;
 	}
 
 }
 
 .quick-navigation {
-	border-top: 1px solid $color-border;
-	margin: 0 auto;
-	max-width: 43.75rem;
-	overflow: hidden;
-	padding: 4rem 5%;
+	border-top: 1px solid variables.$color-border;
+	padding: 2.5rem 0;
 
-	.prev-link {
-		float: left;
-	}
+	.content {
+		margin: 0 1rem;
 
-	.next-link {
-		float: right;
-	}
+		ul {
 
-	a {
-		font: {
-			weight: 600;
+			li {
+				padding-bottom: 1rem;
+
+				&:last-child {
+					padding-bottom: 0;
+				}
+
+				a {
+					border-bottom: 0;
+				}
+
+			}
+
 		}
-		line-height: 1.3;
+
 	}
 
 }
