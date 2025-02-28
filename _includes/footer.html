@@ -16,31 +16,3 @@
         <p>&copy; 2025 Alex MacDuff</p>
     </div>
 </footer>
-
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="{{ "/js/jquery.fittext.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
-	$("#fittext1").fitText(1.6);
-	$("#fittext2").fitText();
-
-    $("a[href='#top']").click(function() {
-      $('html, body').animate({ scrollTop: 0 }, 'slow');
-      return false;
-    });
-
-    $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html, body').animate({
-                      scrollTop: target.offset().top
-                    }, 1000);
-                return false;
-                }
-            }
-        });
-    });
-
-</script>
