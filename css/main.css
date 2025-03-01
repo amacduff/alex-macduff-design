@@ -430,7 +430,7 @@ a:hover {
 .project-title#deverus-empv-hero {
   background: url("../img/deverus-empv-hero.jpg") center;
 }
-.project-title#apfm-hero, .project-title#pebble-hero, .project-title#leankit-hero, .project-title#earnest-hero, .project-title#openn-hero, .project-title#abr-hero, .project-title#motion-hero, .project-title#deverus-empv-hero {
+.project-title#apfm-hero, .project-title#pebble-hero, .project-title#leankit-hero, .project-title#earnest-hero, .project-title#openn-hero, .project-title#abr-hero, .project-title#motion-hero, .project-title#deverus-cert-hero {
   background-size: cover;
 }
 .project-title .overview {
