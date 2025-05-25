@@ -21,6 +21,10 @@
 	padding: 2.5rem 1rem 4.5rem 1rem;
 	width: 100%;
 
+	&#ameritas-hero {
+		background: url('../img/ameritas-hero.jpg') center;
+	}
+
 	&#deverus-cert-hero {
 		background: url('../img/deverus-cert-hero.jpg') center;
 	}
@@ -163,6 +167,20 @@
 
 		li {
 			margin-bottom: 1.5rem;
+		}
+
+		&.bullets {
+			list-style: disc;
+			text-indent: 0;
+		
+			::marker {
+				color: variables.$color-support;
+			}
+
+			li {
+				margin-bottom: .5rem;
+			}
+		
 		}
 
  	}
