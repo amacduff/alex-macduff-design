@@ -162,6 +162,9 @@ a:hover {
   height: 193px;
   width: 100%;
 }
+.cs-card #ameritas-thumb {
+  background-image: url(../img/ameritas-thumb.jpg);
+}
 .cs-card #openn-thumb {
   background-image: url(../img/openn-thumb-sm.jpg);
 }
@@ -409,6 +412,9 @@ a:hover {
   padding: 2.5rem 1rem 4.5rem 1rem;
   width: 100%;
 }
+.project-title#ameritas-hero {
+  background: url("../img/ameritas-hero.jpg") center;
+}
 .project-title#deverus-cert-hero {
   background: url("../img/deverus-cert-hero.jpg") center;
 }
@@ -514,6 +520,16 @@ a:hover {
 }
 .case-study ul li {
   margin-bottom: 1.5rem;
+}
+.case-study ul.bullets {
+  list-style: disc;
+  text-indent: 0;
+}
+.case-study ul.bullets ::marker {
+  color: #01579B;
+}
+.case-study ul.bullets li {
+  margin-bottom: 0.5rem;
 }
 .case-study dl dt {
   font-style: italic;
