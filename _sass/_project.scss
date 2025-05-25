@@ -154,9 +154,6 @@
 
 	ul,
 	dl {
-		font: {
-			@include mixins.fntz(1.3);
-		}
 		line-height: 1.5em;
 	}
 

@@ -509,8 +509,6 @@ a:hover {
 }
 .case-study ul,
 .case-study dl {
-  font-size: 20.8px;
-  font-size: 1.3rem;
   line-height: 1.5em;
 }
 .case-study ul {
@@ -811,6 +809,11 @@ footer .copyright p {
   }
   .case-study .summary h2 {
     padding-bottom: 1rem;
+  }
+  .case-study ul,
+  .case-study dl {
+    font-size: 20.8px;
+    font-size: 1.3rem;
   }
   .tldr dt {
     font-size: 16px;
