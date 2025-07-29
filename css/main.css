@@ -1053,7 +1053,7 @@ footer .copyright p {
 }
 @media screen and (min-width: 968px) {
   .ux-designer {
-    padding: 5rem 1.5rem;
+    padding: 8rem 3rem;
   }
   .ux-designer .headshot {
     height: 20rem;
@@ -1169,8 +1169,26 @@ footer .copyright p {
   }
 }
 @media screen and (min-width: 1280px) {
+  .ux-designer {
+    padding: 12rem 5rem;
+  }
+  .ux-designer .statement h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+  }
   #brooklinen {
     display: inline-block;
+  }
+  .portfolio .worklist {
+    margin: 2rem auto 0 auto;
+    max-width: 80rem;
+    gap: 2rem;
+  }
+  .portfolio .worklist .bigcard {
+    flex-basis: 58%;
+  }
+  .portfolio .worklist .lilcard {
+    flex-basis: 39%;
   }
 }
 

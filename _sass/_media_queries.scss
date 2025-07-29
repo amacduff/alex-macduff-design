@@ -479,7 +479,7 @@
 @media screen and (min-width: 968px) {
 
 	.ux-designer {
-        padding: 5rem 1.5rem;
+        padding: 8rem 3rem;
 
         .headshot {
             height: 20rem;
@@ -691,8 +691,43 @@
 
 @media screen and (min-width: 1280px) {
 
+    .ux-designer {
+        padding: 12rem 5rem;
+
+        .statement {
+        
+            h1 {
+                font: {
+                    @include mixins.fntz(2.5);
+                }
+    
+            }
+    
+        }
+
+    }
+
 	#brooklinen {
         display: inline-block;
+    }
+
+    .portfolio {
+
+        .worklist {
+            margin: 2rem auto 0 auto;
+            max-width: 80rem;
+            gap: 2rem;
+
+            .bigcard {
+                flex-basis: 58%;
+            }
+
+            .lilcard {
+                flex-basis: 39%;
+            }
+
+        }
+        
     }
 
 }
