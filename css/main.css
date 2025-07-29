@@ -353,6 +353,8 @@ a:hover {
 
 /* Testimonials */
 .testimonials {
+  margin: 0 auto;
+  max-width: 45.5rem;
   padding: 3rem 0;
 }
 .testimonials .slider {
@@ -1092,7 +1094,7 @@ footer .copyright p {
     width: 6rem;
   }
   .testimonials {
-    padding: 5rem 6.875rem;
+    padding: 5rem 0;
   }
   .testimonials .slider {
     height: 20rem;
