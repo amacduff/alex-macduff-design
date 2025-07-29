@@ -71,26 +71,24 @@ a:hover {
 .ux-designer,
 .portfolio {
   margin: 0 auto;
-  max-width: 25rem;
 }
 
 /* About Me */
 .ux-designer {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-  padding: 1.5rem 1rem;
-}
-.ux-designer .headshot {
-  background-image: url(../img/alex-crop-2024-500.jpg);
-  background-position: center;
+  background-image: url(../img/alex-hero.jpg);
+  background-position: left;
   background-size: cover;
-  border-radius: 50%;
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+.ux-designer .statement {
+  flex-basis: 60%;
   height: 7.5rem;
-  width: 7.5rem;
 }
 .ux-designer .statement h1 {
+  color: #FFFFFF;
   font-size: 20px;
   font-size: 1.25rem;
 }
@@ -135,7 +133,7 @@ a:hover {
 
 /* Portfolio Main Content */
 .portfolio {
-  padding: 3rem 1rem 0 1rem;
+  padding: 0;
 }
 .portfolio h1 {
   color: #01579B;
@@ -145,6 +143,120 @@ a:hover {
   padding-bottom: 1.5rem;
   text-align: center;
   text-transform: uppercase;
+}
+.portfolio .worklist {
+  border-top: none;
+  padding-top: 0;
+  width: 100%;
+}
+.portfolio .worklist ul:first-of-type {
+  padding-bottom: 4rem;
+}
+.portfolio .worklist article {
+  align-items: center;
+  display: flex;
+  height: 15rem;
+  padding: 0 1rem;
+  position: relative;
+}
+.portfolio .worklist article header {
+  z-index: 3;
+}
+.portfolio .worklist article .project-link {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+.portfolio .worklist article .thumb-desc h2,
+.portfolio .worklist article .thumb-desc p {
+  color: #FFFFFF;
+}
+.portfolio .worklist article .thumb-desc p {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.portfolio .worklist article::before {
+  -moz-transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.portfolio .worklist article:nth-child(1)::before {
+  background-color: #02599C;
+}
+.portfolio .worklist article:nth-child(2)::before {
+  background-color: #02899C;
+}
+.portfolio .worklist article:nth-child(3)::before {
+  background-color: #54BBC9;
+}
+.portfolio .worklist article:nth-child(4)::before {
+  background-color: #02289C;
+}
+.portfolio .worklist article:nth-child(5)::before {
+  background-color: #115DBF;
+}
+.portfolio .worklist article:nth-child(6)::before {
+  background-color: #356F9C;
+}
+.portfolio .worklist article:hover::before {
+  opacity: 0;
+}
+.portfolio .worklist #ameritas {
+  background: url("../img/ameritas-thumb.jpg") center center;
+}
+.portfolio .worklist #deverus1 {
+  background: url("../img/deverus-cert-thumb.jpg") center center;
+}
+.portfolio .worklist #deverus2 {
+  background: url("../img/deverus-empv-thumb.jpg") center center;
+}
+.portfolio .worklist #apfm {
+  background: url("../img/apfm-thumb.jpg") center center;
+}
+.portfolio .worklist #pebble {
+  background: url("../img/pebble-thumb.jpg") center center;
+}
+.portfolio .worklist #leankit {
+  background: url("../img/leankit-thumb.jpg") center center;
+}
+.portfolio .worklist #earnest {
+  background: url("../img/earnest-thumb.jpg") center center;
+}
+.portfolio .worklist #openn {
+  background: url("../img/openn-thumb-sm.jpg") center center;
+}
+.portfolio .worklist #abr {
+  background: url("../img/abr-thumb-lg.jpg") center center;
+}
+.portfolio .worklist #motion {
+  background: url("../img/motion-thumb-sm.jpg") center center;
+}
+.portfolio .worklist #deverus1,
+.portfolio .worklist #deverus2,
+.portfolio .worklist #apfm,
+.portfolio .worklist #pebble,
+.portfolio .worklist #leankit,
+.portfolio .worklist #earnest,
+.portfolio .worklist #openn,
+.portfolio .worklist #abr,
+.portfolio .worklist #motion {
+  background-size: cover;
 }
 
 .cs-card {
@@ -241,7 +353,7 @@ a:hover {
 
 /* Testimonials */
 .testimonials {
-  padding: 1.5rem 0 3rem 0;
+  padding: 3rem 0;
 }
 .testimonials .slider {
   width: 100%;
@@ -403,7 +515,8 @@ a:hover {
 .tldr,
 .case-study .summary,
 .image-break .img-container,
-.quick-navigation .content {
+.quick-navigation .content,
+footer .contact-info {
   max-width: 23rem;
   min-width: 16.25rem;
 }
@@ -493,6 +606,33 @@ a:hover {
   margin: 0.5rem 0 1rem 0;
   overflow: hidden;
   width: 2.5rem;
+  /*
+
+  	&.one {
+  		background-color: variables.$color-project-1;
+  	}
+
+  	&.two {
+  		background-color: variables.$color-project-2;
+  	}
+
+  	&.three {
+  		background-color: variables.$color-project-3;
+  	}
+
+  	&.four {
+  		background-color: variables.$color-project-4;
+  	}
+
+  	&.five {
+  		background-color: variables.$color-project-5;
+  	}
+
+  	&.six {
+  		background-color: variables.$color-project-6;
+  	}
+
+  */
 }
 
 .case-study {
@@ -574,8 +714,8 @@ footer {
   border-top: 1px solid #CCCCCC;
 }
 footer .contact-info {
+  background-color: #F5F5F5;
   margin: 0 auto;
-  max-width: 25rem;
   padding: 4rem 1rem 6rem 1rem;
 }
 footer .contact-info .contact-contents h1, footer .contact-info .contact-contents h2 {
@@ -607,7 +747,7 @@ footer .contact-info svg {
   vertical-align: middle;
 }
 footer .copyright {
-  padding: 0 1rem 0.5rem 1rem;
+  padding: 1rem;
 }
 footer .copyright p {
   color: #999999;
@@ -628,8 +768,11 @@ footer .copyright p {
   .quick-navigation .content {
     margin: 0 auto;
   }
+  footer .contact-info {
+    margin: 1.5rem auto;
+  }
 }
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 520px) {
   .top-bar {
     padding: 0.5rem 1.5rem;
   }
@@ -642,15 +785,15 @@ footer .copyright p {
   }
   .ux-designer {
     gap: 3rem;
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
   }
   .ux-designer .headshot {
     height: 12.5rem;
     width: 12.5rem;
   }
   .ux-designer .statement h1 {
-    font-size: 32px;
-    font-size: 2rem;
+    font-size: 21.6px;
+    font-size: 1.35rem;
   }
   .logo-belt {
     padding: 1.75rem 0;
@@ -662,22 +805,35 @@ footer .copyright p {
     height: 2rem;
   }
   .logo-belt ul li {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   .logo-belt svg {
     height: 2rem;
   }
   .ux-designer,
   .portfolio {
-    max-width: 40.125rem;
-  }
-  .portfolio {
-    padding: 4rem 0 0 0;
+    max-width: 100%;
   }
   .portfolio h1 {
-    font-size: 36px;
-    font-size: 2.25rem;
+    font-size: 24px;
+    font-size: 1.5rem;
     padding-bottom: 3rem;
+  }
+  .portfolio .worklist {
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+    width: 100%;
+  }
+  .portfolio .worklist article {
+    padding: 0 1.5rem;
+  }
+  .portfolio .worklist .bigcard {
+    flex-basis: 60%;
+  }
+  .portfolio .worklist .lilcard {
+    flex-basis: 40%;
   }
   .cs-card {
     display: flex;
@@ -739,10 +895,13 @@ footer .copyright p {
     background-position: left;
   }
   .testimonials {
-    padding: 1rem 0 4rem 0;
+    padding: 4rem 0;
   }
   .testimonials .slider {
     height: 23rem;
+  }
+  .testimonials .slider .slide {
+    padding: 0 1.5rem;
   }
   .testimonials blockquote {
     font-size: 24px;
@@ -788,7 +947,7 @@ footer .copyright p {
   .image-break .img-container,
   .quick-navigation .content,
   footer .contact-info {
-    max-width: 40.125rem;
+    max-width: 29.5rem;
   }
   .project-title {
     padding: 5rem 1rem 7.5rem 1rem;
@@ -858,11 +1017,11 @@ footer .copyright p {
     padding: 4rem 0;
   }
   footer .contact-info {
-    padding: 8rem 0;
+    padding: 8rem 1.5rem;
   }
   footer .contact-info .contact-contents h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 20px;
+    font-size: 1.25rem;
   }
   footer .contact-info .contact-contents h1 span, footer .contact-info .contact-contents h2 span {
     display: inline-block;
@@ -894,30 +1053,26 @@ footer .copyright p {
 }
 @media screen and (min-width: 968px) {
   .ux-designer {
-    padding: 5rem 0;
+    padding: 5rem 1.5rem;
   }
   .ux-designer .headshot {
     height: 20rem;
     width: 20rem;
   }
   .ux-designer .statement h1 {
-    font-size: 48px;
-    font-size: 3rem;
+    font-size: 32px;
+    font-size: 2rem;
   }
   #hint,
   #sierraclub {
     display: inline-block;
   }
-  .ux-designer,
   .portfolio {
-    max-width: 57.5rem;
-  }
-  .portfolio {
-    padding: 5rem 0 0 0;
+    padding: 0;
   }
   .portfolio h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
+    font-size: 32px;
+    font-size: 2rem;
     padding-bottom: 3rem;
   }
   .cs-card {
@@ -937,14 +1092,14 @@ footer .copyright p {
     width: 6rem;
   }
   .testimonials {
-    padding: 2rem 6.875rem 5rem 6.875rem;
+    padding: 5rem 6.875rem;
   }
   .testimonials .slider {
-    height: 32rem;
+    height: 20rem;
   }
   .testimonials blockquote {
-    font-size: 32px;
-    font-size: 2rem;
+    font-size: 24px;
+    font-size: 1.5rem;
     padding-bottom: 3rem;
   }
   .writing {
@@ -999,10 +1154,16 @@ footer .copyright p {
     padding: 5rem 0;
   }
   footer .contact-info .contact-contents h1 {
-    font-size: 32px;
-    font-size: 2rem;
+    font-size: 24px;
+    font-size: 1.5rem;
   }
   footer .contact-info .contact-contents h2 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .portfolio .worklist article .thumb-desc p {
     font-size: 24px;
     font-size: 1.5rem;
   }
