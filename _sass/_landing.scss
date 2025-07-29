@@ -7,29 +7,24 @@
 .ux-designer,
 .portfolio {
     margin: 0 auto;
-    max-width: 25rem;
 }
 
 /* About Me */
 .ux-designer {
+    background-image: url(../img/alex-hero.jpg);
+    background-position: left;
+    background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: 1.5rem;
-    padding: 1.5rem 1rem;
-
-    .headshot {
-        background-image: url(../img/alex-crop-2024-500.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 50%;
-        flex-shrink: 0;
-        height: 7.5rem;
-        width: 7.5rem;
-    }
+    padding: 1.5rem;
 
     .statement {
+        flex-basis: 60%;
+        height: 7.5rem;
         
         h1 {
+            color: variables.$color-text-2;
             font: {
                 @include mixins.fntz(1.25);
             }
@@ -92,7 +87,7 @@
 
 /* Portfolio Main Content */
 .portfolio {
-    padding: 3rem 1rem 0 1rem;
+    padding: 0;
 
     h1 {
         color: variables.$color-support;
@@ -103,6 +98,153 @@
         padding-bottom: 1.5rem;
         text-align: center;
         text-transform: uppercase;
+    }
+
+    .worklist {
+        border-top: none;
+        padding-top: 0;
+        width: 100%;
+
+        ul:first-of-type {
+            padding-bottom: 4rem;
+        }
+
+        article {
+            align-items: center;
+            display: flex;
+            height: 15rem;
+            padding: 0 1rem;
+            position: relative;
+
+            header {
+                z-index: 3;
+            }
+
+            .project-link {
+                border: 0;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                z-index: 4;
+            }
+
+            .thumb-desc {
+
+                h2,
+                p {
+                    color: variables.$color-text-2;
+                }
+
+                p {
+                    font: {
+                        @include mixins.fntz(1.25);
+                        weight: 600;
+                    }
+                    margin-bottom: 0;
+                }
+
+            }
+
+            &::before {
+                -moz-transition: opacity 0.5s ease;
+                -webkit-transition: opacity 0.5s ease;
+                -ms-transition: opacity 0.5s ease;
+                transition: opacity 0.5s ease;
+                bottom: 0;
+                content: '';
+                display: block;
+                height: 100%;
+                left: 0;
+                opacity: 0.85;
+                position: absolute;
+                width: 100%;
+                z-index: 2;
+            }
+
+            &:nth-child(1)::before {
+                background-color: variables.$color-project-1;
+            }
+
+            &:nth-child(2)::before {
+                background-color: variables.$color-project-2;
+            }
+
+            &:nth-child(3)::before {
+                background-color: variables.$color-project-3;
+            }
+
+            &:nth-child(4)::before {
+                background-color: variables.$color-project-4;
+            }
+
+            &:nth-child(5)::before {
+                background-color: variables.$color-project-5;
+            }
+
+            &:nth-child(6)::before {
+                background-color: variables.$color-project-6;
+            }
+
+            &:hover::before {
+                opacity: 0;
+            }
+
+        }
+
+        #ameritas {
+            background: url('../img/ameritas-thumb.jpg') center center;
+        }
+        
+        #deverus1 {
+            background: url('../img/deverus-cert-thumb.jpg') center center;
+        }
+
+        #deverus2 {
+            background: url('../img/deverus-empv-thumb.jpg') center center;
+        }
+
+        #apfm {
+            background: url('../img/apfm-thumb.jpg') center center;
+        }
+
+        #pebble {
+            background: url('../img/pebble-thumb.jpg') center center;
+        }
+
+        #leankit {
+            background: url('../img/leankit-thumb.jpg') center center;
+        }
+
+        #earnest {
+            background: url('../img/earnest-thumb.jpg') center center;
+        }
+
+        #openn {
+            background: url('../img/openn-thumb-sm.jpg') center center;
+        }
+
+        #abr {
+            background: url('../img/abr-thumb-lg.jpg') center center;
+        }
+
+        #motion {
+            background: url('../img/motion-thumb-sm.jpg') center center;
+        }
+
+        #deverus1,
+        #deverus2,
+        #apfm,
+        #pebble,
+        #leankit,
+        #earnest,
+        #openn,
+        #abr,
+        #motion {
+            background-size: cover;
+        }
+
     }
 
 }
@@ -228,7 +370,7 @@
 
 /* Testimonials */
 .testimonials {
-    padding: 1.5rem 0 3rem 0;
+    padding: 3rem 0;
       
     .slider {
         width: 100%;

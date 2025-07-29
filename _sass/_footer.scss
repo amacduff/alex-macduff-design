@@ -8,8 +8,8 @@ footer {
 	border-top: 1px solid variables.$color-border;
 
 	.contact-info {
+		background-color: variables.$color-background-2;
 		margin: 0 auto;
-    	max-width: 25rem;
 		padding: 4rem 1rem 6rem 1rem;
 
 		.contact-contents {
@@ -58,7 +58,7 @@ footer {
 	}
 
 	.copyright {
-		padding: 0 1rem .5rem 1rem;
+		padding: 1rem;
 
 		p {
 			color: variables.$color-subtle;

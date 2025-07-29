@@ -29,9 +29,13 @@
         margin: 0 auto;
     }
 
+    footer .contact-info {
+        margin: 1.5rem auto;
+    }
+
 }
 
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 520px) {
 
     .top-bar {
         padding: .5rem 1.5rem;
@@ -50,7 +54,7 @@
 
     .ux-designer {
         gap: 3rem;
-        padding: 3rem 0;
+        padding: 3rem 1.5rem;
 
         .headshot {
             height: 12.5rem;
@@ -61,7 +65,7 @@
         
             h1 {
                 font: {
-                    @include mixins.fntz(2);
+                    @include mixins.fntz(1.35);
                 }
     
             }
@@ -82,7 +86,7 @@
             height: 2rem;
     
             li {
-                padding: 0 2rem;
+                padding: 0 1rem;
             }
     
         }
@@ -95,18 +99,38 @@
 
     .ux-designer,
     .portfolio {
-        max-width: 40.125rem;
+        max-width: 100%;
     }
 
     .portfolio {
-        padding: 4rem 0 0 0;
 
         h1 {
             font: {
-                @include mixins.fntz(2.25);
+                @include mixins.fntz(1.5);
             }
 
             padding-bottom: 3rem;
+
+        }
+
+        .worklist {
+            border-top: none;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 0;
+            width: 100%;
+
+            article {
+                padding: 0 1.5rem;
+            }
+
+            .bigcard {
+                flex-basis: 60%;
+            }
+
+            .lilcard {
+                flex-basis: 40%;
+            }
 
         }
 
@@ -189,10 +213,15 @@
       }
 
     .testimonials {
-        padding: 1rem 0 4rem 0;
+        padding: 4rem 0;
 
         .slider {
             height: 23rem;
+
+            .slide {
+                padding: 0 1.5rem;
+            }
+
         }
 
         blockquote {
@@ -264,7 +293,7 @@
     .image-break .img-container,
     .quick-navigation .content,
     footer .contact-info {
-        max-width: 40.125rem;
+        max-width: 29.5rem;
     }
 
     .project-title {
@@ -374,13 +403,13 @@
     footer {
 
         .contact-info {
-            padding: 8rem 0;
+            padding: 8rem 1.5rem;
 
             .contact-contents {
         
                 h1 {
                     font: {
-                        @include mixins.fntz(1.5);
+                        @include mixins.fntz(1.25);
                     }
                 }
 
@@ -450,7 +479,7 @@
 @media screen and (min-width: 968px) {
 
 	.ux-designer {
-        padding: 5rem 0;
+        padding: 5rem 1.5rem;
 
         .headshot {
             height: 20rem;
@@ -461,7 +490,7 @@
         
             h1 {
                 font: {
-                    @include mixins.fntz(3);
+                    @include mixins.fntz(2);
                 }
     
             }
@@ -475,17 +504,12 @@
         display: inline-block;
     }
 
-    .ux-designer,
     .portfolio {
-        max-width: 57.5rem;
-    }
-
-    .portfolio {
-        padding: 5rem 0 0 0;
+        padding: 0;
 
         h1 {
             font: {
-                @include mixins.fntz(2.5);
+                @include mixins.fntz(2);
             }
 
             padding-bottom: 3rem;
@@ -521,15 +545,15 @@
     }
 
     .testimonials {
-        padding: 2rem 6.875rem 5rem 6.875rem;
+        padding: 5rem 6.875rem;
 
         .slider {
-            height: 32rem;
+            height: 20rem;
         }
 
         blockquote {
             font: {
-                @include mixins.fntz(2);
+                @include mixins.fntz(1.5);
             }
             padding-bottom: 3rem;
         }
@@ -621,7 +645,7 @@
         
                 h1 {
                     font: {
-                        @include mixins.fntz(2);
+                        @include mixins.fntz(1.5);
                     }
                 }
 
@@ -641,7 +665,27 @@
 
 @media screen and (min-width: 1024px) {
 
-	
+	.portfolio {
+
+        .worklist {
+
+            article {
+
+                .thumb-desc {
+
+                    p {
+                        font: {
+                            @include mixins.fntz(1.5);
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+        
+    }
 
 }
 

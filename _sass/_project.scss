@@ -12,7 +12,8 @@
 .tldr,
 .case-study .summary,
 .image-break .img-container,
-.quick-navigation .content {
+.quick-navigation .content,
+footer .contact-info {
 	max-width: 23rem;
 	min-width: 16.25rem;
 }
@@ -136,6 +137,35 @@
 	margin: .5rem 0 1rem 0;
 	overflow: hidden;
 	width: 2.5rem;
+
+/*
+
+	&.one {
+		background-color: variables.$color-project-1;
+	}
+
+	&.two {
+		background-color: variables.$color-project-2;
+	}
+
+	&.three {
+		background-color: variables.$color-project-3;
+	}
+
+	&.four {
+		background-color: variables.$color-project-4;
+	}
+
+	&.five {
+		background-color: variables.$color-project-5;
+	}
+
+	&.six {
+		background-color: variables.$color-project-6;
+	}
+
+*/
+
 }
 
 .case-study {
