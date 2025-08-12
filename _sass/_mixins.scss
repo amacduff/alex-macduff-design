@@ -4,3 +4,12 @@
 	size: (($rem*16) + px);
 	size: ($rem + rem);
 }
+
+@mixin inner {
+	> .inner {
+		padding: 4em 0;
+		margin: 0 auto;
+		max-width: 65em;
+		width: calc(100% - 6em);
+	}
+}

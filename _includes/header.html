@@ -1,15 +1,7 @@
-<header class="top-bar">
+<!-- Wrapper -->
+<div id="wrapper">
 
-    <div class="home-link">
-        <a href="https://alexmacduff.com">Alex MacDuff</a>
-    </div>
-
-    <nav>
-        <ul>
-            <li><a href="https://alexmacduff.com#casestudies">Case Studies</a></li>
-            <li><a href="https://alexmacduff.com#testimonials">Testimonials</a></li>
-            <li><a href="https://alexmacduff.com#resume">Resume</a></li>
-        </ul>
-    </nav>
-
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong></a>
 </header>

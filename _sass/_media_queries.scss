@@ -1,739 +1,419 @@
 /* Media Queries */
 
 @use 'variables';
+@use 'libs';
 @use 'mixins';
 
-@media screen and (max-width: 736px) {
 
-	.top-bar nav {
+// XLARGE
+@media screen and (max-width: 1680px) {
+
+	body,
+    input,
+    select,
+    textarea {
+		font-size: 14pt;
+	}
+
+	.spotlights {
+
+		> section {
+			> .image {
+				width: 40%;
+			}
+
+			> .content {
+				width: 60%;
+			}
+		}
+
+	}
+
+	#header {
+
+        nav {
+            a {
+                &[href="#menu"] {
+                    padding-right: 3.75em !important;
+
+                    &:last-child {
+                        padding-right: 4.25em !important;
+                    }
+                }
+            }
+        }
+
+	}
+
+}
+
+// LARGE
+@media screen and (max-width: 1280px) {
+
+	body,
+    input,
+    select,
+    textarea {
+		font-size: 12pt;
+	}
+
+	.spotlights {
+
+		> section {
+			> .image {
+				width: 45%;
+			}
+
+			> .content {
+				width: 55%;
+			}
+		}
+
+	}
+
+	.tiles {
+
+		article {
+				padding: 4em 3em;
+				height: 30vh;
+				max-height: 30em;
+				min-height: 20em;
+		}
+	}
+
+	#banner {
+		background-attachment: scroll;
+	}
+
+	#header {
+
+        nav {
+            a {
+                &[href="#menu"] {
+                    padding-right: 4em !important;
+
+                    &:last-child {
+                        padding-right: 4.5em !important;
+                    }
+                }
+            }
+        }
+
+	}
+
+}
+
+// MEDIUM
+@media screen and (max-width: 980px) {
+
+	#brooklinen {
         display: none;
     }
 
+	.spotlights {
+
+		> section {
+			display: block;
+
+			> .image {
+				width: 100%;
+			}
+
+			> .content {
+				padding: 4em 3em;
+				width: 100%;
+			}
+		}
+
+	}
+
+	.tiles {
+
+		article {
+			width: 50% !important;
+		}
+	}
+
 }
 
-@media screen and (min-width: 361px) {
+// SMALL
+@media screen and (max-width: 736px) {
 
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	.image {
+
+		&.main {
+			margin: (variables.$size-element-margin * 0.75) 0;
+		}
+
+	}
+
+	ul {
+
+		&.icons {
+			li {
+				padding: 0 0.75em 0 0;
+			}
+		}
+
+	}
+
+	dl {
+
+		dt {
+			flex-basis: 100%;
+		}
+
+		dd {
+			margin-left: 0;
+		}
+
+		header {
+
+			&.major {
+				> p {
+					br {
+						display: none;
+					}
+				}
+			}
+
+		}
+
+	}
+
+    #sierraclub {
+        display: none;
+    }
+
+	.spotlights {
+
+		> section {
+			> .content {
+				padding: 3em 1.5em;
+			}
+		}
+
+	}
+
+	.tiles {
+
+		article {
+			padding: 3em 1.5em;
+			height: 16em;
+			max-height: none;
+			min-height: 0;
+
+			h3 {
+				font-size: 1.5em;
+			}
+		}
+	}
+
+	#main {
+
+		section {
+
+			> .inner {
+				width: calc(100% - 3em);
+			}
+
+		}
+
+	}
+
+	#banner {
+		padding: 3em 0;
+        height: auto;
+        margin-bottom: -2.75em;
+        max-height: none;
+        min-height: 0;
+        top: -2.75em;
+
+        h1 {
+            font-size: 2em;
+        }
+
+        > .inner {
+			width: calc(100% - 3em);
+
+            .content {
+                display: block;
+
+                > * {
+                    margin-left: 0;
+                    margin-bottom: variables.$size-element-margin;
+                }
+            }
+        }
+
+        &.major {
+            height: auto;
+            min-height: 0;
+            max-height: none;
+        }
+	}
+
+	#header {
+        height: 2.75em;
+        line-height: 2.75em;
+
+        .logo {
+            padding: 0 1em;
+        }
+
+        nav {
+            a {
+                padding: 0 0.5em;
+
+                &:last-child {
+                    padding-right: 1em;
+                }
+
+                &[href="#menu"] {
+                    padding-right: 3.25em !important;
+
+                    &:before, &:after {
+                        right: 0.75em;
+                    }
+
+                    &:last-child {
+                        padding-right: 4em !important;
+
+                        &:before, &:after {
+                            right: 1.5em;
+                        }
+                    }
+                }
+            }
+        }
+	}
 	
+	#footer {
+
+		> .inner {
+			width: calc(100% - 3em);
+		}
+
+	}
+
+	#wrapper {
+		padding-top: 2.75em;
+	}
 
 }
 
-@media screen and (min-width: 400px) {
+// XSMALL
+@media screen and (max-width: 480px) {
 
-	.tldr {
-        margin: -2rem auto 0 auto;
+	.tiles {
+
+		article {
+			height: 20em;
+			width: 100% !important;
+		}
+	}
+
+	#banner {
+		padding: 4em 0;
+
+        > .inner {
+            .content {
+                p {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &.major {
+            padding: 6em 0;
+        }
+	}
+
+	#hint {
+        display: none;
     }
 
-    .case-study .summary,
-    .image-break .img-container,
-    .quick-navigation .content {
-        margin: 0 auto;
-    }
+	#footer {
 
-    footer .contact-info {
-        margin: 1.5rem auto;
-    }
+		.copyright {
+            li {
+                display: block;
+                border-left: 0;
+                margin-left: 0;
+                padding-left: 0;
+                line-height: inherit;
+            }
+        }
 
-}
+	}
 
-@media screen and (min-width: 520px) {
+	#header {
 
-    .top-bar {
-        padding: .5rem 1.5rem;
-
-        .home-link a {
-            font: {
-                @include mixins.fntz(1.25);
+        .logo {
+            span {
+                display: none;
             }
         }
 
         nav {
-            padding: .25rem 0;
-        }
-
-    }
-
-    .ux-designer {
-        gap: 3rem;
-        padding: 3rem 1.5rem;
-
-        .headshot {
-            height: 12.5rem;
-            width: 12.5rem;
-        }
-
-        .statement {
-        
-            h1 {
-                font: {
-                    @include mixins.fntz(1.35);
-                }
-    
-            }
-    
-        }
-
-    }
-
-    .logo-belt {
-
-        padding: 1.75rem 0;
-
-        #logo-label {
-            display: inline;
-        }
-
-        ul {
-            height: 2rem;
-    
-            li {
-                padding: 0 1rem;
-            }
-    
-        }
-    
-        svg {
-            height: 2rem;
-        }
-
-    }
-
-    .ux-designer,
-    .portfolio {
-        max-width: 100%;
-    }
-
-    .portfolio {
-
-        h1 {
-            font: {
-                @include mixins.fntz(1.5);
-            }
-
-            padding-bottom: 3rem;
-
-        }
-
-        .worklist {
-            border-top: none;
-            display: flex;
-            flex-wrap: wrap;
-            padding-top: 0;
-            width: 100%;
-
-            article {
-                padding: 0 1.5rem;
-            }
-
-            .bigcard {
-                flex-basis: 60%;
-            }
-
-            .lilcard {
-                flex-basis: 40%;
-            }
-
-        }
-
-    }
-
-    .cs-card {
-        display: flex;
-        font: {
-            @include mixins.fntz(1.25);
-        }
-        margin: 0 auto 3rem auto;
-        max-width: 45rem;
-        min-width: 16.25rem;
-        overflow: hidden;
-        padding: .5rem;
-        
-        .thumb-link {
-            display: inline-block;
-            padding: 0.5rem;
-        }
-      
-        .card-image {
-            border-radius: .5rem;
-            flex-grow: 1;
-            height: 11.25rem;
-            width: 15rem;
-        }
-      
-        .card-info {
-          flex-grow: 2;
-          vertical-align: top;
-          
-          h2 {
-            font-size: 1.5rem;
-          }
-
-          th {
-            padding-top: 0;
-          }
-          
-        }
-      
-        .label, a {
-          font-size: 1rem;
-          text-transform: uppercase;
-        }
-        
-        .fullcase {
-          padding: 0.5rem 0 0 0;
-
-            &.mobile {
-                display: none;
-            }
-
-            &.tablet {
-                display: block;
-            }
-
-        }
-      
-        a {
-          /* "to left" / "to right" - affects initial color */
-          background: linear-gradient(to left, #AA00FF 50%, #8000BF 50%) right;
-          background-size: 200%;
-          transition: .5s ease-out;
-      
-          border-radius: 0.5rem;
-          color: #FFF;
-          display: block;
-          font-weight: 700;
-          padding: 1rem 1.5rem;
-          text-align: center;
-          text-decoration: none;
-        }
-      
-        a:hover {
-          background-position: left;
-        }
-        
-      }
-
-    .testimonials {
-        padding: 4rem 0;
-
-        .slider {
-            height: 23rem;
-
-            .slide {
-                padding: 0 1.5rem;
-            }
-
-        }
-
-        blockquote {
-            font: {
-                @include mixins.fntz(1.5);
-            }
-            padding-bottom: 2.5rem;
-        }
-
-        .kindhuman {
-
-            .source-photo {
-                height: 4rem;
-                width: 4rem;
-            }
-
-            figcaption {
-                font: {
-                    @include mixins.fntz(1.25);
-                }
-            }
-
-        }
-
-        .more-testimonials {
-            padding-top: 1.5rem;
-        }
-
-    }
-
-    .writing-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-
-        .writing-card {
-            margin: 0;
-            width: 19.3rem;
-
-            ul {
-
-                li {
-                    font: {
-                        @include mixins.fntz(1);
-                    }
-                }
-
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            p,
             a {
-                font: {
-                    @include mixins.fntz(1.25);
-                }
-            }
+                &[href="#menu"] {
+                    overflow: hidden;
+                    padding-right: 0 !important;
+                    text-indent: 5em;
+                    white-space: nowrap;
+                    width: 5em;
 
-        }
-
-    }
-
-    /* Case Study Pages */
-    .project-title .overview,
-    .tldr,
-    .case-study .summary,
-    .image-break .img-container,
-    .quick-navigation .content,
-    footer .contact-info {
-        max-width: 29.5rem;
-    }
-
-    .project-title {
-        padding: 5rem 1rem 7.5rem 1rem;
-
-        h1 {
-            font: {
-                @include mixins.fntz(2);
-            }
-        }
-
-        h2 {
-            font: {
-                @include mixins.fntz(1.5);
-            }
-        }
-
-    }
-
-    .tldr,
-    .case-study .summary,
-    .quick-navigation .content {
-
-        h2 {
-            font: {
-                @include mixins.fntz(1.5);
-            }
-        }
-
-    }
-
-    .case-study {
-
-        .summary {
-            h2 {
-                padding-bottom: 1rem;
-        }
-        }
-
-        ul,
-        dl {
-            font: {
-                @include mixins.fntz(1.3);
-            }
-        }
-
-    }
-
-    .tldr dt {
-		font: {
-			@include mixins.fntz(1);
-		}
-	}
-
-    p,
-    .tldr dd {
-        font: {
-            @include mixins.fntz(1.25);
-        }
-    }
-
-    .tldr {
-        margin-top: -2.5rem;
-        padding: 1.5rem;
-
-        dl {
-            align-items: baseline;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-        }
-
-        dt {
-            vertical-align: text-bottom;
-            width: 7.375rem;
-        }
-
-        dd {
-            width: 28.125rem;
-            padding-bottom: 0;
-        }
-
-    }
-
-    .case-study {
-        margin: 4rem auto;
-    }
-
-    .image-break {
-        padding: 4rem 0 3rem 0;
-
-        .img-container figcaption {
-			font: {
-				@include mixins.fntz(1);
-			}
-		}
-
-    }
-
-    .quick-navigation {
-        font: {
-            @include mixins.fntz(1.25);
-        }
-        padding: 4rem 0;
-    }
-
-    footer {
-
-        .contact-info {
-            padding: 8rem 1.5rem;
-
-            .contact-contents {
-        
-                h1 {
-                    font: {
-                        @include mixins.fntz(1.25);
+                    &:before, &:after {
+                        right: 0;
+                        width: inherit;
                     }
-                }
 
-                h1,h2 {
-                    
-                    span {
-                        display: inline-block;
-                        margin-right: .5rem;
-                    }
-    
-                }
-    
-                h2 {
-                    font: {
-                        @include mixins.fntz(1.25);
-                    }
-                    padding: 3rem 0;
-                }
-    
-            }
-    
-            ul {
-                gap: 1.5rem 3rem;
-        
-                li {
-                    font: {
-                        @include mixins.fntz(1.25);
-                    };
-                }
-        
-            }
-        
-            svg {
-                height: 1.5rem;
-                padding-right: .75rem;
-            }
-    
-        }
-
-        .copyright {
-            padding: 0 1.5rem .5rem 1.5rem;
-
-            p {
-                font: {
-                    @include mixins.fntz(1);
-                }
-            }
-
-        }
-    
-    }
-
-}
-
-@media screen and (min-width: 737px) {
-
-	
-
-}
-
-@media screen and (min-width: 901px) {
-
-	
-
-}
-
-@media screen and (min-width: 968px) {
-
-	.ux-designer {
-        padding: 8rem 3rem;
-
-        .headshot {
-            height: 20rem;
-            width: 20rem;
-        }
-
-        .statement {
-        
-            h1 {
-                font: {
-                    @include mixins.fntz(2);
-                }
-    
-            }
-    
-        }
-
-    }
-
-    #hint,
-    #sierraclub {
-        display: inline-block;
-    }
-
-    .portfolio {
-        padding: 0;
-
-        h1 {
-            font: {
-                @include mixins.fntz(2);
-            }
-
-            padding-bottom: 3rem;
-
-        }
-
-    }
-
-    .cs-card {
-        max-width: 57.5rem;
-
-        .thumb-link,
-        .card-info {
-            padding: 1rem;
-        }
-
-        .card-info {
-
-            h2 {
-                font-size: 2rem;
-            }
-
-            th {
-                padding-bottom: 1.5rem;
-            }
-
-            .label {
-                width: 6rem;
-            }
-
-        }
-        
-    }
-
-    .testimonials {
-        padding: 5rem 0;
-
-        .slider {
-            height: 20rem;
-        }
-
-        blockquote {
-            font: {
-                @include mixins.fntz(1.5);
-            }
-            padding-bottom: 3rem;
-        }
-
-    }
-
-    .writing {
-        padding-bottom: 5rem;
-    }
-
-    .writing-wrapper {
-
-        .writing-card {
-            width: 28rem;
-        }
-
-    }
-
-    /* Case Study Pages */
-    .project-title .overview,
-    .case-study .summary,
-    .image-break .img-container,
-    .quick-navigation .content,
-    footer .contact-info {
-        max-width: 45.5rem;
-    }
-
-    .tldr {
-        max-width: 51.5rem;
-    }
-
-    .project-title {
-        padding: 8rem 1rem 12.5rem 1rem;
-
-        h1 {
-            font: {
-                @include mixins.fntz(3);
-            }
-            margin-bottom: 1rem;
-        }
-
-        h2 {
-            font: {
-                @include mixins.fntz(2);
-            }
-        }
-
-    }
-
-    .tldr,
-    .case-study .summary,
-    .quick-navigation .content {
-
-        h2 {
-            font: {
-                @include mixins.fntz(2);
-            }
-        }
-
-    }
-
-    .tldr {
-        margin-top: -4.5rem;
-        padding: 3rem;
-
-        dd {
-            width: 36.5rem;
-        }
-
-    }
-
-    .case-study {
-        margin: 5rem auto;
-    }
-
-    .image-break {
-        padding: 5rem 0 4rem 0;
-    }
-
-    .quick-navigation {
-        padding: 5rem 0;
-    }
-
-    footer {
-
-        .contact-info {
-
-            .contact-contents {
-        
-                h1 {
-                    font: {
-                        @include mixins.fntz(1.5);
-                    }
-                }
-
-                h2 {
-                    font: {
-                        @include mixins.fntz(1.5);
-                    }
-                }
-
-            }
-        
-        }
-
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-	.portfolio {
-
-        .worklist {
-
-            article {
-
-                .thumb-desc {
-
-                    p {
-                        font: {
-                            @include mixins.fntz(1.5);
+                    &:last-child {
+                        &:before, &:after {
+                            width: 4em;
+                            right: 0;
                         }
                     }
-
                 }
-
             }
-
         }
-        
-    }
+
+	}
 
 }
 
-@media screen and (min-width: 1280px) {
+// XXSMALL
+@media screen and (max-width: 360px) {
 
-    .ux-designer {
-        padding: 12rem 5rem;
-
-        .statement {
-        
-            h1 {
-                font: {
-                    @include mixins.fntz(2.5);
-                }
-    
-            }
-    
-        }
-
-    }
-
-	#brooklinen {
-        display: inline-block;
-    }
-
-    .portfolio {
-
-        .worklist {
-            margin: 2rem auto 0 auto;
-            max-width: 80rem;
-            gap: 2rem;
-
-            .bigcard {
-                flex-basis: 58%;
-            }
-
-            .lilcard {
-                flex-basis: 39%;
-            }
-
-        }
-        
-    }
+    body,
+    input,
+    select,
+    textarea {
+		font-size: 11pt;
+	}
 
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 320px) {
 
-	
+    html,
+    body {
+        min-width: 320px;
+    }
 
 }

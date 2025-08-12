@@ -1,40 +1,36 @@
----
-layout: default
-category: blog
----
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-<div class="blog-title">
-    <div class="post-title">
-        <h1 id="fittext1">{{ page.title }}</h1>
-    </div>
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		{{ content }}
+	</div>
+</section>
+
 </div>
 
-<main class="blog">
+    {% include footer.html %}
 
-	<article class="post-content">
+</body>
 
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-		</header>
-
-		<blockquote>
-			{{ page.excerpt }}
-		</blockquote>
-			{{ content }}
-		
-	</article>
-
-	<section class="recent-posts">
-
-        <h1>Recent Posts</h1>
-
-        <ul class="post-list">
-            {% for post in site.posts offset:0 %}
-            <li>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-
-    </section>
-
-</main>
+</html>

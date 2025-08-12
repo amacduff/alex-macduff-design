@@ -3,9 +3,14 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
-@use 'global';
-@use 'header';
-@use 'landing';
-@use 'project';
-@use 'footer';
+@use 'base';
+@use 'variables';
+@use 'typography';
+@use 'components';
+@use 'mixins';
+@use 'libs';
+@use 'layout';
 @use 'media_queries';
+
+@import '../assets/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');

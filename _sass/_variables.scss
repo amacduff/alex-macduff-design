@@ -1,25 +1,44 @@
 /* Variables */
 
-// Color
-
-$color-text: #222222;
-$color-text-2: #FFFFFF;
-$color-action: #AA00FF;
-$color-hover: #8000BF;
-$color-support: #01579B;
-$color-border: #CCCCCC;
-$color-subtle: #999999;
-$color-background-1: #FFFFFF;
-$color-background-2: #F5F5F5;
-
-$color-project-1: #02599C;
-$color-project-2: #02899C;
-$color-project-3: #54BBC9;
-$color-project-4: #02289C;
-$color-project-5: #115DBF;
-$color-project-6: #356F9C;
-
 
 // Typography
 
 $font: 'Noto Sans', sans-serif;
+
+// Forty Variables
+
+// Misc.
+	$misc-z-index-base:		10000;
+
+// Duration.
+	$duration-menu:			0.35s;
+	$duration-transition:	0.2s;
+	$duration-banner:		2.5s;
+
+// Size.
+	$size-border-radius:		4px;
+	$size-element-height:		2.75em;
+	$size-element-margin:		2em;
+	$size-inner:				65em;
+
+// Letter Spacing.
+    $letter-spacing:		0.025em;
+    $letter-spacing-alt:    0.25em;
+
+// Palette.
+	$palette-bg:				#242943;
+    $palette-bg-alt:			#2a2f4a;
+    $palette-fg:				#ffffff;
+    $palette-fg-bold:	    	#ffffff;
+    $palette-fg-light:	    	rgba(244,244,255,0.2);
+    $palette-border:			rgba(212,212,255,0.1);
+    $palette-border-bg:	    	rgba(212,212,255,0.035);
+    $palette-highlight:		   	#AA00FF;
+    $palette-accent1:			#6fc3df;
+    $palette-accent2:			#8d82c4;
+    $palette-accent3:			#ec8d81;
+    $palette-accent4:			#e7b788;
+    $palette-accent5:			#8ea9e8;
+    $palette-accent6:			#87c5a4;
+    $palette-csbg-1:            #2e3450;
+    $palette-csbg-2:            #333856;
