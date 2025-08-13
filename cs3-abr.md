@@ -140,7 +140,7 @@ style: style3
 				<li><a href="cs2-openn">Home Buying UX Improvement</a></li>
 				<li><a href="cs4-apfm">Optimized Post-Lead Experience</a></li>
 				<li><a href="cs5-motion">Product Configurator Feature</a></li>
-				<li><a href="cs6leankit">Benefits Page Improvement</a></li>
+				<li><a href="cs6-leankit">Benefits Page Improvement</a></li>
 			</ul>
 		</div>
 	</div>
