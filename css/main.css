@@ -413,7 +413,11 @@ ul {
   padding-left: 1em;
 }
 ul li {
+  padding-bottom: 0.5em;
   padding-left: 0.5em;
+}
+ul li:last-child {
+  padding-bottom: 0;
 }
 ul.alt {
   list-style: none;

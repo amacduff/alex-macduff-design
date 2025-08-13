@@ -1,5 +1,5 @@
 ---
-title: Optimized Post-Lead Experience
+title: Optimized Post-Lead Journey
 layout: landing
 description: A Place For Mom
 image: img/apfm-thumb.jpg
@@ -38,9 +38,13 @@ style: style4
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Client</h3>
+					<h3>The Challenge</h3>
 				</header>
-					<p>A Place For Mom is the largest assisted living referral service. The heart of their process is getting help from a local advisor who helps families find the best option for them. Most of the communication involved takes place over the phone. Two big challenges they face are getting users to submit their phone number in a lead form, and then getting them to answer the phone when the call comes. For this test I focused on the second challenge.</p>
+					<p>The core of the A Place For Mom business model relies on advisors connecting with users via phone call. A low call answer rate after lead form submission was a significant business problem, leading to lost revenue and inefficiency.</p>
+					<ul>
+						<li><strong>Problem:</strong> Users were not answering the phone calls from advisors, even though the calls were made less than a minute after they submitted their information.</li>
+						<li><strong>Core Issue:</strong> The existing thank you page had too much information and failed to prepare users for an immediate phone call. I hypothesized that this disconnect was a primary driver of the low answer rate.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -51,11 +55,12 @@ style: style4
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Challenge</h3>
+					<h3>My Role</h3>
 				</header>
-					<p>It all started with a conversation I had with a colleague who specializes in the post-lead experience (everything that happens after a user fills out a form). They mentioned the number of users who answered the initial phone call was surprisingly low, so I started drilling into possible explanations. I found out that the timeframe between a user submitting a lead and receiving a call was less than a minute.</p>
-					<p>I thought about my own mother, and how she never answers the phone on the first call, because she never keeps her phone on her. And I speculated that a fair amount of people might not associate the ringing phone with the form they just filled out on their computer. So I decided to test preparing users to receive a call on our thank you page.</p>
-					<p>At the time, the current thank you page treatment did explain the next steps of the process and what to expect. However, there was a lot of information being presented, and it was a lot to digest. Additionally, the thank you page didn't make it clear to the user that they were going to receive a phone call right away. I hypothesized that by simplifying the thank you page and focusing on the fact that users were about to receive a call any moment, we could increase the number of people answering the call.</p>
+					<p>I served as the <strong>lead designer and strategist</strong> on this initiative, driving the project from initial insight to a final, high-impact solution.</p>
+					<ul>
+						<li><strong>My Contribution:</strong> My responsibilities included developing the core hypothesis, designing the new experience, and implementing the solution with full-stack capabilities, and performing the testing and analysis.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -66,9 +71,14 @@ style: style4
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Hypothesis</h3>
+					<h3>The Process</h3>
 				</header>
-					<p>If we educate users about the process and prepare them to receive a phone call right away, we can increase referred leads by 10%.</p>
+					<p>My approach was a fast, data-driven experiment to test a single, high-impact hypothesis.</p>
+					<ul>
+						<li><strong>Hypothesis:</strong> I hypothesized that by simplifying the thank you page and explicitly preparing users to receive an immediate phone call, we could increase the number of people who answered the call.</li>
+						<li><strong>Strategic Design:</strong> I focused on a minimalist design, using color and animation to draw attention to the most critical next step. I also included the user's phone number for a more personalized, trust-building experience.</li>
+						<li><strong>Implementation:</strong> I managed the entire process from design through development, ensuring a seamless and rapid deployment of the A/B test.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -79,13 +89,9 @@ style: style4
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Solution</h3>
+					<h3>The Solution</h3>
 				</header>
-					<p>My main goals in designing this solution were to simplify the content on the thank you page and draw attention to the most important next step: receiving a call.</p>
-					<p>I started by de-emphasizing the benefits section at the bottom of the page, opting for a simple bulleted list view, as opposed to a full width horizontal section with icons.</p>
-					<p>I used color to de-emphasize the completed step and emphasize the current step. I used an animated icon to draw attention to the current step, since that's the most important task at hand. I included the phone number submitted in the messaging for a more personalized experience.</p>
-					<p>I changed the main headline of the page from a generic "thank you" message to a one sentence instruction to not close the window or navigate away from the page. I also changed the main call to action on the page from "View My Listings", which took them away from that page, to a request to receive another call, in the event they missed the first call.</p>
-					<p>Finally, I made the thank you message a full page design, as opposed to the previous modal version, to make the whole thing a bit clearer and remove visual distraction and the inherent desire most users have to close a modal without reading it.</p>
+					<p>I redesigned the thank you page to be a full-screen, focused experience. The solution prioritized a single, clear message: <strong>"An advisor is about to call you now."</strong> Key features included a personalized phone number display, an animated call icon, and a simplified flow that discouraged users from navigating away.</p>
 			</div>
 		</div>
 	</section>
@@ -96,9 +102,12 @@ style: style4
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Results & Iteration</h3>
+					<h3>The Impact</h3>
 				</header>
-					<p>Redesigning the thank you page to focus on next steps produced a 15% increase in referred leads, which in turn, resulted in an estimated $1.2MM bump in annual revenue.</p>
+					<p>This hypothesis-driven design directly delivered a significant business outcome.</p>
+					<ul>
+						<li><strong>The Result:</strong> The new design produced a <strong>15% increase</strong> in referred leads, which resulted in an estimated <strong>$1.2M bump in annual revenue</strong>. This project validated the importance of a user-centric, conversion-focused approach and demonstrated how small design changes can lead to large business gains.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -115,9 +124,9 @@ style: style4
 			<ul>
 				<li><a href="cs1-ameritas">Sales Insights Dashboard</a></li>
 				<li><a href="cs2-openn">Home Buying UX Improvement</a></li>
-				<li><a href="cs3-abr">Remote Oral Exam Design</a></li>
-				<li><a href="cs5-motion">Product Configurator Feature</a></li>
-				<li><a href="cs6-leankit">Benefits Page Improvement</a></li>
+				<li><a href="cs3-abr">Remote Oral Exam Platform</a></li>
+				<li><a href="cs5-motion">Optimized Product Search</a></li>
+				<li><a href="cs6-leankit">Optimizing for B2B Decision-Makers</a></li>
 			</ul>
 		</div>
 	</div>

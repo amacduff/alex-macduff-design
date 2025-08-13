@@ -38,9 +38,14 @@ style: style1
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Client</h3>
+					<h3>The Challenge</h3>
 				</header>
-					<p>Ameritas Life Insurance offers a wide range of financial products and services to individuals, families, and businesses. During my time there, I led the redesign of an internal sales dashboard used by senior leadership.</p>
+					<p>The existing sales dashboard was a complex data dump that failed to provide senior leadership with the clear, actionable insights they needed. This resulted in low adoption and a lack of confidence in making data-driven strategic decisions.</p>
+					<ul>
+						<li><strong>Problem:</strong> Overloaded with unstructured data and difficult to navigate.</li>
+						<li><strong>Result:</strong> Low usage, with executives unable to quickly find key insights.</li>
+						<li><strong>Core Issue:</strong> An <strong>information architecture and systems problem</strong>, not just a visual one.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -51,9 +56,14 @@ style: style1
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Challenge</h3>
+					<h3>My Role</h3>
 				</header>
-					<p>The existing sales dashboard was overloaded with data and difficult to navigate, resulting in low usage. The challenge was to optimize the dashboard to make it more user-friendly, insightful, and aligned with executive decision-making needs.</p>
+					<p>As the sole UX designer, I led the end-to-end strategy, research, and design for a new internal sales dashboard. My responsibilities included:</p>
+					<ul>
+						<li>Defining the user experience from discovery to delivery.</li>
+						<li>Translating complex business goals into a structured product.</li>
+						<li>Ensuring the final solution was scalable and intuitive for executive users.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -64,9 +74,14 @@ style: style1
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Users & Audience</h3>
+					<h3>The Process</h3>
 				</header>
-					<p>The primary users were high-level Ameritas executives who needed quick, actionable insights into agency and agent performance. Their goals included identifying top and bottom performers, understanding sales trends, and making strategic decisions based on real-time data.</p>
+					<p>My approach was to move from a data-first to a user-first mindset.</p>
+					<ul>
+						<li><strong>User Research:</strong> Conducted interviews with executives to identify their core business questions, distilling them into a clear narrative: "How much did they sell?", "What did they sell?", and "Where do they rank?".</li>
+						<li><strong>Information Architecture:</strong> Restructured the dashboard to reflect this storytelling hierarchy, moving from high-level KPIs to granular, drill-down views.</li>
+						<li><strong>Systems Thinking:</strong> The process of creating this logical, repeatable structure became the foundational template for future data visualization projects.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -77,9 +92,9 @@ style: style1
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Roles & Responsibilities</h3>
+					<h3>The Solution</h3>
 				</header>
-					<p>I served as the sole designer on the project. I collaborated closely with a Power BI specialist to bring the new design to life. My responsibilities included user research, UX strategy, interaction design, and stakeholder engagement.</p>
+					<p>The final design was a simplified, visually clear dashboard that made complex data immediately actionable. By prioritizing clarity and a logical flow, the new experience empowered executives to move seamlessly from a high-level overview to specific details.</p>
 			</div>
 		</div>
 	</section>
@@ -90,38 +105,14 @@ style: style1
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Scope & Constraints</h3>
+					<h3>The Impact</h3>
 				</header>
-					<p>This was a high-profile initiative with a tight two-month timeline. We held regular review sessions with executive stakeholders to gather feedback and ensure the evolving design met their expectations. The scope included both redesigning the user experience and improving the dashboard's usability and visual clarity.</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="image {{ page.style }}">
-			<img src="img/ameritas-6.png" alt="" data-position="25% 25%" />
-		</div>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Process / What We Did</h3>
-				</header>
-					<p>The original dashboard was essentially a data dump: dense, unstructured, and difficult to interpret. Our first step was to understand what executives actually needed from the dashboard. Through interviews and working sessions, we distilled their needs into a few key questions: “How much did they sell?”, “What did they sell?”, and “Where do they rank?”</p>
-					<p>Using these questions as a foundation, we restructured the dashboard to tell a clear, focused story. We prioritized high-level KPIs and enabled drill-down capabilities so users could explore data by line of business, category, or product. The design emphasized clarity, hierarchy, and ease of use, allowing executives to move seamlessly from overview to detail.</p>
-					<p>Throughout the process we iterated quickly, incorporating feedback from stakeholders and refining the design to ensure it aligned with their mental models and workflows.</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="image {{ page.style }}">
-			<img src="img/ameritas-7.png" alt="" data-position="25% 25%" />
-		</div>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Outcomes & Lessons</h3>
-				</header>
-					<p>While I don't have access to usage analytics, the qualitative feedback was clear. Before the redesign, executives frequently complained about the dashboard's complexity. After the redesign, those complaints stopped, and were replaced by feature requests. To me, that's a strong indicator of success: when users start asking for more, it means they're engaged and see value in the product.</p>
-					<p>This project reinforced the importance of designing around user intent, not just data availability. It also highlighted the value of close collaboration between design and technical implementation to ensure a seamless user experience.</p>
+					<p>While internal usage metrics were unavailable, the project’s success was measured by a powerful shift in qualitative feedback.</p>
+					<ul>
+						<li><strong>Before:</strong> Executives frequently complained about the dashboard's complexity.</li>
+						<li><strong>After:</strong> Complaints stopped entirely and were replaced by an influx of new <strong>feature requests</strong>.</li>
+					</ul>
+					<p>This change demonstrated a profound increase in user engagement and trust, indicating that the new design had successfully solved the core problem and created real value for the business.</p>
 			</div>
 		</div>
 	</section>
@@ -130,19 +121,6 @@ style: style1
 <!-- Three -->
 <section id="three">
 	<div class="inner">
-		<header class="major">
-			<h2>Why It Matters</h2>
-		</header>
-		<p>This project demonstrates my ability to:</p>
-		<ul class="bullets">
-			<li>Lead UX strategy and execution from discovery through delivery</li>
-			<li>Translate complex data into intuitive, actionable interfaces</li>
-			<li>Collaborate cross-functionally to deliver high-impact solutions</li>
-			<li>Operate independently while aligning with business goals</li>
-			<li>Drive adoption and engagement through thoughtful, user-centered design</li>
-		</ul>
-	</div>
-	<div class="inner">
 		<div class="quick-navigation box">
 			<div class="content">
 			<header class="major">
@@ -150,10 +128,10 @@ style: style1
 			</header>
 			<ul>
 				<li><a href="cs2-openn">Home Buying UX Improvement</a></li>
-				<li><a href="cs3-abr">Remote Oral Exam Design</a></li>
-				<li><a href="cs4-apfm">Optimized Post-Lead Experience</a></li>
-				<li><a href="cs5-motion">Product Configurator Feature</a></li>
-				<li><a href="cs6-leankit">Benefits Page Improvement</a></li>
+				<li><a href="cs3-abr">Remote Oral Exam Platform</a></li>
+				<li><a href="cs4-apfm">Optimized Post-Lead Journey</a></li>
+				<li><a href="cs5-motion">Optimized Product Search</a></li>
+				<li><a href="cs6-leankit">Optimizing for B2B Decision-Makers</a></li>
 			</ul>
 		</div>
 	</div>

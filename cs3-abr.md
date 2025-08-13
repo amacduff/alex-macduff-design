@@ -1,5 +1,5 @@
 ---
-title: Remote Oral Exam Design
+title: Remote Oral Exam Platform
 layout: landing
 description: American Board of Radiology
 image: img/abr-thumb-lg.jpg
@@ -38,9 +38,13 @@ style: style3
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Client</h3>
+					<h3>The Challenge</h3>
 				</header>
-					<p>The American Board of Radiology (ABR) is a non-profit association that oversees the certification and ongoing professional development of physician specialists. The ABR certifies its diplomates through a comprehensive process involving educational requirements, professional peer evaluation, and examination.</p>
+					<p><strong>The Problem:</strong> In response to the COVID-19 pandemic, the American Board of Radiology (ABR) needed to rapidly transform its high-stakes, in-person oral certification exam into a secure and seamless remote experience. The core challenge was to ensure business continuity and uphold the integrity of the exam while reducing user stress and travel risk.</p>
+					<ul>
+						<li><strong>Result:</strong> The previous in-person, multi-day exam was no longer viable.</li>
+						<li><strong>Core Issue:</strong> There was a need to design a platform that not only mirrored the previous exam experience but also solved for new remote-specific constraints like identity verification and internet connection stability.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -51,9 +55,12 @@ style: style3
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Challenge</h3>
+					<h3>My Role</h3>
 				</header>
-					<p>One of the main pieces of the ABR’s certification process is an oral exam. In the past this exam was taken in person at a conference setting. People would travel to attend and take their exams, which would last a few days. That all changed with the advent of COVID-19; travel was too risky. Exams were still necessary, though, so the ABR needed to bring the oral exam online.</p>
+					<p>I served as the <strong>lead designer</strong> on this critical project, responsible for the end-to-end design and user experience.</p>
+					<ul>
+						<li><strong>My Contribution:</strong> I collaborated closely with a senior designer and a broad group of physician board members to translate their expertise into a user-centric digital product.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -64,9 +71,14 @@ style: style3
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Users & Audience</h3>
+					<h3>The Process</h3>
 				</header>
-					<p>We designed primarily for two personas: the people taking the exams (examinees) and the people administering it (examiners).</p>
+					<p>My approach was to move beyond the provided wireframes and strategically adapt the in-person experience for a remote setting.</p>
+					<ul>
+						<li><strong>Stakeholder Engagement:</strong> Every meeting was a learning opportunity, as I worked closely with physician board members to understand the nuances of the exam and gather feedback from a variety of medical disciplines.</li>
+						<li><strong>Problem Solving:</strong> I identified and solved for new user pain points unique to a remote experience, such as designing a system for proof of identity and a resilient workflow in case of internet connection loss.</li>
+						<li><strong>Iterative Design:</strong> We iterated quickly, building on the foundation of the previous in-person exam and consistently incorporating feedback to deliver a simple, user-friendly solution.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -77,9 +89,9 @@ style: style3
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Roles & Responsibilities</h3>
+					<h3>The Solution</h3>
 				</header>
-					<p>For this project I served as the lead designer. I worked with another designer who had a long history with the client, they conducted internal reviews and provided feedback throughout the process.</p>
+					<p>I designed a remote oral exam platform that streamlined complex user flows for both examinees and examiners. The final solution was a simple, user-friendly web experience that provided the necessary tools to uphold the integrity of the exam while significantly reducing the stress and logistical burden on participants.</p>
 			</div>
 		</div>
 	</section>
@@ -90,38 +102,12 @@ style: style3
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Scope & Constraints</h3>
+					<h3>The Impact</h3>
 				</header>
-					<p>This was a 6 week engagement. We met weekly with the client to review screens and collect feedback.</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="image {{ page.style }}">
-			<img src="img/abr-6.png" alt="" data-position="25% 25%" />
-		</div>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Process / What We Did</h3>
-				</header>
-					<p>This project was mainly a visual design effort. The ABR team provided some basic wireframes to serve as minimum requirements for the user experience, but they were open to suggestions and recommendations along the way. We were working from an existing experience, the in-person oral exam, so we weren’t starting from scratch. But there were things to be considered, such as proof of identity and what might happen if someone were to lose internet connection during an exam.</p>
-					<p>There was a bit of a learning curve for me as I wrapped my head around how the exam worked previously and how it should work moving forward; every meeting was a learning opportunity. Fortunately, the ABR team is as gracious as they are intelligent, and they excel at collaboration.</p>
-					<p>Throughout the engagement we had meetings with a larger group of board members (physicians) in order to collect feedback from a variety of disciplines. These doctors were also users, so their feedback was valuable. In the end we arrived at a solution that was simple and user friendly.</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="image {{ page.style }}">
-			<img src="img/abr-7.png" alt="" data-position="25% 25%" />
-		</div>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Outcomes & Lessons</h3>
-				</header>
-					<p>The ABR remote oral exam has been taken by thousands of physicians since its launch in early 2021 and the feedback has been hugely positive. It has enabled people to take their exams in the comfort of their own home, which has reduced stress surrounding the exam process. A lot rides on this exam, so making it more accessible to doctors is a big win. The ABR and Slide UX have continued to iterate on the exam throughout 2021.</p>
-					<p>Of the projects I had the opportunity to work on during my time at Slide UX, I am perhaps most proud of this one. It was rewarding to design something in response to COVID-19. In a time when there was so much I couldn’t do anything about, it felt good to contribute to making the world a safer place in some small way.</p>
+					<p>This project delivered a high-impact solution that has enabled thousands of physicians to continue their certification process.</p>
+					<ul>
+						<li><strong>The Result:</strong> The remote oral exam has been successfully taken by <strong>thousands of physicians</strong>, and the overwhelmingly positive feedback has confirmed its success in reducing user stress and increasing accessibility. This project demonstrated my ability to deliver a crucial, high-impact solution under pressure that served a real-world need during a global crisis.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -138,9 +124,9 @@ style: style3
 			<ul>
 				<li><a href="cs1-ameritas">Sales Insights Dashboard</a></li>
 				<li><a href="cs2-openn">Home Buying UX Improvement</a></li>
-				<li><a href="cs4-apfm">Optimized Post-Lead Experience</a></li>
-				<li><a href="cs5-motion">Product Configurator Feature</a></li>
-				<li><a href="cs6-leankit">Benefits Page Improvement</a></li>
+				<li><a href="cs4-apfm">Optimized Post-Lead Journey</a></li>
+				<li><a href="cs5-motion">Optimized Product Search</a></li>
+				<li><a href="cs6-leankit">Optimizing for B2B Decision-Makers</a></li>
 			</ul>
 		</div>
 	</div>

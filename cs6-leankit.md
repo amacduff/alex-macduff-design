@@ -1,5 +1,5 @@
 ---
-title: Benefits Page Improvement
+title: Optimizing for B2B Decision-Makers
 layout: landing
 description: LeanKit
 image: img/leankit-thumb.jpg
@@ -38,9 +38,13 @@ style: style6
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Client</h3>
+					<h3>The Challenge</h3>
 				</header>
-					<p>LeanKit is an enterprise kanban application designed for engineers. During my time working at CROmetrics I helped them focus on presenting the benefits of their software in order to guide people through the decision making process and increase conversion.</p>
+					<p><strong>The Problem:</strong> LeanKit, an enterprise kanban application, had an overwhelming amount of valuable content, including features, social proof, and testimonials. The conventional wisdom was to cut content, but this posed a strategic challenge for B2B decision-makers who needed extensive information to evaluate the product.</p>
+					<ul>
+						<li><strong>Result:</strong> A website with high-value content that was not effectively guiding users to a conversion.</li>
+						<li><strong>Core Issue:</strong> The existing design failed to account for the unique information needs of B2B buyers who required a comprehensive, educational experience to make a purchasing decision.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -51,9 +55,12 @@ style: style6
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Challenge</h3>
+					<h3>My Role</h3>
 				</header>
-					<p>LeanKit has a lot of content. Loads of benefits, knowledge, and social proof. As a designer it’s easy to take a look at a page with lots of content and want to start taking things away. But cutting content isn’t always the best solution.</p>
+					<p>I served as the <strong>UX and visual designer</strong>, responsible for redesigning the benefits page to meet the needs of a highly-specific audience.</p>
+					<ul>
+						<li><strong>My Contribution:</strong> My role was to leverage user research and design best practices to create a long-form page that strategically presented information in an easily digestible, conversion-focused format.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -64,9 +71,15 @@ style: style6
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Research</h3>
+					<h3>The Process</h3>
 				</header>
-					<p>In addition to competitive analysis and SWOT analysis, I developed some personas that were really useful when designing. One of the things I considered was that most people looking at the LeanKit website are trying to make a decision for their company about which kanban software to use. In order to make an educated decision, they need more than a solid value prop. They need a list of benefits. They need white papers. They need testimonials and reviews. They need specs they can use to compare.</p>
+					<p>My approach was to challenge the assumption that "less is more" by designing a long-form experience tailored for decision-makers.</p>
+					<ul>
+						<li><strong>Research & Personas:</strong> I developed personas that recognized the audience's need for detailed information—such as white papers, testimonials, and feature comparisons—to make an informed corporate purchasing decision.</li>
+						<li><strong>Information Architecture:</strong> I focused on breaking up the content into easily digestible, scannable sections, ensuring a clear information hierarchy.</li>
+						<li><strong>Mobile-First Design:</strong> I applied a mobile-first approach and designed a responsive layout that would function effectively on various devices, ensuring a seamless experience for all users.</li>
+						<li><strong>Strategic Imagery:</strong> I used product imagery to build trust and show the application in use, directly addressing the user's desire to compare features and understand the product's functionality.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -77,10 +90,9 @@ style: style6
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Solution</h3>
+					<h3>The Solution</h3>
 				</header>
-					<p>Since there was a lot of content to design for, my goal was to break everything up into easily digestible sections. I used a mobile first approach and experimented with different layouts for mid to large screen sizes. I designed a pricing comparison table for the various plans offered for decision makers to use as a guide.</p>
-					<p>For imagery, I tried to showcase the application itself. Happy outcome images work well for many websites, but when people on your site are trying to compare your product with someone else’s, they want to see what they’re going to get. I also tried to showcase the app running on various devices to show its flexibility and how easily it can fit into any team’s workflow.</p>
+					<p>I designed a long-form benefits page that provided a comprehensive, educational experience. The solution featured a pricing comparison table, clear visual cues, and a mobile-first layout. By presenting all the necessary information in a logical, structured way, the design supported the user's decision-making process rather than overwhelming them.</p>
 			</div>
 		</div>
 	</section>
@@ -91,9 +103,12 @@ style: style6
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Learnings</h3>
+					<h3>The Impact</h3>
 				</header>
-					<p>Yet again, I learned that there is no sure-fire conversion hack. I had always assumed that long educational pages didn’t convert as well as brief ones with all the key benefits above the fold. Testing proved that providing more information can help people convert better. It just depends on who that person is.</p>
+					<p>This project successfully demonstrated that a long-form, educational approach was the right strategy for this audience.</p>
+					<ul>
+						<li><strong>The Result:</strong> The redesigned benefits page produced an <strong>11% increase in conversion</strong>, validating the hypothesis that providing more information in a well-organized format can be a powerful conversion driver.</li>
+					</ul>
 			</div>
 		</div>
 	</section>
@@ -110,9 +125,9 @@ style: style6
 			<ul>
 				<li><a href="cs1-ameritas">Sales Insights Dashboard</a></li>
 				<li><a href="cs2-openn">Home Buying UX Improvement</a></li>
-				<li><a href="cs3-abr">Remote Oral Exam Design</a></li>
-				<li><a href="cs4-apfm">Optimized Post-Lead Experience</a></li>
-				<li><a href="cs5-motion">Product Configurator Feature</a></li>
+				<li><a href="cs3-abr">Remote Oral Exam Platform</a></li>
+				<li><a href="cs4-apfm">Optimized Post-Lead Journey</a></li>
+				<li><a href="cs5-motion">Optimized Product Search</a></li>
 			</ul>
 		</div>
 	</div>
